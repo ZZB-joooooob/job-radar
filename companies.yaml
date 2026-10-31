@@ -1,0 +1,104 @@
+# Target companies checked once a day.
+# ats: workday   -> tenant, wd, site taken from the company's myworkdayjobs.com URL
+#      greenhouse -> board  (job-boards.greenhouse.io/<board>)
+#      lever      -> site   (jobs.lever.co/<site>; region: eu for jobs.eu.lever.co)
+# Optional: terms (search words), max_pages (20 results per page, default 5).
+#
+# Not covered yet (no public endpoint found, or not checked): TI, Apple, Infineon,
+# Skyworks, Qorvo, Renesas, onsemi, MediaTek, Samsung, AMD, Synopsys. LinkedIn
+# alerts and Handshake still cover these.
+
+- name: Analog Devices
+  ats: workday
+  tenant: analogdevices
+  wd: wd1
+  site: External
+  # "analog" matches every ADI posting (it is in the company name), so search narrower words
+  terms: ["analog design", "mixed signal", "IC design", "circuit design", "power management",
+          "data converter", "new college", "university graduate", "associate engineer"]
+  max_pages: 10
+
+- name: NVIDIA
+  ats: workday
+  tenant: nvidia
+  wd: wd5
+  site: NVIDIAExternalCareerSite
+
+- name: Marvell
+  ats: workday
+  tenant: marvell
+  wd: wd1
+  site: MarvellCareers
+
+- name: Broadcom
+  ats: workday
+  tenant: broadcom
+  wd: wd1
+  site: External_Career
+
+- name: Micron
+  ats: workday
+  tenant: micron
+  wd: wd1
+  site: External
+
+- name: Intel
+  ats: workday
+  tenant: intel
+  wd: wd1
+  site: External
+
+- name: NXP
+  ats: workday
+  tenant: nxp
+  wd: wd3
+  site: careers
+
+- name: Qualcomm
+  ats: workday
+  tenant: qualcomm
+  wd: wd12
+  site: External
+
+- name: Monolithic Power Systems
+  ats: workday
+  tenant: monolithicpower
+  wd: wd12
+  site: MPS_Careers
+
+- name: Silicon Labs
+  ats: workday
+  tenant: silabs
+  wd: wd1
+  site: SiliconlabsCareers
+
+- name: Microchip
+  ats: workday
+  tenant: microchiphr
+  wd: wd5
+  site: External
+
+- name: Cadence
+  ats: workday
+  tenant: cadence
+  wd: wd1
+  site: External_Careers
+
+- name: Teledyne FLIR
+  ats: workday
+  tenant: flir
+  wd: wd1
+  site: flircareers
+
+- name: Cirrus Logic
+  ats: lever
+  region: eu
+  site: cirrus
+
+- name: Astera Labs
+  ats: greenhouse
+  board: asteralabs
+
+- name: Astera Labs (Early Career)
+  ats: greenhouse
+  board: asteraearlycareer2027
