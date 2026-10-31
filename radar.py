@@ -67,12 +67,14 @@ TITLE_EXCLUDE = re.compile(
     r"digital|layout|\bdft\b|\btest\b|product engineer|applications? engineer|"
     r"\bfield\b|firmware|software|\bcad\b|methodology|packag|\bprocess\b|yield|"
     r"reliability|quality|failure analysis|\bpcb\b|\bboard\b|mechanical|thermal|"
-    r"manufactur|facilit|supply chain|technical writer",
+    r"manufactur|facilit|supply chain|technical writer|\bsram\b|\brom\b|\bcpu\b|"
+    r"standard cell|std[\s-]?cell|synthesis|\bsta\b|static timing|model(?:l)?ing|"
+    r"platform|principle|register file|\bcache\b",
     re.I,
 )
 STRONG_TITLE = re.compile(
     r"analog|mixed[\s-]*signal|\bams\b|pmic|power management|data converter|"
-    r"\badc\b|\bpll\b|serdes|\bldo\b|regulator|dc[\s-]?dc|bandgap|circuit design",
+    r"\badc\b|\bpll\b|serdes|\bldo\b|regulator|dc[\s-]?dc|bandgap",
     re.I,
 )
 ANALOG_TERMS = [
@@ -97,10 +99,9 @@ NCG_RE = re.compile(
     r"entry[\s-]level|0\s*(?:-|–|to)\s*[1-3]\+?\s*years|no (?:prior )?experience",
     re.I,
 )
-YEARS_RE = re.compile(
-    r"(\d{1,2})\s*\+?\s*(?:or more\s+)?years?['’]?\s*(?:of\s+)?"
-    r"(?:relevant\s+|industry\s+|professional\s+|related\s+|hands-on\s+|design\s+)?"
-    r"(?:experience|exp\b)",
+YEARS_RE = re.compile(  # "6+ years of mixed-signal and analog design experience"
+    r"(\d{1,2})\s*\+?\s*(?:or more\s+)?years?['’]?\s+(?:of\s+)?"
+    r"(?:[A-Za-z/&,-]+\s+){0,6}?(?:experience|exp\b)",
     re.I,
 )
 FLAG_RE = {
@@ -321,25 +322,32 @@ def workday(c: dict) -> tuple[int, list[dict]]:
     base = f"{host}/wday/cxs/{c['tenant']}/{c['site']}"
     api = f"{base}/jobs"
     us = workday_us_facet(api)
-    facets = {us[0]: [us[1]]} if us else {}
-    found: dict[str, dict] = {}
-    raw = 0
-    for term in c.get("terms") or DEFAULT_TERMS:
-        total = None
-        for page in range(c.get("max_pages", 5)):
-            body = {"appliedFacets": facets, "limit": PAGE, "offset": page * PAGE,
-                    "searchText": term}
-            data = request("POST", api, json=body).json()
-            posts = data.get("jobPostings") or []
-            if total is None:              # Workday reports the total on page 1 only
-                total = data.get("total") or 0
-            raw += len(posts)
-            for p in posts:
-                path = p.get("externalPath")
-                if path:
-                    found.setdefault(path, p)
-            if not posts or (page + 1) * PAGE >= total:
-                break
+
+    def search(facets: dict) -> tuple[dict[str, dict], int]:
+        found: dict[str, dict] = {}
+        raw = 0
+        for term in c.get("terms") or DEFAULT_TERMS:
+            total = None
+            for page in range(c.get("max_pages", 5)):
+                body = {"appliedFacets": facets, "limit": PAGE, "offset": page * PAGE,
+                        "searchText": term}
+                data = request("POST", api, json=body).json()
+                posts = data.get("jobPostings") or []
+                if total is None:          # Workday reports the total on page 1 only
+                    total = data.get("total") or 0
+                raw += len(posts)
+                for p in posts:
+                    path = p.get("externalPath")
+                    if path:
+                        found.setdefault(path, p)
+                if not posts or (page + 1) * PAGE >= total:
+                    break
+        return found, raw
+
+    found, raw = search({us[0]: [us[1]]} if us else {})
+    if us and raw == 0:          # the country filter matched nothing: retry without it
+        us = None
+        found, raw = search({})
     jobs = []
     for path, p in found.items():
         title = p.get("title", "")
