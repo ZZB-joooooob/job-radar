@@ -1,0 +1,117 @@
+{
+ "run_date": "2026-10-31",
+ "companies": {
+  "Analog Devices": {
+   "status": "ok",
+   "ats": "workday",
+   "raw_results": 715,
+   "matched": 5,
+   "seconds": 33.9
+  },
+  "NVIDIA": {
+   "status": "ok",
+   "ats": "workday",
+   "raw_results": 725,
+   "matched": 3,
+   "seconds": 46.4
+  },
+  "Marvell": {
+   "status": "ok",
+   "ats": "workday",
+   "raw_results": 176,
+   "matched": 0,
+   "seconds": 12.2
+  },
+  "Broadcom": {
+   "status": "ok",
+   "ats": "workday",
+   "raw_results": 270,
+   "matched": 6,
+   "seconds": 49.0
+  },
+  "Micron": {
+   "status": "ok",
+   "ats": "workday",
+   "raw_results": 683,
+   "matched": 8,
+   "seconds": 37.9
+  },
+  "Intel": {
+   "status": "ok",
+   "ats": "workday",
+   "raw_results": 662,
+   "matched": 6,
+   "seconds": 49.0
+  },
+  "NXP": {
+   "status": "ok",
+   "ats": "workday",
+   "raw_results": 136,
+   "matched": 2,
+   "seconds": 12.4
+  },
+  "Qualcomm": {
+   "status": "ok",
+   "ats": "workday",
+   "raw_results": 0,
+   "matched": 0,
+   "seconds": 8.2
+  },
+  "Monolithic Power Systems": {
+   "status": "ok",
+   "ats": "workday",
+   "raw_results": 131,
+   "matched": 1,
+   "seconds": 11.4
+  },
+  "Silicon Labs": {
+   "status": "ok",
+   "ats": "workday",
+   "raw_results": 92,
+   "matched": 1,
+   "seconds": 10.3
+  },
+  "Microchip": {
+   "status": "ok",
+   "ats": "workday",
+   "raw_results": 286,
+   "matched": 0,
+   "seconds": 15.1
+  },
+  "Cadence": {
+   "status": "ok",
+   "ats": "workday",
+   "raw_results": 134,
+   "matched": 0,
+   "seconds": 11.0
+  },
+  "Teledyne FLIR": {
+   "status": "ok",
+   "ats": "workday",
+   "raw_results": 275,
+   "matched": 3,
+   "seconds": 23.7
+  },
+  "Cirrus Logic": {
+   "status": "ok",
+   "ats": "lever",
+   "raw_results": 124,
+   "matched": 4,
+   "seconds": 1.8
+  },
+  "Astera Labs": {
+   "status": "ok",
+   "ats": "greenhouse",
+   "raw_results": 171,
+   "matched": 1,
+   "seconds": 0.9
+  },
+  "Astera Labs (Early Career)": {
+   "status": "ok",
+   "ats": "greenhouse",
+   "raw_results": 93,
+   "matched": 1,
+   "seconds": 0.6
+  }
+ }
+}
