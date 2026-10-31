@@ -26,6 +26,9 @@ jobs:
     timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
+        with:
+          # always start from the latest main, so a queued run sees the previous run's data
+          ref: main
 
       - uses: actions/setup-python@v5
         with:

@@ -2,11 +2,19 @@
 # ats: workday   -> tenant, wd, site taken from the company's myworkdayjobs.com URL
 #      greenhouse -> board  (job-boards.greenhouse.io/<board>)
 #      lever      -> site   (jobs.lever.co/<site>; region: eu for jobs.eu.lever.co)
-# Optional: terms (search words), max_pages (20 results per page, default 5).
+#      oracle     -> host, site (Oracle Recruiting Cloud), optional job_url template
+# Optional: terms (search words), max_pages (default 5).
 #
-# Not covered yet (no public endpoint found, or not checked): TI, Apple, Infineon,
+# Not covered yet (no public endpoint found, or not checked): Apple, Infineon,
 # Skyworks, Qorvo, Renesas, onsemi, MediaTek, Samsung, AMD, Synopsys. LinkedIn
 # alerts and Handshake still cover these.
+
+- name: Texas Instruments
+  ats: oracle
+  host: https://edbz.fa.us2.oraclecloud.com
+  site: CX
+  job_url: https://careers.ti.com/job/{id}
+  max_pages: 8
 
 - name: Analog Devices
   ats: workday

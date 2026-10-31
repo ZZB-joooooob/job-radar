@@ -406,7 +406,53 @@ def lever(c: dict) -> tuple[int, list[dict]]:
     return len(posts), jobs
 
 
-FETCHERS = {"workday": workday, "greenhouse": greenhouse, "lever": lever}
+def oracle(c: dict) -> tuple[int, list[dict]]:
+    """Oracle Recruiting Cloud (e.g. TI's careers site)."""
+    host, site = c["host"].rstrip("/"), c.get("site", "CX")
+    api = f"{host}/hcmRestApi/resources/latest"
+    found: dict[str, dict] = {}
+    raw = 0
+    for term in c.get("terms") or DEFAULT_TERMS:
+        for page in range(c.get("max_pages", 5)):
+            finder = (f"findReqs;siteNumber={site},limit=25,offset={page * 25},"
+                      f"keyword=\"{term}\",sortBy=POSTING_DATES_DESC")
+            url = (f"{api}/recruitingCEJobRequisitions?onlyData=true"
+                   f"&expand=requisitionList.secondaryLocations"
+                   f"&finder={urllib.parse.quote(finder, safe='=;,')}")
+            items = request("GET", url).json().get("items") or []
+            reqs = (items[0].get("requisitionList") if items else None) or []
+            total = items[0].get("TotalJobsCount", 0) if items else 0
+            raw += len(reqs)
+            for r in reqs:
+                if r.get("Id"):
+                    found.setdefault(str(r["Id"]), r)
+            if not reqs or (page + 1) * 25 >= total:
+                break
+    jobs = []
+    for rid, r in found.items():
+        title = r.get("Title", "")
+        locs = [r.get("PrimaryLocation", "")]
+        locs += [s.get("Name", "") for s in r.get("secondaryLocations") or []]
+        country = "United States" if r.get("PrimaryLocationCountry") == "US" else ""
+        if not title_passes(title) or (not country and is_us(locs) is not True):
+            continue
+        finder = f"ById;Id=\"{rid}\",siteNumber={site}"
+        url = (f"{api}/recruitingCEJobRequisitionDetails?expand=all&onlyData=true"
+               f"&finder={urllib.parse.quote(finder, safe='=;,')}")
+        items = request("GET", url).json().get("items") or [{}]
+        d = items[0]
+        desc = "\n".join(html_to_text(d.get(k, "")) for k in (
+            "ExternalDescriptionStr", "ExternalResponsibilitiesStr",
+            "ExternalQualificationsStr", "CorporateDescriptionStr") if d.get(k))
+        job_url = c.get("job_url", f"{host}/hcmUI/CandidateExperience/en/sites/{site}/job/{{id}}")
+        job = build_job(c, title, "; ".join(x for x in locs if x), rid,
+                        job_url.format(id=rid), desc, (r.get("PostedDate") or "")[:10])
+        if job:
+            jobs.append(job)
+    return raw, jobs
+
+
+FETCHERS = {"workday": workday, "greenhouse": greenhouse, "lever": lever, "oracle": oracle}
 
 
 # ---------------------------------------------------------------- run
@@ -458,7 +504,12 @@ def main() -> int:
     seen: dict[str, dict] = {} if baseline else json.loads(seen_path.read_text("utf-8"))
     ok = {name for name, h in health.items() if h["status"] == "ok"}
 
-    new = [j for k, j in open_jobs.items() if not seen.get(k, {}).get("open")]
+    # A company seen for the first time (newly added, or failing until now) is a
+    # baseline for that company: record its postings, but do not report them as new.
+    known = {s["company"] for s in seen.values()}
+    fresh = [j for k, j in open_jobs.items() if not seen.get(k, {}).get("open")]
+    new = [j for j in fresh if baseline or j["company"] in known]
+    baseline_jobs = [] if baseline else [j for j in fresh if j["company"] not in known]
     closed = []
     for k, s in seen.items():
         if s.get("open") and s["company"] in ok and k not in open_jobs:
@@ -476,8 +527,11 @@ def main() -> int:
     jobs_sorted = sorted(open_jobs.values(), key=lambda j: (j["company"], j["title"]))
     new_sorted = sorted(new, key=lambda j: (j["company"], j["title"]))
     write_json(DATA / "open_jobs.json", {"run_date": today, "jobs": jobs_sorted})
-    write_json(DATA / "new_jobs.json", {"run_date": today, "baseline": baseline,
-                                        "jobs": new_sorted})
+    write_json(DATA / "new_jobs.json", {
+        "run_date": today, "baseline": baseline, "jobs": new_sorted,
+        # first-time postings from companies added after the first run; triaged by hand
+        "baseline_jobs": sorted(baseline_jobs, key=lambda j: (j["company"], j["title"])),
+    })
     write_json(DATA / "closed_jobs.json", {"run_date": today, "jobs": closed})
     write_json(DATA / "health.json", {"run_date": today, "companies": health})
     write_json(seen_path, seen)
@@ -485,6 +539,8 @@ def main() -> int:
     lines = [f"# Job radar — {today}", ""]
     if baseline:
         lines += ["First run: every open match is listed as new (baseline).", ""]
+    if baseline_jobs:
+        lines += [f"Newly added companies: {len(baseline_jobs)} postings recorded as baseline.", ""]
     lines += [f"- Open matches: {len(jobs_sorted)}", f"- New today: {len(new_sorted)}",
               f"- Closed since last run: {len(closed)}", "",
               "| Company | Status | Matched | Seconds |", "|---|---|---|---|"]
