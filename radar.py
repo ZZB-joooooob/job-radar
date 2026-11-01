@@ -61,7 +61,7 @@ TITLE_INCLUDE = re.compile(
     re.I,
 )
 TITLE_EXCLUDE = re.compile(
-    r"\bsenior\b|\bsr\b|\bstaff\b|principal|\blead\b|director|manager|\bmgr\b|fellow|"
+    r"\bsenior\b|\bsr\b|principal|\blead\b|director|manager|\bmgr\b|fellow|"
     r"architect|\bintern\b|internship|\bco-?op\b|technician|\bsales\b|marketing|"
     r"finance|recruit|verification|validation|\bdv\b|physical design|\brtl\b|"
     r"digital|layout|\bdft\b|\btest\b|product engineer|applications? engineer|"
