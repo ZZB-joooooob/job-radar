@@ -6,35 +6,35 @@
    "ats": "oracle",
    "raw_results": 1061,
    "matched": 16,
-   "seconds": 45.1
+   "seconds": 45.5
   },
   "Analog Devices": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 715,
    "matched": 5,
-   "seconds": 34.0
+   "seconds": 35.0
   },
   "NVIDIA": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 725,
    "matched": 1,
-   "seconds": 45.4
+   "seconds": 44.0
   },
   "Marvell": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 176,
    "matched": 0,
-   "seconds": 12.8
+   "seconds": 12.5
   },
   "Broadcom": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 270,
    "matched": 5,
-   "seconds": 45.2
+   "seconds": 45.8
   },
   "Micron": {
    "status": "ok",
@@ -48,21 +48,20 @@
    "ats": "workday",
    "raw_results": 662,
    "matched": 2,
-   "seconds": 44.5
+   "seconds": 61.2
   },
   "NXP": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 136,
    "matched": 1,
-   "seconds": 11.6
+   "seconds": 11.9
   },
   "Qualcomm": {
-   "status": "ok",
-   "ats": "workday",
-   "raw_results": 0,
-   "matched": 0,
-   "seconds": 8.3
+   "status": "blocked_by_robots",
+   "ats": "eightfold",
+   "detail": "robots.txt disallows https://careers.qualcomm.com/api/apply/v2/jobs?domain=qualcomm.com&query=analog&start=0&num=10&sort_by=relevance&location=United+States",
+   "seconds": 0.2
   },
   "Monolithic Power Systems": {
    "status": "ok",
@@ -76,7 +75,7 @@
    "ats": "workday",
    "raw_results": 92,
    "matched": 1,
-   "seconds": 10.1
+   "seconds": 10.2
   },
   "Microchip": {
    "status": "ok",
@@ -90,35 +89,35 @@
    "ats": "workday",
    "raw_results": 134,
    "matched": 0,
-   "seconds": 11.0
+   "seconds": 11.1
   },
   "Teledyne FLIR": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 275,
    "matched": 3,
-   "seconds": 23.4
+   "seconds": 23.8
   },
   "Cirrus Logic": {
    "status": "ok",
    "ats": "lever",
    "raw_results": 124,
    "matched": 2,
-   "seconds": 1.4
+   "seconds": 1.8
   },
   "Astera Labs": {
    "status": "ok",
    "ats": "greenhouse",
    "raw_results": 171,
    "matched": 0,
-   "seconds": 0.9
+   "seconds": 0.8
   },
   "Astera Labs (Early Career)": {
    "status": "ok",
    "ats": "greenhouse",
    "raw_results": 93,
    "matched": 1,
-   "seconds": 0.6
+   "seconds": 0.7
   }
  }
 }
