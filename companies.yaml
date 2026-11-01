@@ -6,6 +6,9 @@
 #      eightfold  -> domain, hosts (tried in order)
 # Optional: terms (search words), max_pages (default 5).
 #
+# Qualcomm: its Workday search returns nothing publicly and careers.qualcomm.com
+# disallows automated access in robots.txt, so it is left to LinkedIn alerts.
+#
 # Not covered yet (no public endpoint found, or not checked): Apple, Infineon,
 # Skyworks, Qorvo, Renesas, onsemi, MediaTek, Samsung, AMD, Synopsys. LinkedIn
 # alerts and Handshake still cover these.
@@ -62,12 +65,6 @@
   tenant: nxp
   wd: wd3
   site: careers
-
-# Qualcomm's Workday search returns nothing publicly; its careers site runs on Eightfold
-- name: Qualcomm
-  ats: eightfold
-  domain: qualcomm.com
-  hosts: ["https://careers.qualcomm.com", "https://qualcomm.eightfold.ai"]
 
 - name: Monolithic Power Systems
   ats: workday
