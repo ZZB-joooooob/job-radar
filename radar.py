@@ -3,7 +3,8 @@
 US analog / mixed-signal / PMIC IC design roles.
 
 How it behaves
-- Uses each company's public job-search endpoint (Workday, Greenhouse, Lever).
+- Uses each company's public job-search endpoint (Workday, Greenhouse, Lever,
+  Oracle Recruiting Cloud) or, for Apple, the job data embedded in its public pages.
 - Reads robots.txt before touching a site and skips anything it disallows.
 - Identifies itself with a plain User-Agent and pauses between requests.
 - Writes its results to data/ so the daily triage step can read them:
@@ -80,13 +81,13 @@ STRONG_TITLE = re.compile(
 ANALOG_TERMS = [
     ("analog", r"\banalog\b"), ("mixed-signal", r"mixed[\s-]signal"),
     ("transistor-level", r"transistor[\s-]level"), ("LDO", r"\bldos?\b"),
-    ("bandgap", r"bandgap"), ("ADC", r"\badcs?\b"), ("DAC", r"\bdacs?\b"),
+    ("bandgap", r"band[\s-]?gaps?"), ("ADC", r"\badcs?\b"), ("DAC", r"\bdacs?\b"),
     ("PLL", r"\bplls?\b"), ("op-amp", r"\bop[\s-]?amps?\b|operational amplifier"),
     ("comparator", r"\bcomparators?\b"), ("Spectre", r"\bspectre\b"),
     ("Virtuoso", r"\bvirtuoso\b"), ("HSPICE", r"\bhspice\b"),
     ("power management", r"power management|\bpmics?\b"),
     ("DC-DC", r"\bdc[\s/-]?dc\b|\bbuck\b|\bboost\b"),
-    ("switched-capacitor", r"switched[\s-]capacitor"),
+    ("switched-capacitor", r"switched[\s-]cap(?:acitor)?s?\b"),
     ("sigma-delta", r"sigma[\s-]delta|delta[\s-]sigma"), ("SerDes", r"\bserdes\b"),
     ("data converter", r"data converters?"), ("regulator", r"voltage regulators?"),
     ("tapeout", r"tape[\s-]?outs?"), ("bring-up", r"bring[\s-]?up|post[\s-]silicon"),
@@ -520,8 +521,84 @@ def _eightfold(c: dict, host: str, domain: str) -> tuple[int, list[dict]]:
     return raw, jobs
 
 
+APPLE = "https://jobs.apple.com"
+# Apple's analog / mixed-signal verification and modeling roles are worth a look
+# (the triage files them as B), so for Apple these words do not exclude a title
+# that also names analog, mixed-signal, AMS, PMU or PMIC work.
+AMS_TITLE = re.compile(r"mixed[\s-]*signal|analog|\bams\b|\bpmu\b|pmic", re.I)
+DV_WORDS = re.compile(r"verification|\bdv\b|model(?:l)?ing|digital", re.I)
+
+
+def _apple_data(url: str) -> dict:
+    """Apple builds each careers page from JSON embedded in the HTML as
+    window.__staticRouterHydrationData = JSON.parse("<JSON in a string literal>")."""
+    page = request("GET", url, headers={"Accept": "text/html,application/xhtml+xml"}).text
+    i = page.find("__staticRouterHydrationData")
+    j = page.find('JSON.parse("', i) if i >= 0 else -1
+    if j < 0:
+        raise RuntimeError(f"embedded job data not found (page layout changed?): {url}")
+    literal, _ = json.JSONDecoder().raw_decode(page, j + len("JSON.parse("))
+    return json.loads(literal).get("loaderData") or {}
+
+
+def _plain(s: str) -> str:
+    s = html.unescape(s or "")
+    s = re.sub(r"[ \t\r\f\v\xa0]+", " ", s)
+    return re.sub(r"\s*\n\s*", "\n", s).strip()
+
+
+def apple(c: dict) -> tuple[int, list[dict]]:
+    """jobs.apple.com: keyword search pages (US only), then each posting's page."""
+    found: dict[str, dict] = {}
+    raw = 0
+    for term in c.get("terms") or DEFAULT_TERMS:
+        for page in range(1, c.get("max_pages", 5) + 1):
+            query = urllib.parse.urlencode({"key": term, "location": "united-states-USA",
+                                            "sort": "newest", "page": page})
+            s = _apple_data(f"{APPLE}/en-us/search?{query}").get("search") or {}
+            posts = s.get("searchResults") or []
+            raw += len(posts)
+            for p in posts:
+                # one posting can be listed once per location ("200691120-0836",
+                # "200691120-3543"); positionId is the shared role number
+                pid = str(p.get("positionId") or str(p.get("id", "")).split("-")[0])
+                if pid:
+                    found.setdefault(pid, p)
+            if not posts or page * PAGE >= (s.get("totalRecords") or 0):
+                break
+    teams = set(c.get("teams") or [])
+    jobs = []
+    for pid, p in found.items():
+        title = p.get("postingTitle", "")
+        if teams and (p.get("team") or {}).get("teamCode") not in teams:
+            continue
+        check = title
+        if c.get("allow_ams_dv") and AMS_TITLE.search(title):
+            check = DV_WORDS.sub(" ", title)
+        if not title_passes(check):
+            continue
+        number = p.get("reqId") or p.get("id") or pid
+        url = f"{APPLE}/en-us/details/{number}/{p.get('transformedPostingTitle') or ''}".rstrip("/")
+        d = (_apple_data(url).get("jobDetails") or {}).get("jobsData") or {}
+        locs = []
+        for loc in d.get("locations") or p.get("locations") or []:
+            name, state = loc.get("name") or loc.get("city") or "", loc.get("stateProvince") or ""
+            locs.append(f"{name}, {state}" if state and state not in name else name)
+        parts = [d.get("jobSummary") or p.get("jobSummary"), d.get("description")]
+        if d.get("minimumQualifications"):
+            parts.append("Minimum Qualifications\n" + d["minimumQualifications"])
+        if d.get("preferredQualifications"):
+            parts.append("Preferred Qualifications\n" + d["preferredQualifications"])
+        desc = _plain("\n\n".join(x for x in parts if x))
+        posted = (d.get("postDateInGMT") or p.get("postDateInGMT") or "")[:10]
+        job = build_job(c, title, "; ".join(x for x in locs if x), pid, url, desc, posted)
+        if job:
+            jobs.append(job)
+    return raw, jobs
+
+
 FETCHERS = {"workday": workday, "greenhouse": greenhouse, "lever": lever, "oracle": oracle,
-            "eightfold": eightfold}
+            "eightfold": eightfold, "apple": apple}
 
 
 # ---------------------------------------------------------------- run

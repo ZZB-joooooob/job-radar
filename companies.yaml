@@ -4,14 +4,25 @@
 #      lever      -> site   (jobs.lever.co/<site>; region: eu for jobs.eu.lever.co)
 #      oracle     -> host, site (Oracle Recruiting Cloud), optional job_url template
 #      eightfold  -> domain, hosts (tried in order)
+#      apple      -> jobs.apple.com; optional teams (team codes) and allow_ams_dv
 # Optional: terms (search words), max_pages (default 5).
 #
 # Qualcomm: its Workday search returns nothing publicly and careers.qualcomm.com
 # disallows automated access in robots.txt, so it is left to LinkedIn alerts.
 #
-# Not covered yet (no public endpoint found, or not checked): Apple, Infineon,
-# Skyworks, Qorvo, Renesas, onsemi, MediaTek, Samsung, AMD, Synopsys. LinkedIn
-# alerts and Handshake still cover these.
+# Not covered here (their sites only show jobs in a browser): Infineon, Skyworks,
+# Qorvo, Renesas, onsemi, MediaTek, Samsung, AMD, Synopsys, Qualcomm. The evening
+# browser sweep on Zayle's computer and LinkedIn alerts cover these.
+
+- name: Apple
+  ats: apple
+  # Apple's search covers the whole posting, so roles titled "Power Management",
+  # "SerDes" or "PLL" without the word analog still come up.
+  terms: ["transistor", "mixed-signal", "PMIC", "PMU", "LDO", "buck", "SerDes",
+          "PLL", "RFIC", "ADC"]
+  teams: [HRDWR]          # Hardware
+  allow_ams_dv: true      # keep analog / mixed-signal verification and modeling roles
+  max_pages: 12
 
 - name: Texas Instruments
   ats: oracle
