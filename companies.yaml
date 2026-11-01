@@ -3,6 +3,7 @@
 #      greenhouse -> board  (job-boards.greenhouse.io/<board>)
 #      lever      -> site   (jobs.lever.co/<site>; region: eu for jobs.eu.lever.co)
 #      oracle     -> host, site (Oracle Recruiting Cloud), optional job_url template
+#      eightfold  -> domain, hosts (tried in order)
 # Optional: terms (search words), max_pages (default 5).
 #
 # Not covered yet (no public endpoint found, or not checked): Apple, Infineon,
@@ -62,11 +63,11 @@
   wd: wd3
   site: careers
 
+# Qualcomm's Workday search returns nothing publicly; its careers site runs on Eightfold
 - name: Qualcomm
-  ats: workday
-  tenant: qualcomm
-  wd: wd12
-  site: External
+  ats: eightfold
+  domain: qualcomm.com
+  hosts: ["https://careers.qualcomm.com", "https://qualcomm.eightfold.ai"]
 
 - name: Monolithic Power Systems
   ats: workday

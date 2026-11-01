@@ -460,7 +460,68 @@ def oracle(c: dict) -> tuple[int, list[dict]]:
     return raw, jobs
 
 
-FETCHERS = {"workday": workday, "greenhouse": greenhouse, "lever": lever, "oracle": oracle}
+def eightfold(c: dict) -> tuple[int, list[dict]]:
+    """Eightfold career sites (e.g. careers.qualcomm.com). Tries each host in turn."""
+    domain = c["domain"]
+    errors = []
+    for host in c["hosts"]:
+        host = host.rstrip("/")
+        try:
+            return _eightfold(c, host, domain)
+        except Blocked:
+            raise
+        except Exception as e:  # wrong host or blocked endpoint: try the next one
+            errors.append(f"{host}: {type(e).__name__}: {e}")
+    raise RuntimeError(" | ".join(errors)[:300])
+
+
+def _eightfold(c: dict, host: str, domain: str) -> tuple[int, list[dict]]:
+    def search(location: str | None) -> tuple[dict[str, dict], int]:
+        found: dict[str, dict] = {}
+        raw = 0
+        for term in c.get("terms") or DEFAULT_TERMS:
+            for page in range(c.get("max_pages", 5)):
+                params = {"domain": domain, "query": term, "start": page * 10, "num": 10,
+                          "sort_by": "relevance"}
+                if location:
+                    params["location"] = location
+                data = request("GET", f"{host}/api/apply/v2/jobs?"
+                               + urllib.parse.urlencode(params)).json()
+                positions = data.get("positions") or []
+                raw += len(positions)
+                for p in positions:
+                    if p.get("id") is not None:
+                        found.setdefault(str(p["id"]), p)
+                if not positions or (page + 1) * 10 >= (data.get("count") or 0):
+                    break
+        return found, raw
+
+    found, raw = search(c.get("location", "United States"))
+    if raw == 0:                 # the location filter matched nothing: retry without it
+        found, raw = search(None)
+    jobs = []
+    for pid, p in found.items():
+        title = p.get("name", "")
+        locs = p.get("locations") or [p.get("location", "")]
+        if not title_passes(title) or is_us(locs) is False:
+            continue
+        d = request("GET", f"{host}/api/apply/v2/jobs/{pid}?"
+                    + urllib.parse.urlencode({"domain": domain})).json()
+        req = str(p.get("ats_job_id") or d.get("ats_job_id") or pid)
+        url = (p.get("canonicalPositionUrl") or d.get("canonicalPositionUrl")
+               or f"{host}/careers/job/{pid}")
+        created = p.get("t_create") or d.get("t_create")
+        posted = (dt.datetime.fromtimestamp(created, dt.timezone.utc).date().isoformat()
+                  if isinstance(created, (int, float)) else "")
+        job = build_job(c, title, "; ".join(x for x in locs if x), req, url,
+                        html_to_text(d.get("job_description", "")), posted)
+        if job:
+            jobs.append(job)
+    return raw, jobs
+
+
+FETCHERS = {"workday": workday, "greenhouse": greenhouse, "lever": lever, "oracle": oracle,
+            "eightfold": eightfold}
 
 
 # ---------------------------------------------------------------- run
