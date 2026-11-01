@@ -1,4 +1,101 @@
 {
  "run_date": "2026-10-31",
- "jobs": []
+ "jobs": [
+  {
+   "key": "NVIDIA|JR2019466",
+   "company": "NVIDIA",
+   "title": "Circuit Design Engineer - Standard Cell",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Design-Engineer_JR2019466",
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31"
+  },
+  {
+   "key": "NVIDIA|JR2027839",
+   "company": "NVIDIA",
+   "title": "SRAM Circuit Design Engineer - New College Grad 2026",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/SRAM-Circuit-Design-Engineer---New-College-Grad-2026_JR2027839",
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31"
+  },
+  {
+   "key": "Broadcom|R024672",
+   "company": "Broadcom",
+   "title": "Analog/Mixed Signal Verilog Modeling Design Engineer",
+   "url": "https://broadcom.wd1.myworkdayjobs.com/External_Career/job/USA-CA-Irvine-Alton-Parkway-Bldg-1/Analog-Mixed-Signal-Verilog-Modeling-Design-Engineer_R024672",
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31"
+  },
+  {
+   "key": "Intel|JR0287109",
+   "company": "Intel",
+   "title": "Platform Hardware Design Engineer",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Platform-Hardware-Design-Engineer_JR0287109",
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31"
+  },
+  {
+   "key": "Intel|JR0286738",
+   "company": "Intel",
+   "title": "CPU Circuit Design Engineer",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/CPU-Circuit-Design-Engineer_JR0286738",
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31"
+  },
+  {
+   "key": "Intel|JR0286626",
+   "company": "Intel",
+   "title": "Memory Circuit Design Engineer",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/Memory-Circuit-Design-Engineer_JR0286626",
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31"
+  },
+  {
+   "key": "Intel|JR0287985",
+   "company": "Intel",
+   "title": "Circuit Design Engineer",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-California-Folsom/Circuit-Design-Engineer_JR0287985",
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31"
+  },
+  {
+   "key": "NXP|R-10065869",
+   "company": "NXP",
+   "title": "SRAM/ROM Circuit Design Engineer",
+   "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Austin-Oakhill-Office/SRAM-ROM-Circuit-Design-Engineer_R-10065869",
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31"
+  },
+  {
+   "key": "Monolithic Power Systems|R-1778",
+   "company": "Monolithic Power Systems",
+   "title": "Principle Design Engineer (ADC expertise)",
+   "url": "https://monolithicpower.wd12.myworkdayjobs.com/MPS_Careers/job/San-Jose-CA/Principle-Design-Engineer--ADC-expertise-_R-1778",
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31"
+  },
+  {
+   "key": "Cirrus Logic|37ead846-469d-449a-bfcf-f4ae192c03a5",
+   "company": "Cirrus Logic",
+   "title": "Analog Mixed Signal Modeling Engineer (UL - 02)",
+   "url": "https://jobs.eu.lever.co/cirrus/37ead846-469d-449a-bfcf-f4ae192c03a5",
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31"
+  },
+  {
+   "key": "Cirrus Logic|d32afd1d-852e-4c77-bccf-733a020ebd04",
+   "company": "Cirrus Logic",
+   "title": "NVM Circuit Design Engineer (MH-US-50021294)",
+   "url": "https://jobs.eu.lever.co/cirrus/d32afd1d-852e-4c77-bccf-733a020ebd04",
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31"
+  },
+  {
+   "key": "Astera Labs|2026-515",
+   "company": "Astera Labs",
+   "title": "Synthesis & STA Engineer – High-Speed SerDes",
+   "url": "https://job-boards.greenhouse.io/asteralabs/jobs/4748148005",
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31"
+  }
+ ]
 }

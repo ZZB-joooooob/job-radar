@@ -53,7 +53,8 @@
   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Design-Engineer_JR2019466",
   "first_seen": "2026-10-31",
   "last_seen": "2026-10-31",
-  "open": true
+  "open": false,
+  "closed_on": "2026-10-31"
  },
  "NVIDIA|JR2027839": {
   "company": "NVIDIA",
@@ -61,7 +62,8 @@
   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/SRAM-Circuit-Design-Engineer---New-College-Grad-2026_JR2027839",
   "first_seen": "2026-10-31",
   "last_seen": "2026-10-31",
-  "open": true
+  "open": false,
+  "closed_on": "2026-10-31"
  },
  "Broadcom|R026818": {
   "company": "Broadcom",
@@ -109,7 +111,8 @@
   "url": "https://broadcom.wd1.myworkdayjobs.com/External_Career/job/USA-CA-Irvine-Alton-Parkway-Bldg-1/Analog-Mixed-Signal-Verilog-Modeling-Design-Engineer_R024672",
   "first_seen": "2026-10-31",
   "last_seen": "2026-10-31",
-  "open": true
+  "open": false,
+  "closed_on": "2026-10-31"
  },
  "Micron|JR115580": {
   "company": "Micron",
@@ -189,7 +192,8 @@
   "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Platform-Hardware-Design-Engineer_JR0287109",
   "first_seen": "2026-10-31",
   "last_seen": "2026-10-31",
-  "open": true
+  "open": false,
+  "closed_on": "2026-10-31"
  },
  "Intel|JR0286976": {
   "company": "Intel",
@@ -205,7 +209,8 @@
   "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/CPU-Circuit-Design-Engineer_JR0286738",
   "first_seen": "2026-10-31",
   "last_seen": "2026-10-31",
-  "open": true
+  "open": false,
+  "closed_on": "2026-10-31"
  },
  "Intel|JR0286626": {
   "company": "Intel",
@@ -213,7 +218,8 @@
   "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/Memory-Circuit-Design-Engineer_JR0286626",
   "first_seen": "2026-10-31",
   "last_seen": "2026-10-31",
-  "open": true
+  "open": false,
+  "closed_on": "2026-10-31"
  },
  "Intel|JR0287985": {
   "company": "Intel",
@@ -221,7 +227,8 @@
   "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-California-Folsom/Circuit-Design-Engineer_JR0287985",
   "first_seen": "2026-10-31",
   "last_seen": "2026-10-31",
-  "open": true
+  "open": false,
+  "closed_on": "2026-10-31"
  },
  "NXP|R-10061418": {
   "company": "NXP",
@@ -237,7 +244,8 @@
   "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Austin-Oakhill-Office/SRAM-ROM-Circuit-Design-Engineer_R-10065869",
   "first_seen": "2026-10-31",
   "last_seen": "2026-10-31",
-  "open": true
+  "open": false,
+  "closed_on": "2026-10-31"
  },
  "Monolithic Power Systems|R-1778": {
   "company": "Monolithic Power Systems",
@@ -245,7 +253,8 @@
   "url": "https://monolithicpower.wd12.myworkdayjobs.com/MPS_Careers/job/San-Jose-CA/Principle-Design-Engineer--ADC-expertise-_R-1778",
   "first_seen": "2026-10-31",
   "last_seen": "2026-10-31",
-  "open": true
+  "open": false,
+  "closed_on": "2026-10-31"
  },
  "Silicon Labs|21053": {
   "company": "Silicon Labs",
@@ -301,7 +310,8 @@
   "url": "https://jobs.eu.lever.co/cirrus/37ead846-469d-449a-bfcf-f4ae192c03a5",
   "first_seen": "2026-10-31",
   "last_seen": "2026-10-31",
-  "open": true
+  "open": false,
+  "closed_on": "2026-10-31"
  },
  "Cirrus Logic|d32afd1d-852e-4c77-bccf-733a020ebd04": {
   "company": "Cirrus Logic",
@@ -309,7 +319,8 @@
   "url": "https://jobs.eu.lever.co/cirrus/d32afd1d-852e-4c77-bccf-733a020ebd04",
   "first_seen": "2026-10-31",
   "last_seen": "2026-10-31",
-  "open": true
+  "open": false,
+  "closed_on": "2026-10-31"
  },
  "Astera Labs|2026-515": {
   "company": "Astera Labs",
@@ -317,12 +328,141 @@
   "url": "https://job-boards.greenhouse.io/asteralabs/jobs/4748148005",
   "first_seen": "2026-10-31",
   "last_seen": "2026-10-31",
-  "open": true
+  "open": false,
+  "closed_on": "2026-10-31"
  },
  "Astera Labs (Early Career)|4739771005": {
   "company": "Astera Labs (Early Career)",
   "title": "Analog Mixed Signal Engineer",
   "url": "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4739771005",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31",
+  "open": true
+ },
+ "Texas Instruments|25019214": {
+  "company": "Texas Instruments",
+  "title": "RF Design Engineer | Kilby Labs",
+  "url": "https://careers.ti.com/job/25019214",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31",
+  "open": true
+ },
+ "Texas Instruments|25018672": {
+  "company": "Texas Instruments",
+  "title": "RF Design Engineer | Kilby Labs",
+  "url": "https://careers.ti.com/job/25018672",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31",
+  "open": true
+ },
+ "Texas Instruments|25010704": {
+  "company": "Texas Instruments",
+  "title": "Analog IC Design Engineer | IPP MPP",
+  "url": "https://careers.ti.com/job/25010704",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31",
+  "open": true
+ },
+ "Texas Instruments|25017657": {
+  "company": "Texas Instruments",
+  "title": "Wide Bandgap Device/PI Engineer (R&D)",
+  "url": "https://careers.ti.com/job/25017657",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31",
+  "open": true
+ },
+ "Texas Instruments|25017718": {
+  "company": "Texas Instruments",
+  "title": "Analog IC Design Engineer | BCP",
+  "url": "https://careers.ti.com/job/25017718",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31",
+  "open": true
+ },
+ "Texas Instruments|25010755": {
+  "company": "Texas Instruments",
+  "title": "Analog IC Design Engineer | LP LVL",
+  "url": "https://careers.ti.com/job/25010755",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31",
+  "open": true
+ },
+ "Texas Instruments|25011311": {
+  "company": "Texas Instruments",
+  "title": "Analog IC Design Engineer",
+  "url": "https://careers.ti.com/job/25011311",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31",
+  "open": true
+ },
+ "Texas Instruments|25010877": {
+  "company": "Texas Instruments",
+  "title": "Analog IC Design Engineer | Audio AAA",
+  "url": "https://careers.ti.com/job/25010877",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31",
+  "open": true
+ },
+ "Texas Instruments|25011442": {
+  "company": "Texas Instruments",
+  "title": "Analog IC Design Engineer",
+  "url": "https://careers.ti.com/job/25011442",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31",
+  "open": true
+ },
+ "Texas Instruments|25008969": {
+  "company": "Texas Instruments",
+  "title": "Analog IC Design Engineer - Sensing (PS)",
+  "url": "https://careers.ti.com/job/25008969",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31",
+  "open": true
+ },
+ "Texas Instruments|25017549": {
+  "company": "Texas Instruments",
+  "title": "Career Accelerator Program - Analog Design Engineer - Bachelors",
+  "url": "https://careers.ti.com/job/25017549",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31",
+  "open": true
+ },
+ "Texas Instruments|25017550": {
+  "company": "Texas Instruments",
+  "title": "Career Accelerator Program - Analog Design Engineer - MS/PhD",
+  "url": "https://careers.ti.com/job/25017550",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31",
+  "open": true
+ },
+ "Texas Instruments|25017471": {
+  "company": "Texas Instruments",
+  "title": "Analog IC Design Engineer",
+  "url": "https://careers.ti.com/job/25017471",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31",
+  "open": true
+ },
+ "Texas Instruments|25011066": {
+  "company": "Texas Instruments",
+  "title": "Analog IC Design Engineer | BCP",
+  "url": "https://careers.ti.com/job/25011066",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31",
+  "open": true
+ },
+ "Texas Instruments|25018480": {
+  "company": "Texas Instruments",
+  "title": "Silicon Photonics Design Engineer",
+  "url": "https://careers.ti.com/job/25018480",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31",
+  "open": true
+ },
+ "Texas Instruments|25002265": {
+  "company": "Texas Instruments",
+  "title": "Analog IC Design Engineer - Switching Regulators (Phoenix)",
+  "url": "https://careers.ti.com/job/25002265",
   "first_seen": "2026-10-31",
   "last_seen": "2026-10-31",
   "open": true
