@@ -1,82 +1,89 @@
 {
- "run_date": "2026-10-31",
+ "run_date": "2026-11-01",
  "companies": {
+  "Apple": {
+   "status": "ok",
+   "ats": "apple",
+   "raw_results": 862,
+   "matched": 76,
+   "seconds": 234.5
+  },
   "Texas Instruments": {
    "status": "ok",
    "ats": "oracle",
-   "raw_results": 1061,
+   "raw_results": 1059,
    "matched": 16,
-   "seconds": 44.9
+   "seconds": 45.8
   },
   "Analog Devices": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 715,
-   "matched": 5,
-   "seconds": 34.1
+   "matched": 12,
+   "seconds": 41.3
   },
   "NVIDIA": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 725,
+   "raw_results": 727,
    "matched": 1,
-   "seconds": 44.5
+   "seconds": 57.1
   },
   "Marvell": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 176,
    "matched": 0,
-   "seconds": 12.2
+   "seconds": 12.1
   },
   "Broadcom": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 270,
    "matched": 5,
-   "seconds": 46.8
+   "seconds": 50.8
   },
   "Micron": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 683,
-   "matched": 8,
-   "seconds": 39.4
+   "matched": 11,
+   "seconds": 43.0
   },
   "Intel": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 662,
+   "raw_results": 661,
    "matched": 2,
-   "seconds": 45.1
+   "seconds": 46.5
   },
   "NXP": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 136,
    "matched": 1,
-   "seconds": 11.6
+   "seconds": 11.5
   },
   "Monolithic Power Systems": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 131,
-   "matched": 0,
-   "seconds": 10.7
+   "matched": 1,
+   "seconds": 11.4
   },
   "Silicon Labs": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 92,
-   "matched": 1,
-   "seconds": 10.4
+   "matched": 2,
+   "seconds": 13.8
   },
   "Microchip": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 286,
-   "matched": 0,
-   "seconds": 15.2
+   "matched": 1,
+   "seconds": 15.8
   },
   "Cadence": {
    "status": "ok",
@@ -90,28 +97,28 @@
    "ats": "workday",
    "raw_results": 275,
    "matched": 3,
-   "seconds": 23.4
+   "seconds": 23.8
   },
   "Cirrus Logic": {
    "status": "ok",
    "ats": "lever",
    "raw_results": 124,
-   "matched": 2,
-   "seconds": 2.0
+   "matched": 3,
+   "seconds": 1.4
   },
   "Astera Labs": {
    "status": "ok",
    "ats": "greenhouse",
-   "raw_results": 171,
+   "raw_results": 180,
    "matched": 0,
-   "seconds": 1.7
+   "seconds": 0.8
   },
   "Astera Labs (Early Career)": {
    "status": "ok",
    "ats": "greenhouse",
    "raw_results": 93,
    "matched": 1,
-   "seconds": 0.1
+   "seconds": 0.7
   }
  }
 }
