@@ -1,21 +1,13 @@
 {
- "run_date": "2026-11-02",
+ "run_date": "2026-11-03",
  "jobs": [
   {
-   "key": "Texas Instruments|25011066",
-   "company": "Texas Instruments",
-   "title": "Analog IC Design Engineer | BCP",
-   "url": "https://careers.ti.com/job/25011066",
-   "first_seen": "2026-10-31",
-   "last_seen": "2026-11-01"
-  },
-  {
-   "key": "Apple|200658493",
+   "key": "Apple|200620219",
    "company": "Apple",
-   "title": "PMU Design Verification Engineer: Analog & Mixed Signal Engineer",
-   "url": "https://jobs.apple.com/en-us/details/200658493-0836/pmu-design-verification-engineer-analog-mixed-signal-engineer",
-   "first_seen": "2026-11-01",
-   "last_seen": "2026-11-01"
+   "title": "Cellular ASIC Design Engineer",
+   "url": "https://jobs.apple.com/en-us/details/200620219-3956/cellular-asic-design-engineer",
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-02"
   }
  ]
 }
