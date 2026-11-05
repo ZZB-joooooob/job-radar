@@ -1,5 +1,5 @@
 {
- "run_date": "2026-11-03",
+ "run_date": "2026-11-04",
  "jobs": [
   {
    "key": "Analog Devices|R267037",
@@ -886,6 +886,29 @@
    "first_seen": "2026-11-01"
   },
   {
+   "key": "Apple|200692500",
+   "company": "Apple",
+   "title": "Digital Mixed Signal Design and Modeling Engineer",
+   "location": "Austin, Texas",
+   "req_id": "200692500",
+   "url": "https://jobs.apple.com/en-us/details/200692500-0157/digital-mixed-signal-design-and-modeling-engineer",
+   "posted": "2026-11-04",
+   "ncg_signal": "",
+   "years_mentioned": [],
+   "flags": {},
+   "analog_hits": [
+    "analog",
+    "mixed-signal",
+    "transistor-level",
+    "ADC",
+    "DAC",
+    "Virtuoso",
+    "tapeout"
+   ],
+   "description": "Join our team at Apple developing complex mixed-signal IPs for Apple’s custom integrated circuits. Our team has shipped hundreds of millions of chips into Apple’s existing product lines, and is developing new chips for future product lines!\nIn this role, you will create high-speed behavioral models for complex analog IPs that interface with digital control logic. Your models will “close the loop” in mixed-signal simulations, catch cross-domain bugs, and deliver 10x to 1000x speedups over transistor-level simulations—driving critical productivity gains across Apple's next-generation silicon roadmap. We are a prolific, diverse team looking for an enthusiastic engineer ready to build industry-leading products that surprise and delight our customers.\n• Collaborate with system architects, analog designers, and digital teams to establish precise model specifications for mixed-signal IPs.\n• Develop high-speed models from schematics and design specs.\n• Build mixed-signal testbenches and integrate models into projects to close the simulation loop.\n• Develop verification plans, run regression suites, and debug digital/analog corner cases.\n• Correlate model accuracy and performance against transistor-level SPICE simulations.\n• Drive modeling methodologies to accelerate simulation turnaround times and ensure tapeout readiness.\nMinimum Qualifications\nMinimum requirement of a bachelors degree\nPreferred Qualifications\nExperience developing digital logic or behavioral models for analog and mixed-signal circuits (e.g., SystemVerilog, Real Number Modeling / RNM, or Verilog-A/AMS).\nSolid fundamentals in digital design and RTL development (SystemVerilog/Verilog).\nGood knowledge of analog circuits and architectures (e.g., power converters, regulators, references, ADCs/DACs).\nExperience with industry-standard simulation and verification tools (e.g., Xcelium, Virtuoso).\nStrong debugging and cross-functional communication skills.",
+   "first_seen": "2026-11-04"
+  },
+  {
    "key": "Apple|200692701",
    "company": "Apple",
    "title": "Digital Mixed Signal Design and Modeling Engineer",
@@ -1180,7 +1203,7 @@
    "title": "IC Designer - Power Management",
    "location": "Austin, Texas; Sunnyvale, California",
    "req_id": "200675902",
-   "url": "https://jobs.apple.com/en-us/details/200675902-0157/ic-designer-power-management",
+   "url": "https://jobs.apple.com/en-us/details/200675902-3956/ic-designer-power-management",
    "posted": "2026-08-05",
    "ncg_signal": "",
    "years_mentioned": [
@@ -1213,7 +1236,7 @@
    "title": "Mixed Signal Verification Engineer",
    "location": "Austin, Texas; Sunnyvale, California",
    "req_id": "200686375",
-   "url": "https://jobs.apple.com/en-us/details/200686375-3956/mixed-signal-verification-engineer",
+   "url": "https://jobs.apple.com/en-us/details/200686375-0157/mixed-signal-verification-engineer",
    "posted": "2026-09-29",
    "ncg_signal": "",
    "years_mentioned": [
@@ -1655,13 +1678,13 @@
    "first_seen": "2026-11-01"
   },
   {
-   "key": "Apple|200625933",
+   "key": "Apple|200658493",
    "company": "Apple",
    "title": "PMU Design Verification Engineer: Analog & Mixed Signal Engineer",
    "location": "Austin, Texas; Cupertino, California",
-   "req_id": "200625933",
-   "url": "https://jobs.apple.com/en-us/details/200625933-0836/pmu-design-verification-engineer-analog-mixed-signal-engineer",
-   "posted": "2026-11-02",
+   "req_id": "200658493",
+   "url": "https://jobs.apple.com/en-us/details/200658493-0836/pmu-design-verification-engineer-analog-mixed-signal-engineer",
+   "posted": "2026-11-04",
    "ncg_signal": "",
    "years_mentioned": [
     3
@@ -1676,8 +1699,33 @@
     "tapeout",
     "bring-up"
    ],
-   "description": "Did you know that Apple is hiring analog & mixed signal verification engineers? We are looking for engineers that are enthusiastic to find bugs! You have the opportunity to work with a creative team to craft test plans and enable production-quality first silicon. As a member of the analog and mixed signal verification team, you will be working with specialists for full-chip verification of the state of the art mixed-signal systems used in Apple’s world-leading products!\nIn this role, you will be responsible for ensuring high quality silicon for IC chips and IPs. Daily work involves verification of mixed signal IC designs using a combination of analog circuits and RTL in the same simulation. Responsibilities include all phases of pre-silicon verification from early discussions with architects, reviewing specifications, writing verification plans, running simulations, triaging issues, and reviewing results with the team.\n• Develop detailed test and coverage plans based on IC specifications.\n• Completion of verification plans from beginning to end: test bench and environment bring-up, regressions, failure debug, and tape-out.\n• Develop verification methodology suitable for the IP, ensuring scalability and portability.\n• Develop verification environment, including stimuli, checkers, assertions, trackers, and coverage.\n• Sign-off mixed signal designs in preparation for tapeout.\nMinimum Qualifications\nBS and a minimum of 3 years of relevant industry experience\nPreferred Qualifications\nAbility to verify analog/mixed-signal designs in a collaborative team environment.\nProficient in hardware descriptive languages: Verilog, System-Verilog, and/or Verilog-AMS code.\nFamiliarity with authoring analog assertion checks to catch bugs.\nCapability to identify failure mechanisms and review verification results in analog IC designs.\nAbility to write test plans, present results, and communicate clearly with multi-functional teams.\nComfortable with running simulations through compute clusters while optimizing simulation and wall time.\nUnderstanding of both power management and related auxiliary circuitry: switching converters, linear converters, reference circuitry, bandgaps, data converters, and/or clock generators.\nHave a familiarity with verification methodologies and tools: simulators, waveform viewers, execution automation, coverage collection, gate level simulations.\nExperience developing scalable and portable test benches.\nA background that includes scripting or programming languages is preferred. These include, but are not limited to, TCL, Skill, Python, and/or PERL.\nYour familiarity with analog behavioral models is also a plus.",
-   "first_seen": "2026-11-02"
+   "description": "Did you know that Apple is hiring analog & mixed signal verification engineers? We are looking for engineers that are enthusiastic to find bugs! You have the opportunity to work with a creative team to craft test plans and enable production-quality first silicon. As a member of the analog and mixed signal verification team, you will be working with specialists for full-chip verification of the state of the art mixed-signal systems used in Apple’s world-leading products!\nIn this role, you will be responsible for ensuring high quality silicon for IC chips and IPs. Daily work involves verification of mixed signal IC designs using a combination of analog circuits and RTL in the same simulation. Responsibilities include all phases of pre-silicon verification from early discussions with architects, reviewing specifications, writing verification plans, running simulations, triaging issues, and reviewing results with the team.\n• Develop detailed test and coverage plans based on IC specifications.\n• Completion of verification plans from beginning to end: test bench and environment bring-up, regressions, failure debug, and tape-out.\n• Develop verification methodology suitable for the IP, ensuring scalability and portability.\n• Develop verification environment, including stimuli, checkers, assertions, trackers, and coverage.\n• Sign-off mixed signal designs in preparation for tapeout.\nMinimum Qualifications\nBS and a minimum of 3 years of relevant industry experience.\nPreferred Qualifications\nAbility to verify analog/mixed-signal designs in a collaborative team environment.\nProficient in hardware descriptive languages: Verilog, System-Verilog, and/or Verilog-AMS code.\nFamiliarity with authoring analog assertion checks to catch bugs.\nCapability to identify failure mechanisms and review verification results in analog IC designs.\nAbility to write test plans, present results, and communicate clearly with multi-functional teams.\nComfortable with running simulations through compute clusters while optimizing simulation and wall time.\nUnderstanding of both power management and related auxiliary circuitry: switching converters, linear converters, reference circuitry, bandgaps, data converters, and/or clock generators.\nHave a familiarity with verification methodologies and tools: simulators, waveform viewers, execution automation, coverage collection, gate level simulations.\nExperience developing scalable and portable test benches.\nA background that includes scripting or programming languages is preferred. These include, but are not limited to, TCL, Skill, Python, and/or PERL.\nYour familiarity with analog behavioral models is also a plus.",
+   "first_seen": "2026-11-01"
+  },
+  {
+   "key": "Apple|200684452",
+   "company": "Apple",
+   "title": "PMU Hardware Electrical Design Engineer",
+   "location": "Cupertino, California",
+   "req_id": "200684452",
+   "url": "https://jobs.apple.com/en-us/details/200684452-0836/pmu-hardware-electrical-design-engineer",
+   "posted": "2026-11-04",
+   "ncg_signal": "",
+   "years_mentioned": [
+    3
+   ],
+   "flags": {},
+   "analog_hits": [
+    "mixed-signal",
+    "LDO",
+    "ADC",
+    "DAC",
+    "op-amp",
+    "DC-DC",
+    "bring-up"
+   ],
+   "description": "Are you interested in designing hardware as part of silicon development at Apple? Join our team at Apple developing custom mixed-signal integrated circuits for Apple’s existing and future product lines. Our small team has already shipped hundreds of millions of chips into several Apple product lines, including new products launched this year. We are looking for a hardworking engineer that is enthusiastic about embedded hardware design. You can work closely with a diverse and creative team to craft complex test systems for state-of-the-art power supplies. This role includes a broad scope of work including simulations, software, bringup, debug, extraction, and analysis. You will work closely with a wide range of people across functions and be a key contributor to the silicon development effort. Join us in building Apple’s next generation products. Do you want to be a part of building the “surprise and delight” in Apple’s future products?\nIn this exciting role you will be responsible for:\n- Lab validation system design and development using circuits such as LDO, Buck, ADC, DAC, Op-AMP, FPGA etc., and control interface like I2C, SPI, SPMI, etc\n- Circuit design, schematic, analysis, layout, and review in a PCB environment\n- Knowledge of signal and power integrity (PDN analysis) is preferred\n- Hands-on lab experience with hardware bring-up and debug\n- Drive debug and resolution of engineering issues working with cross-functional teams.\n- Experience with PCB manufacturing and assembly\nMinimum Qualifications\nBS and a minimum of 3 years of relevant industry experience\nPreferred Qualifications\nMSEE preferred*\nExperience with hardware development from specification to bring up and downstream support.\nSkilled at component development and selection for schematics design\nAbility to design or guide high quality PCB layouts into fabrication and assembly\nPrior experience using CAD tools such as Cadence Allegro, Altium, etc for multi-layer board layout is desired\nFamiliarity with microcontroller/FPGA/logic design and programming\nSkillful in an electronics lab environment using real time oscilloscopes, analyzers, function generators, automation hardware, power supplies, and electronic loads\nFamiliarity with challenges relating to power quality, high-speed signal integrity and control interface\nCoding or automation experience in Python is a plus\nExcellent written, verbal and communication skills focused on teamwork and collaboration in a dynamic cross-functional environment",
+   "first_seen": "2026-11-04"
   },
   {
    "key": "Apple|200688297",

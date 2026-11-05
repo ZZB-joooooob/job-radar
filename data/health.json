@@ -1,38 +1,38 @@
 {
- "run_date": "2026-11-03",
+ "run_date": "2026-11-04",
  "companies": {
   "Apple": {
    "status": "ok",
    "ats": "apple",
-   "raw_results": 874,
-   "matched": 77,
-   "seconds": 347.1
+   "raw_results": 883,
+   "matched": 79,
+   "seconds": 199.2
   },
   "Texas Instruments": {
    "status": "ok",
    "ats": "oracle",
-   "raw_results": 1075,
+   "raw_results": 1078,
    "matched": 15,
-   "seconds": 46.8
+   "seconds": 44.8
   },
   "Analog Devices": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 702,
+   "raw_results": 703,
    "matched": 12,
-   "seconds": 41.1
+   "seconds": 41.6
   },
   "NVIDIA": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 734,
    "matched": 1,
-   "seconds": 51.7
+   "seconds": 49.0
   },
   "Marvell": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 177,
+   "raw_results": 181,
    "matched": 0,
    "seconds": 13.0
   },
@@ -41,75 +41,75 @@
    "ats": "workday",
    "raw_results": 284,
    "matched": 5,
-   "seconds": 69.0
+   "seconds": 57.7
   },
   "Micron": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 683,
+   "raw_results": 682,
    "matched": 12,
-   "seconds": 46.2
+   "seconds": 53.1
   },
   "Intel": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 668,
+   "raw_results": 669,
    "matched": 2,
-   "seconds": 48.4
+   "seconds": 52.0
   },
   "NXP": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 135,
+   "raw_results": 137,
    "matched": 1,
-   "seconds": 11.6
+   "seconds": 11.9
   },
   "Monolithic Power Systems": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 133,
+   "raw_results": 131,
    "matched": 1,
-   "seconds": 11.5
+   "seconds": 11.4
   },
   "Silicon Labs": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 88,
+   "raw_results": 83,
    "matched": 2,
-   "seconds": 10.8
+   "seconds": 10.3
   },
   "Microchip": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 283,
+   "raw_results": 282,
    "matched": 1,
-   "seconds": 16.1
+   "seconds": 15.7
   },
   "Cadence": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 139,
+   "raw_results": 140,
    "matched": 0,
-   "seconds": 11.1
+   "seconds": 11.2
   },
   "Teledyne FLIR": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 272,
    "matched": 3,
-   "seconds": 26.9
+   "seconds": 23.0
   },
   "Cirrus Logic": {
    "status": "ok",
    "ats": "lever",
-   "raw_results": 124,
+   "raw_results": 125,
    "matched": 3,
-   "seconds": 1.4
+   "seconds": 1.9
   },
   "Astera Labs": {
    "status": "ok",
    "ats": "greenhouse",
-   "raw_results": 183,
+   "raw_results": 181,
    "matched": 0,
    "seconds": 0.8
   },
@@ -118,7 +118,7 @@
    "ats": "greenhouse",
    "raw_results": 93,
    "matched": 1,
-   "seconds": 0.7
+   "seconds": 0.6
   }
  }
 }
