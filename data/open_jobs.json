@@ -1,5 +1,5 @@
 {
- "run_date": "2026-11-06",
+ "run_date": "2026-11-07",
  "jobs": [
   {
    "key": "Analog Devices|R267037",
@@ -1279,7 +1279,7 @@
    "title": "Mixed Signal Verification Engineer",
    "location": "Austin, Texas; Sunnyvale, California",
    "req_id": "200686375",
-   "url": "https://jobs.apple.com/en-us/details/200686375-0157/mixed-signal-verification-engineer",
+   "url": "https://jobs.apple.com/en-us/details/200686375-3956/mixed-signal-verification-engineer",
    "posted": "2026-09-29",
    "ncg_signal": "",
    "years_mentioned": [
@@ -2316,7 +2316,7 @@
    "title": "iPhone Analog Design Engineer",
    "location": "Austin, Texas; Cupertino, California",
    "req_id": "200676489",
-   "url": "https://jobs.apple.com/en-us/details/200676489-0157/iphone-analog-design-engineer",
+   "url": "https://jobs.apple.com/en-us/details/200676489-0836/iphone-analog-design-engineer",
    "posted": "2026-08-06",
    "ncg_signal": "",
    "years_mentioned": [
@@ -2947,52 +2947,6 @@
    "first_seen": "2026-11-01"
   },
   {
-   "key": "NVIDIA|JR2025693",
-   "company": "NVIDIA",
-   "title": "Mixed Signal Design Engineer - New College Grad 2026",
-   "location": "US, CA, Santa Clara; US, CA, Remote",
-   "req_id": "JR2025693",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Mixed-Signal-Design-Engineer---New-College-Grad-2026_JR2025693",
-   "posted": "2026-10-30",
-   "ncg_signal": "Mixed Signal Design Engineer - New College Grad 2026 This is a dynamic team working with state of the art, unique technology. If you are",
-   "years_mentioned": [],
-   "flags": {},
-   "analog_hits": [
-    "analog",
-    "mixed-signal",
-    "Spectre",
-    "Virtuoso",
-    "HSPICE",
-    "bring-up"
-   ],
-   "description": "This is a dynamic team working with state of the art, unique technology. If you are someone that loves a challenge, come join this diverse team and help move the needle! We are looking for a senior engineer to be part of the mixed-signal design team building next generation NVLINK. This position offers the opportunity to have real impact in a dynamic, technology-focused company impacting product lines ranging from consumer graphics to self-driving cars and the growing field of artificial intelligence.\nWhat you'll be doing:\n- Develop and implement high speed interfaces and analog circuits. You will have hands on experience taking innovative integrated circuit designs at data rates of 25Gbps and higher from concept through silicon characterization.\n- Help by defining circuit requirements and complete design from schematic, layout, and verification to characterization.\n- Conduct schematic design of deep-submicron CMOS technologies using Spectre, Hspice or like.\n- Take ownership for the architecture, transistor design and verification using industry standard EDA tools such as Cadence virtuoso.\n- Optimize circuit to meet the specifications for system performance.\n- Work closely with layout engineers by providing detailed floorplan and guidance for matching and high-speed routings.\n- Provide support for post-silicon bring-up and debugging.\nWhat we need to see:\n- Hold a Master of Science in Electrical Engineering, Computer Engineering or related field with strong analog design background (or equivalent experience)\n- Prior analog design experience\n- CMOS Analog / Mixed Signal Circuit Design Experience in deep sub-micron process (especially in FINFET)\n- Experience with design and verification tools (Cadence's IC design environment, analog circuit simulation tools like Spectre, HSpice, Finesim, XA)\n- Experience in crafting test bench environments for component and top level circuit verification\n- Behavioral modeling of analog and digital circuits\n- Strong debugging and analytical skills\n- Analog simulation for noise analysis, loop stability analysis, ac/dc/tran analysis, monte-carlo, etc.\n- Strong interpersonal skills and ability & desire to work as a great teammate are huge plus.\nYour base salary will be determined based on your location, experience, and other objective job-related factors. The expected base salary range for this position is 116,000 USD – 189,750 USD.\nYou will also be eligible for equity and benefits .\nApplications for this job will be accepted at least until November 3, 2026.\nThis posting is for an existing vacancy.\nNVIDIA uses AI tools in its recruiting processes.\nNVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.",
-   "first_seen": "2026-10-31"
-  },
-  {
-   "key": "NXP|R-10061418",
-   "company": "NXP",
-   "title": "Analog Mixed Signal Circuit Design",
-   "location": "San Jose (Holger Way)",
-   "req_id": "R-10061418",
-   "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/San-Jose-Holger-Way/Analog-Mixed-Signal-Circuit-Design_R-10061418",
-   "posted": "2026-07-17",
-   "ncg_signal": "",
-   "years_mentioned": [
-    15,
-    20
-   ],
-   "flags": {},
-   "analog_hits": [
-    "analog",
-    "mixed-signal",
-    "transistor-level",
-    "PLL",
-    "SerDes"
-   ],
-   "description": "Job Title: Principal/Sr Principal Circuit Designer – Analog / SERDES (Automotive Transceivers)\nLocation: This position is located in San Jose, CA. This is a hybrid role with 3 days in office and 2 days work from home. This role is NOT open to 100% remote.\nRole Summary:\nSeeking a Principal or Senior Principal Circuit Designer to design and deliver high‑speed, high‑linearity analog and SERDES circuit blocks that form the Analog Front End (AFE) of automotive transceivers.\nThis is a hands‑on individual contributor role requiring deep expertise in TX, RX, and clocking circuit design for high‑speed PHYs . The role focuses on block‑level ownership, from specification and transistor‑level design through silicon validation and production support. At the Senior Principal level, the role also provides technical leadership across projects, influencing architecture and mentoring other designers.\nJob Responsibility:\nAnalog / SERDES Circuit Design\n· Architect, design, and simulate analog circuit blocks that comprise the AFE, including:\no Transmit (TX) circuits: line drivers, pre‑drivers, output stages\no Receive (RX) circuits: front‑end amplifiers, CTLE, PGA, slicers\no Clocking circuits: PLLs, DLLs, clock distribution, jitter filtering\n· Translate system‑ and PHY‑level requirements into robust block‑level specifications.\n· Optimize designs for linearity, noise, jitter, power, area, and robustness.\n· Perform detailed transistor‑level simulations across PVT corners and full automotive temperature ranges.\nSilicon Bring‑Up, Debug & Production Support\n· Support silicon bring‑up, characterization, and validation of analog/SERDES blocks.\n· Correlate simulation results with silicon measurements and drive design improvements.\n· Collaborate with layout, digital, DSP, systems, test, and product engineering teams.\n· Drive resolution of performance, yield, and reliability issues through root‑cause analysis.\nTechnical Leadership (Principal / Sr Principal Scope)\n· Serve as block‑level technical owner for critical analog/SERDES functions.\n· Participate in and lead technical design reviews.\n· Influence AFE and PHY architecture decisions through deep technical expertise.\n· Mentor senior and mid‑level designers and contribute to design best practices.\nJob Qualification:\nEducation\n· MSEE or PhD in Electrical Engineering or equivalent (strongly preferred).\nExperience\n· 12–15+ years of experience in analog or mixed‑signal IC design (Principal).\n· 15–20+ years of experience for Senior Principal level.\n· Proven hands‑on experience designing high‑speed SERDES or wireline analog circuits.\n· Demonstrated success delivering TX, RX, and clocking circuits to production silicon.\n· Extensive experience with circuit design, simulation, and debug at the transistor level.\nExamples of Core Technical Expertise\n· High‑speed TX and RX circuit design\n· Linearity, distortion, and noise analysis\n· Jitter generation, tolerance, and clock integrity\n· PLL / DLL and clocking architectures\n· PVT variation and automotive robustness\n· Advanced CMOS processes for high‑speed analog\nHighly Desired Experience\n· Direct experience with one or more of the following:\n- 10GBASE‑T\n- 10GBASE‑T1 (Automotive Ethernet)\n- TDD‑based transceivers\n- Familiarity with automotive semiconductor requirements (AEC‑Q100, temperature, EMI/EMC).\n- Experience supporting automotive production ramp and customer qualification.\n- Exposure to ISO 26262 / functional safety concepts is a plus.\nThe base salary range for this position is as mentioned below per year. We also provide competitive benefits, incentive compensation, and/or equity for certain roles.\nCompany benefits include health. dental, and vision insurance. 401(k), and paid leave. Please note that the base salary range (OR hourly rate) is a guideline, and individual total compensation may vary based on a number of factors such as qualifications, skill level, work location, and other business and organizational needs. This base pay range is specific to California and is not applicable to other locations. A reasonable estimate of the base salary range as of the date of this posting is:\n$191,500 to $263,300 annually\nMore information about NXP in the United States...\nNXP is an Equal Opportunity/Affirmative Action Employer regardless of age, color, national origin, race, religion, creed, gender, sex, sexual orientation, gender identity and/or expression, marital status, status as a disabled veteran and/or veteran of the Vietnam Era or any other characteristic protected by federal, state or local law. In addition, NXP will provide reasonable accommodations for otherwise qualified disabled individuals.\n#LI-6692",
-   "first_seen": "2026-10-31"
-  },
-  {
    "key": "Silicon Labs|21053",
    "company": "Silicon Labs",
    "title": "2027 New College Graduates - Design Engineering",
@@ -3085,13 +3039,13 @@
    "first_seen": "2026-10-31"
   },
   {
-   "key": "Teledyne FLIR|REQ36645",
+   "key": "Teledyne FLIR|REQ37354",
    "company": "Teledyne FLIR",
    "title": "Mixed-Signal CMOS Design Engineer",
    "location": "US - Camarillo, CA",
-   "req_id": "REQ36645",
-   "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Camarillo-CA/Mixed-Signal-CMOS-Design-Engineer_REQ36645",
-   "posted": "2026-09-08",
+   "req_id": "REQ37354",
+   "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Camarillo-CA/Mixed-Signal-CMOS-Design-Engineer_REQ37354",
+   "posted": "2026-10-28",
    "ncg_signal": "",
    "years_mentioned": [],
    "flags": {
@@ -3107,13 +3061,13 @@
    "first_seen": "2026-10-31"
   },
   {
-   "key": "Teledyne FLIR|REQ37354",
+   "key": "Teledyne FLIR|REQ36645",
    "company": "Teledyne FLIR",
    "title": "Mixed-Signal CMOS Design Engineer",
    "location": "US - Camarillo, CA",
-   "req_id": "REQ37354",
-   "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Camarillo-CA/Mixed-Signal-CMOS-Design-Engineer_REQ37354",
-   "posted": "2026-10-28",
+   "req_id": "REQ36645",
+   "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Camarillo-CA/Mixed-Signal-CMOS-Design-Engineer_REQ36645",
+   "posted": "2026-09-08",
    "ncg_signal": "",
    "years_mentioned": [],
    "flags": {

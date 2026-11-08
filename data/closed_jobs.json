@@ -1,69 +1,13 @@
 {
- "run_date": "2026-11-06",
+ "run_date": "2026-11-07",
  "jobs": [
   {
-   "key": "Micron|JR93217",
-   "company": "Micron",
-   "title": "New College Grad - Mixed Signal Design Engineer, HBM",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/Staff-Mixed-Signal-Design-Engine--HBM_JR93217",
+   "key": "NVIDIA|JR2025693",
+   "company": "NVIDIA",
+   "title": "Mixed Signal Design Engineer - New College Grad 2026",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Mixed-Signal-Design-Engineer---New-College-Grad-2026_JR2025693",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-11-05"
-  },
-  {
-   "key": "Texas Instruments|25017718",
-   "company": "Texas Instruments",
-   "title": "Analog IC Design Engineer | BCP",
-   "url": "https://careers.ti.com/job/25017718",
-   "first_seen": "2026-10-31",
-   "last_seen": "2026-11-05"
-  },
-  {
-   "key": "Apple|200680758",
-   "company": "Apple",
-   "title": "Data Center Hardware Engineering - Hardware System Integration Engineer",
-   "url": "https://jobs.apple.com/en-us/details/200680758-3956/data-center-hardware-engineering-hardware-system-integration-engineer",
-   "first_seen": "2026-11-01",
-   "last_seen": "2026-11-05"
-  },
-  {
-   "key": "Apple|200666372",
-   "company": "Apple",
-   "title": "Baseband Hardware Design Engineer",
-   "url": "https://jobs.apple.com/en-us/details/200666372-3956/baseband-hardware-design-engineer",
-   "first_seen": "2026-11-01",
-   "last_seen": "2026-11-05"
-  },
-  {
-   "key": "Apple|200661102",
-   "company": "Apple",
-   "title": "Baseband Hardware Design Engineer",
-   "url": "https://jobs.apple.com/en-us/details/200661102-6205/baseband-hardware-design-engineer",
-   "first_seen": "2026-11-01",
-   "last_seen": "2026-11-05"
-  },
-  {
-   "key": "Apple|200661101",
-   "company": "Apple",
-   "title": "Baseband Hardware Design Engineer",
-   "url": "https://jobs.apple.com/en-us/details/200661101-6205/baseband-hardware-design-engineer",
-   "first_seen": "2026-11-01",
-   "last_seen": "2026-11-05"
-  },
-  {
-   "key": "Apple|200660068",
-   "company": "Apple",
-   "title": "Baseband Hardware Design Engineer",
-   "url": "https://jobs.apple.com/en-us/details/200660068-3956/baseband-hardware-design-engineer",
-   "first_seen": "2026-11-01",
-   "last_seen": "2026-11-05"
-  },
-  {
-   "key": "Micron|JR106530",
-   "company": "Micron",
-   "title": "Staff GenAI Engineer - AMS Design and Optimization",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/San-Jose-CA/Staff-GenAI-Engineer---AMS-Design-and-Optimization_JR106530",
-   "first_seen": "2026-11-03",
-   "last_seen": "2026-11-05"
+   "last_seen": "2026-11-06"
   }
  ]
 }
