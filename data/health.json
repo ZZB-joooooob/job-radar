@@ -1,33 +1,33 @@
 {
- "run_date": "2026-11-07",
+ "run_date": "2026-11-08",
  "companies": {
   "Apple": {
    "status": "ok",
    "ats": "apple",
    "raw_results": 921,
    "matched": 82,
-   "seconds": 298.0
+   "seconds": 286.2
   },
   "Texas Instruments": {
    "status": "ok",
    "ats": "oracle",
-   "raw_results": 1086,
+   "raw_results": 1083,
    "matched": 14,
-   "seconds": 50.4
+   "seconds": 49.2
   },
   "Analog Devices": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 709,
    "matched": 12,
-   "seconds": 40.8
+   "seconds": 44.3
   },
   "NVIDIA": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 740,
    "matched": 0,
-   "seconds": 48.5
+   "seconds": 44.6
   },
   "Marvell": {
    "status": "ok",
@@ -48,14 +48,14 @@
    "ats": "workday",
    "raw_results": 680,
    "matched": 11,
-   "seconds": 47.8
+   "seconds": 44.5
   },
   "Intel": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 668,
+   "raw_results": 667,
    "matched": 3,
-   "seconds": 44.2
+   "seconds": 46.3
   },
   "NXP": {
    "status": "error",
@@ -75,49 +75,49 @@
    "ats": "workday",
    "raw_results": 87,
    "matched": 3,
-   "seconds": 12.2
+   "seconds": 11.5
   },
   "Microchip": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 273,
    "matched": 1,
-   "seconds": 16.0
+   "seconds": 15.7
   },
   "Cadence": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 148,
    "matched": 0,
-   "seconds": 11.6
+   "seconds": 11.7
   },
   "Teledyne FLIR": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 190,
+   "raw_results": 270,
    "matched": 3,
-   "seconds": 20.0
+   "seconds": 22.2
   },
   "Cirrus Logic": {
    "status": "ok",
    "ats": "lever",
    "raw_results": 127,
    "matched": 3,
-   "seconds": 1.8
+   "seconds": 1.5
   },
   "Astera Labs": {
    "status": "ok",
    "ats": "greenhouse",
    "raw_results": 179,
    "matched": 0,
-   "seconds": 0.8
+   "seconds": 0.9
   },
   "Astera Labs (Early Career)": {
    "status": "ok",
    "ats": "greenhouse",
    "raw_results": 92,
    "matched": 1,
-   "seconds": 0.7
+   "seconds": 0.6
   }
  }
 }

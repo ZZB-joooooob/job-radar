@@ -1,5 +1,5 @@
 {
- "run_date": "2026-11-07",
+ "run_date": "2026-11-08",
  "jobs": [
   {
    "key": "Analog Devices|R267037",
@@ -3039,13 +3039,13 @@
    "first_seen": "2026-10-31"
   },
   {
-   "key": "Teledyne FLIR|REQ37354",
+   "key": "Teledyne FLIR|REQ36645",
    "company": "Teledyne FLIR",
    "title": "Mixed-Signal CMOS Design Engineer",
    "location": "US - Camarillo, CA",
-   "req_id": "REQ37354",
-   "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Camarillo-CA/Mixed-Signal-CMOS-Design-Engineer_REQ37354",
-   "posted": "2026-10-28",
+   "req_id": "REQ36645",
+   "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Camarillo-CA/Mixed-Signal-CMOS-Design-Engineer_REQ36645",
+   "posted": "2026-09-08",
    "ncg_signal": "",
    "years_mentioned": [],
    "flags": {
@@ -3061,13 +3061,13 @@
    "first_seen": "2026-10-31"
   },
   {
-   "key": "Teledyne FLIR|REQ36645",
+   "key": "Teledyne FLIR|REQ37354",
    "company": "Teledyne FLIR",
    "title": "Mixed-Signal CMOS Design Engineer",
    "location": "US - Camarillo, CA",
-   "req_id": "REQ36645",
-   "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Camarillo-CA/Mixed-Signal-CMOS-Design-Engineer_REQ36645",
-   "posted": "2026-09-08",
+   "req_id": "REQ37354",
+   "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Camarillo-CA/Mixed-Signal-CMOS-Design-Engineer_REQ37354",
+   "posted": "2026-10-28",
    "ncg_signal": "",
    "years_mentioned": [],
    "flags": {
