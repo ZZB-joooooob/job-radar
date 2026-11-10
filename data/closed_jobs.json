@@ -1,4 +1,13 @@
 {
- "run_date": "2026-11-08",
- "jobs": []
+ "run_date": "2026-11-09",
+ "jobs": [
+  {
+   "key": "Texas Instruments|25017657",
+   "company": "Texas Instruments",
+   "title": "Wide Bandgap Device/PI Engineer (R&D)",
+   "url": "https://careers.ti.com/job/25017657",
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-11-08"
+  }
+ ]
 }

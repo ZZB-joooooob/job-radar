@@ -1,61 +1,61 @@
 {
- "run_date": "2026-11-08",
+ "run_date": "2026-11-09",
  "companies": {
   "Apple": {
    "status": "ok",
    "ats": "apple",
-   "raw_results": 921,
+   "raw_results": 912,
    "matched": 82,
-   "seconds": 286.2
+   "seconds": 241.0
   },
   "Texas Instruments": {
    "status": "ok",
    "ats": "oracle",
-   "raw_results": 1083,
-   "matched": 14,
-   "seconds": 49.2
+   "raw_results": 1093,
+   "matched": 13,
+   "seconds": 45.2
   },
   "Analog Devices": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 709,
+   "raw_results": 681,
    "matched": 12,
-   "seconds": 44.3
+   "seconds": 42.0
   },
   "NVIDIA": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 740,
+   "raw_results": 738,
    "matched": 0,
-   "seconds": 44.6
+   "seconds": 46.4
   },
   "Marvell": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 182,
+   "raw_results": 180,
    "matched": 0,
-   "seconds": 12.9
+   "seconds": 13.7
   },
   "Broadcom": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 294,
    "matched": 5,
-   "seconds": 55.7
+   "seconds": 70.2
   },
   "Micron": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 680,
+   "raw_results": 674,
    "matched": 11,
-   "seconds": 44.5
+   "seconds": 45.1
   },
   "Intel": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 667,
+   "raw_results": 661,
    "matched": 3,
-   "seconds": 46.3
+   "seconds": 46.4
   },
   "NXP": {
    "status": "error",
@@ -75,14 +75,14 @@
    "ats": "workday",
    "raw_results": 87,
    "matched": 3,
-   "seconds": 11.5
+   "seconds": 11.7
   },
   "Microchip": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 273,
+   "raw_results": 276,
    "matched": 1,
-   "seconds": 15.7
+   "seconds": 17.0
   },
   "Cadence": {
    "status": "ok",
@@ -94,28 +94,28 @@
   "Teledyne FLIR": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 270,
+   "raw_results": 276,
    "matched": 3,
-   "seconds": 22.2
+   "seconds": 23.3
   },
   "Cirrus Logic": {
    "status": "ok",
    "ats": "lever",
-   "raw_results": 127,
+   "raw_results": 129,
    "matched": 3,
-   "seconds": 1.5
+   "seconds": 1.9
   },
   "Astera Labs": {
    "status": "ok",
    "ats": "greenhouse",
-   "raw_results": 179,
+   "raw_results": 178,
    "matched": 0,
    "seconds": 0.9
   },
   "Astera Labs (Early Career)": {
    "status": "ok",
    "ats": "greenhouse",
-   "raw_results": 92,
+   "raw_results": 90,
    "matched": 1,
    "seconds": 0.6
   }
