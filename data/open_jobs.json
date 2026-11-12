@@ -1,5 +1,5 @@
 {
- "run_date": "2026-11-10",
+ "run_date": "2026-11-11",
  "jobs": [
   {
    "key": "Analog Devices|R267037",
@@ -305,32 +305,6 @@
    "first_seen": "2026-11-06"
   },
   {
-   "key": "Apple|200662760",
-   "company": "Apple",
-   "title": "AirPods Analog Systems Engineer, Power",
-   "location": "Cupertino, California",
-   "req_id": "200662760",
-   "url": "https://jobs.apple.com/en-us/details/200662760-0836/airpods-analog-systems-engineer-power",
-   "posted": "2026-05-11",
-   "ncg_signal": "",
-   "years_mentioned": [
-    7
-   ],
-   "flags": {},
-   "analog_hits": [
-    "analog",
-    "mixed-signal",
-    "LDO",
-    "ADC",
-    "DAC",
-    "power management",
-    "DC-DC",
-    "bring-up"
-   ],
-   "description": "The AirPods team is seeking an Analog Systems Engineer to help drive the design, development, and delivery of next-generation AirPods products. In this role, you will be the power and battery management subsystem expert, at the center of cross-functional interactions and technical decision making. Your work will span the full product development lifecycle, from subsystem architecture and design through integration, validation, and mass production.\nLead architecture and performance optimizations for power and battery management subsystems\nPerform design analysis and simulations, including tolerance analysis, noise, power and signal integrity, and timing\nAssist with component selection and schematic/layout reviews with cross-functional hardware teams\nPartner with silicon vendors on new PMIC and charger IC development, including design reviews, bring-up, and characterization\nSupport hardware and firmware bring-up, characterization, and debug\nAuthor hardware specifications and review vendor datasheets\nSupport hardware prototyping and engineering demos\nDrive product and manufacturing validation through DVT and into mass production\nMinimum Qualifications\nBS/MS EE or equivalent\n7+ years of experience in analog/mixed-signal hardware design\nDeep understanding of various power mixed-signal building blocks: PMIC, DC-DC switching converter, LDO, charger, battery, PCM, ADC/DAC, temperature sensor, LED driver, ultra-low power design\nStrong analog/mixed-signal analysis: simulations, tolerance analysis, noise, power integrity, signal-integrity, timing, etc.\nProficient in bench testing and equipment usage (oscilloscope, power supplies, electronic loads, DMM, etc.) for silicon and system validation\nExcellent interpersonal and presentation skills, both verbal and written, with the ability to drive alignment across hardware, firmware, and silicon teams\nPreferred Qualifications\nExperience in designing low-power, high volume consumer products\nExperience leveraging AI tools and automation to accelerate design analysis, simulation, hardware characterization, and validation workflows\nExperience with scripting languages such as Matlab and Python\nFamiliarity with SPICE-based simulation tools\nFamiliarity with digital interfaces such as I2C, SPI, UART, etc.\nFamiliarity with the development process of new silicon\nMS or Ph.D in EE or equivalent preferred",
-   "first_seen": "2026-11-01"
-  },
-  {
    "key": "Apple|200667643",
    "company": "Apple",
    "title": "Analog Circuit Design Engineer",
@@ -581,33 +555,6 @@
    ],
    "description": "At Apple, we work every single day to craft products that enrich people’s lives. Do you love working on challenges that no one has solved yet? Do you like changing the game? We have an opportunity for a visionary and uncommonly talented IC Designer. As a member of our dynamic group, you will have the rare and rewarding opportunity to craft upcoming products that will delight and inspire millions of Apple’s customers every single day.\nIn this role, the key responsibilities are the following: Involved in specifications of analog portions of IC. Behavioral modeling to validate architectures. Transistor-level feasibility studies for various blocks in ADC/DAC. Crafting blocks and documenting design towards formal design reviews. Drive mask design to implement layout view of designs. Top-level simulations to validate top-level integration. Defining production/bench-level test-plans. Taking lab measurements to validate analog designs. Driving/reviewing yield/lab test results to drive bug fixes. Design for ESD compliance.\nMinimum Qualifications\nBachelor's of Science in Electric Engineering with 10+ years of relevant experience preferred\nPreferred Qualifications\nDo you have a proven track record of taking chips to production in the following areas?\nDeep knowledge of ADC/DAC architectures and knowing which are suitable for given applications\nDeep knowledge of band-gaps, bias, op-amps, switched-cap circuits, LDOs, feedback and compensation techniques\nProven expertise in the following areas:\nSignificant knowledge of low noise design techniques\nSignificant knowledge of high precision techniques in presence of device mismatch\nExperience in C / Matlab / Verilog modeling\nStrong device physics knowledge as it applies to analog IC designs\nProven working experience in using spectrum analyzers, oscilloscopes, signal generators, etc. to validate analog designs\nExtensive experience working with production test engineers to firm up test plans and design for testability details",
    "first_seen": "2026-11-01"
-  },
-  {
-   "key": "Apple|200693686",
-   "company": "Apple",
-   "title": "Analog Mixed Signal SerDes Design Engineer",
-   "location": "Cupertino, California",
-   "req_id": "200693686",
-   "url": "https://jobs.apple.com/en-us/details/200693686-0836/analog-mixed-signal-serdes-design-engineer",
-   "posted": "2026-11-05",
-   "ncg_signal": "",
-   "years_mentioned": [],
-   "flags": {},
-   "analog_hits": [
-    "analog",
-    "mixed-signal",
-    "transistor-level",
-    "LDO",
-    "bandgap",
-    "ADC",
-    "DAC",
-    "comparator",
-    "switched-capacitor",
-    "SerDes",
-    "VCO"
-   ],
-   "description": "We are seeking skilled Analog Mixed-Signal designers to join our high-speed SerDes team! Our team specializes in building next generation high-performance wireline transceivers delivering intellectual-property (IP) for Apple’s world-leading system-on-chip (SOC). In this role, you will actively work with cross-functional Analog Mixed-Signal design teams to create state-of-the-art IPs key to Apple’s products. You will be challenged to make the best-in-class designs to surprise and delight Apple customers. With transforming the user experience in focus, you will get an opportunity to work on designs which makes the best systems. This enables you to learn end-to-end system while exceeding the highest expectations of quality, innovation and efficiency. If you have strong fundamentals and a track record of tackling technical challenges, If you are passionate about learning new skills and improving the value of your work, If you like to be tuned to the bigger-picture while diving deeply into the details to innovate and solve problems, We invite you to join and grow with our team!\nWe work on the development of high-performance and high-speed AMS circuits used in SerDes PHY, including evaluation of different circuit topologies for specific product requirements (e.g., Rx, CDR, Tx, bias generator, high-speed clock generation and low-jitter distribution, phase interpolator, DLL, VCO) with best-in-class power, performance, and area (PPA). We work with cross-functional teams (e.g., architecture, SIPI, packaging, board design, DFT, ESD) to create block-level specifications, and execute on transistor-level implementation and behavioral modeling. We drive mask design to implement layout view of designs. We closely work with SOC teams to deliver IP views and make sure they meet the quality standards. While developing these complex IPs, on regular basis we interact with peers/management to communicate progress and discuss new insights making it a lively and interactive work environment.\nMinimum Qualifications\nBachelors/Masters in Electrical Engineering\nPreferred Qualifications\nThe ideal candidate should have deep understanding of AMS design with experience in high-speed serial links.\nProven understanding and experience of designing analog mixed-signal circuit blocks including Bandgap, biasing circuits, LDO regulators, amplifiers, comparators, switched-cap circuits, ADCs, DACs, Oscillators, Filters\nSolid understanding of analog mixed-signal concepts like mismatch mitigation, linearity, stability, low-power and low-noise techniques\nGood grasp and understanding of digitally assisted analog design concepts (e.g. background calibrations, LMS based adaptive loops)\nExperience with high speed digital circuits (e.g., serializer, deserializer, counters, dividers, etc.) with the understanding of digital design concepts\nKnowledge of Tx/Rx equalization techniques and circuits (e.g. CTLE, DFE, de-emphasis) for 20+ Gbps NRZ and PAM applications\nKnowledge of CDR architectures and implementations\nKnowledge of lab equipments and testing\nExperience in AMS circuit modeling and performance evaluation (e.g. SystemVerilog, Matlab, Python, VerilogAMS)\nHands-on experience in advanced CMOS technologies, design with FinFet technology\nHands-on experience with AMS IC development from definition to high-volume production including layout supervision, bench evaluation, correlation, and characterization\nExperience in the following areas is a plus\nConcepts of timing closure and related industry tools (e.g., Nanotime, Primetime)\nExperience in lab testing of high-speed serial I/O, debug and data analysis techniques\nKnowledge of common high-speed SerDes protocols (e.g., PCIe, USB, DP, MPHY)\nSkills in scripting and automation to improve efficiency",
-   "first_seen": "2026-11-05"
   },
   {
    "key": "Apple|200596888",
@@ -1167,28 +1114,6 @@
    "first_seen": "2026-11-06"
   },
   {
-   "key": "Apple|200668994",
-   "company": "Apple",
-   "title": "Hardware Design Engineer",
-   "location": "Sunnyvale, California",
-   "req_id": "200668994",
-   "url": "https://jobs.apple.com/en-us/details/200668994-3956/hardware-design-engineer",
-   "posted": "2026-10-12",
-   "ncg_signal": "",
-   "years_mentioned": [
-    5,
-    10
-   ],
-   "flags": {},
-   "analog_hits": [
-    "mixed-signal",
-    "power management",
-    "bring-up"
-   ],
-   "description": "Apple is where individual imaginations gather together, committing to the values that lead to great work. Do you have a passion for taking on big challenges? Do you love pushing the limits of what’s considered feasible? As part of our Wireless Hardware group, you’ll be responsible for bringing groundbreaking wireless connectivity to the world. On this team, you’ll help improve the performance of our products through innovative system-on-chip designs. You and your team will build platform architecture that paves the way for all-new experiences, including the ones that allow people to take advantage of our innovations in sensor technology. Together, our goal is to ensure nothing stands in the way of our customers’ connections with their devices. Join us and help build world-renowned wireless systems that connect customers to their world like never before.\nWe have built the best RF hardware design team on the planet! We’re looking for a dedicated individual to join our team. We support Wi-Fi, Bluetooth, UWB, NFC, and emerging technologies. As a Mixed Signal Hardware Design Engineer, you will be responsible for the design, implementation and verification of digital and power portions of wireless designs across all Apple products. The applicant should be familiar with computer system architecture, digital design and power distribution networks. The candidate will work proactively with various cross-functional engineering groups responsible for other blocks in the system. May require traveling internationally.\nIn this role you will drive end-to-end hardware design for cutting-edge wireless systems, from schematic and layout implementation to bring-up and validation of digital interfaces and power supplies. Collaborate cross-functionally with hardware, software, and silicon teams as well as external chipset vendors to deliver robust, high-performance mixed signal solutions.\nMinimum Qualifications\nBS and 10+ years of relevant industry experience\nGood understanding of protocol specifications for communication interfaces like PCIe, MIPI, I2C, SPI, UART, etc.\nExperience with power supply/power management and power distribution networks\nHands on debug experience with usage of modern lab equipment (DSOs, Logic Analyzers, Protocol Analyzers)\nPreferred Qualifications\nMSEE preferred\nExperience leading projects from definition stage to mass production with minimal supervision.\nProven track record of leading project teams to complete projects or key components of the project\n5+ years of experience delivering consumer electronic products is preferred\nExperience in architectural discussion with cross-functional leaders related to Power supply and Digital design for the connectivity HW and able to influence product direction for these designs\nExperience with power supply/power management\nHands on debug experience with usage of modern lab equipment (DSOs, Logic Analyzers, Protocol Analyzers)\nExperience in writing basic software routines and test scripts\nStrong desire to investigation system level issues and drive problems to closure in a team-based environment with a proactive demeanor\nExperience with mobile and/or embedded processors and memory systems\nExperience with schematic capture/layout\nExperience interacting with offshore manufacturing partners\nSuccessful track record of delivering highly innovative communications products\nExperience with high volume, low power, mobile products",
-   "first_seen": "2026-11-01"
-  },
-  {
    "key": "Apple|200672821",
    "company": "Apple",
    "title": "Hardware System Integration Electrical Engineer - Mac",
@@ -1278,7 +1203,7 @@
    "title": "Mixed Signal Verification Engineer",
    "location": "Austin, Texas; Sunnyvale, California",
    "req_id": "200686375",
-   "url": "https://jobs.apple.com/en-us/details/200686375-3956/mixed-signal-verification-engineer",
+   "url": "https://jobs.apple.com/en-us/details/200686375-0157/mixed-signal-verification-engineer",
    "posted": "2026-09-29",
    "ncg_signal": "",
    "years_mentioned": [
@@ -1596,29 +1521,6 @@
     "tapeout"
    ],
    "description": "Every pair of AirPods carries a wireless chip our team verified — we’ve done it since the very first one. We also verified Apple’s N1 wireless chip, which powers connectivity across every new iPhone, and its successor is already taking shape. Our organization is responsible for all aspects of wireless silicon development with a particular emphasis on highly energy efficient design and new technologies that transform the user experience at the product level. In the Mixed-Signal DV team, we model and verify the analog and RF heart of Apple’s wireless silicon: radios, data converters, PLLs, power management and clock distribution. We prove it all works together before tape-out. If you like understanding circuits and systems, and then putting them to the test in simulation, you’ll fit right in.\nAs a mixed-signal design verification engineer, you will be responsible for the verification of RF and mixed-signal blocks and their interfaces within the wireless SoC. You will interact with analog/RF design, SoC DV/design, PHY DV/design, power management DV/design and wireless system teams. You will use best-in-class verification methodologies (including GenAI) that ensure silicon-correct functionality with optimal coverage and time-to-tapeout trade-off. You’ll own an area with real autonomy and support. We believe in learning by doing — you’ll build depth in your own specialties and breadth across the chip, project to project, in a dynamic design environment driven by new product needs.\nMinimum Qualifications\nMinimum requirement of a bachelors degree\nExperience with RF/mixed-signal blocks and SoCs\nExperience building mixed-signal testbenches, checkers and tests using SystemVerilog\nStrong verification skills in critical thinking, problem solving, testing, and debugging\nSolid understanding of analog/RF circuits such as PLLs, ADCs, RX/TX chains or power delivery\nGreat communicator and team collaborator; self-motivated, organized, and eager to take on diverse challenges\nPreferred Qualifications\nMasters or PhD degree in technical disciplines with at least 5+ years of hands-on relevant experience\nDMS verification experience\nWireless silicon experience\nHands-on experience creating and using real-number analog behavioral models in SystemVerilog\nInterest in applying GenAI to verification, modeling or debug\nExperience with UVM methodology\nExperience with UPF, Python or Matlab\nExperience with Virtuoso Composer, ADE, and HED",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "key": "Apple|200662891",
-   "company": "Apple",
-   "title": "Mixed-Signal Verification Engineer",
-   "location": "San Francisco Bay Area, California; San Diego, California",
-   "req_id": "200662891",
-   "url": "https://jobs.apple.com/en-us/details/200662891-3401/mixed-signal-verification-engineer",
-   "posted": "2026-05-13",
-   "ncg_signal": "",
-   "years_mentioned": [
-    5,
-    10
-   ],
-   "flags": {},
-   "analog_hits": [
-    "analog",
-    "mixed-signal",
-    "Virtuoso",
-    "tapeout"
-   ],
-   "description": "Come join Apple’s growing wireless silicon development team. Our wireless SOC organization is responsible for all aspects of wireless silicon development with a particular emphasis on highly energy efficient design and new technologies that transform the user experience at the product level. All of which is driven by a world-class vertically integrated engineering team, spanning RF/Analog architecture and design, Systems/PHY/MAC architecture and design, VLSI/RTL design and integration, Emulation, Design Verification, Test and Validation and FW/SW engineering.\nIn this highly visible role, you will be at the center of a wireless Mixed-Signal silicon design group, with a critical impact on getting innovative and functional products to hundreds of millions of customers quickly.\nAs a Mixed Signal Design Verification Engineer, you will be responsible for the verification of RF and mixed-signal blocks and their interfaces within the wireless SoC. You will interact with the analog/RF design team, digital DV team digital design team, and wireless system team to develop best-in-class verification methodologies that ensure silicon-correct functionality with optimal coverage and time-to-tapeout trade-off.\nMinimum Qualifications\nBS and a minimum of 10 years relevant industry experience\nIndustry verification experience with RF/Mixed-Signal blocks and SOCs\nExpertise building Mixed-Signal testbenches, checkers and tests using System Verilog\nExperience in UVM methodology and HDL (System Verilog, Verilog) for verification\nStrong verification skills in problem solving, testing, and debugging\nUnderstanding of common analog/RF blocks\nExperience with UPF, Python or Matlab a plus\nExperience with Virtuoso Composer, ADE, and HED also a plus\nPreferred Qualifications\nMasters or PhD degree in technical disciplines with at least 5+ years of hands-on experience in specifically\nMixed-Signal verification\nWireless experience is a plus\nExpertise creating and using real-numbered analog behavioral models in System Verilog a plus.\nAbility to work well in a team and be productive under aggressive schedule\nExcellent communication skills, self-motivation/organization and the desire to take diverse challenges.",
    "first_seen": "2026-11-01"
   },
   {
@@ -2313,7 +2215,7 @@
    "title": "iPhone Analog Design Engineer",
    "location": "Austin, Texas; Cupertino, California",
    "req_id": "200676489",
-   "url": "https://jobs.apple.com/en-us/details/200676489-0836/iphone-analog-design-engineer",
+   "url": "https://jobs.apple.com/en-us/details/200676489-0157/iphone-analog-design-engineer",
    "posted": "2026-08-06",
    "ncg_signal": "",
    "years_mentioned": [
@@ -3269,6 +3171,25 @@
    ],
    "description": "Change the world. Love your job.\nTexas Instruments (TI) is out front and ready for the next big challenge. Our innovations are at the core of nearly every electronics product in use today. And it doesn't stop there. We're developing breakthrough technology to power the world's future innovations as well. TI is committed to building a better future — from the responsible manufacturing of our semiconductors, to caring for our employees, to giving back inside our communities. Put your talent to work with us.\nThis is a great opportunity to be part of an established team that's continuing to look for growth opportunities, working with worldwide leading customers and developing cutting edge solutions in the areas of consumer electronics, mobile computing and communications.\nIn this role, responsibilities include:\n- Design of LDOs for Industrial, Automotive, Datacenter, Communications, and Personal Electronics markets\n- Lead a full chip design with product ownership and responsibility from definition to release to manufacturing\n- Direct, guide and participate in activities of a research or technical design function responsible for designing, developing, modifying and evaluating electronic parts, components, integrated circuits for a variety of applications\n- Evaluate intermediate and final results of projects during the design phase and during silicon evaluation, to ensure accomplishment of technical objectives\n- Work with and provide guidance to physical designers and monitors the progress of IC layout\n- Collaborate with Design Verification teams during the pre-PG phase of a project to ensure completion of all technical tasks before PG\n- Work with systems engineers, application engineers and marketing to prepare product briefs, datasheets, application notes and assisting in the definition of the product to meet customer needs as well as contributing to roadmap formulation and new concept creation\n- Collaborate with validation, product engineering and test engineering teams to enable successful transfer to production\n- Interface and lead discussions with the customer and/or TI field sales/field applications teams to understand customer designs, problems and support as required\nMinimum requirements:\n- Bachelor's degree in Electrical Engineering\n- 5 years of Analog and/or Mixed-signal circuit design experience.\nPreferred qualifications:\n- Ability to engage in early product definition to optimize cost, performance, efficiency, and power density.\n- Proven design expertise of analog circuits like Bandgaps, Bias networks, Amplifiers, Comparators, and Charge Pumps.\n- Experience in implementing robust Memory and ESD protection circuits to ensure silicon reliability.\n- Strong verbal, written communication skills and ability to collaborate with people in different functions.\n- Demonstrated strong interpersonal, analytical and problem-solving skills.\n- Strong time management skills that enable on-time project delivery.\nWhy TI?\n- The future starts here. As a TIer, you'll play a critical role in defining the next era of semiconductor technology and help create the innovations that shape the world around us.\n- Surround yourself with a team of innovators who value your unique perspective and will challenge you to bring your best self to work every day. We believe that fostering a culture of collaboration fuels both personal growth and technological breakthroughs. Explore our company culture .\n- At TI, your success goes beyond your work. Take advantage of comprehensive benefits designed to support your total well-being at work and in life, from competitive compensation to extensive health coverage and wellness programs. Learn more about our benefits offerings .\nAbout Texas Instruments\nTexas Instruments Incorporated (Nasdaq: TXN) is a global semiconductor company that designs, manufactures and sells analog and embedded processing chips for markets such as industrial, automotive, data center, personal electronics and communications equipment. At our core, we have a passion to create a better world by making electronics more affordable through semiconductors. This passion is alive today as each generation of innovation builds upon the last to make our technology more reliable, more affordable and lower power, making it possible for semiconductors to go into electronics everywhere. Learn more at TI.com .\nTexas Instruments is an equal opportunity employer and supports a diverse, inclusive work environment. All qualified applicants will receive consideration for employment without regard to race, color, religion, creed, disability, genetic information, national origin, gender, gender identity and expression, age, sexual orientation, marital status, veteran status, or any other characteristic protected by federal, state, or local laws.\nIf you are interested in this position, please apply to this requisition.",
    "first_seen": "2026-10-31"
+  },
+  {
+   "key": "Texas Instruments|25019538",
+   "company": "Texas Instruments",
+   "title": "Analog IC Design Engineer | LP SPS",
+   "location": "Dallas, TX, United States",
+   "req_id": "25019538",
+   "url": "https://careers.ti.com/job/25019538",
+   "posted": "2026-11-11",
+   "ncg_signal": "",
+   "years_mentioned": [
+    2
+   ],
+   "flags": {},
+   "analog_hits": [
+    "analog"
+   ],
+   "description": "Change the world. Love your job.\nTexas Instruments (TI) is out front and ready for the next big challenge. Our innovations are at the core of nearly every electronics product in use today. And it doesn't stop there. We're developing breakthrough technology to power the world's future innovations as well. TI is committed to building a better future — from the responsible manufacturing of our semiconductors, to caring for our employees, to giving back inside our communities. Put your talent to work with us.\nThis is a great opportunity to be part of an established team that's continuing to look for growth opportunities, working with worldwide leading customers and developing cutting edge solutions in the areas of consumer electronics, mobile computing and communications.\nIn this role, responsibilities may include:\n- Lead an Analog IC design team with product ownership and responsibility from definition to release to manufacturing\n- Direct, guide and participate in activities of a research or technical design function responsible for designing, developing, modifying and evaluating electronic parts, components, integrated circuits for a variety of applications\n- Make assignments for team members, providing design guidance as needed, developing schedules and monitoring progress throughout the project\n- Evaluate intermediate and final results of projects during the design phase and during silicon evaluation, to ensure accomplishment of technical objectives\n- Work with and provide guidance to physical designers and monitors the progress of IC layout\n- Collaborate with Design Verification teams during the pre-PG phase of a project to ensure completion of all technical tasks before PG\n- Work with systems engineers, application engineers and marketing to prepare product briefs, datasheets, application notes and assisting in the definition of the product to meet customer needs as well as contributing to roadmap formulation and new concept creation\n- Collaborate with validation, product engineering and test engineering teams to enable successful transfer to production\n- Interface and lead discussions with the customer and/or TI field sales/field applications teams to understand customer designs, problems and support as required\n- Actively participate in hiring, developing and evaluating personnel to ensure efficient operation of the organization and growth of the individuals into leader\nMinimum requirements:\n- Bachelor's degree in Electrical Engineering or related field\n- 2 years of relevant experience\nPreferred qualifications:\n- Ability to establish strong relationships with key stakeholders critical to success, both internally and externally\n- Strong verbal and written communication skills\n- Ability to quickly ramp on new systems and processes\n- Demonstrated strong interpersonal, analytical and problem-solving skills\n- Ability to work in teams and collaborate effectively with people in different functions\n- Ability to take the initiative and drive for results\n- Strong time management skills that enable on-time project delivery\nWhy TI?\n- The future starts here. As a TIer, you'll play a critical role in defining the next era of semiconductor technology and help create the innovations that shape the world around us.\n- Surround yourself with a team of innovators who value your unique perspective and will challenge you to bring your best self to work every day. We believe that fostering a culture of collaboration fuels both personal growth and technological breakthroughs. Explore our company culture .\n- At TI, your success goes beyond your work. Take advantage of comprehensive benefits designed to support your total well-being at work and in life, from competitive compensation to extensive health coverage and wellness programs. Learn more about our benefits offerings .\nAbout Texas Instruments\nTexas Instruments Incorporated (Nasdaq: TXN) is a global semiconductor company that designs, manufactures and sells analog and embedded processing chips for markets such as industrial, automotive, data center, personal electronics and communications equipment. At our core, we have a passion to create a better world by making electronics more affordable through semiconductors. This passion is alive today as each generation of innovation builds upon the last to make our technology more reliable, more affordable and lower power, making it possible for semiconductors to go into electronics everywhere. Learn more at TI.com .\nTexas Instruments is an equal opportunity employer and supports a diverse, inclusive work environment. All qualified applicants will receive consideration for employment without regard to race, color, religion, creed, disability, genetic information, national origin, gender, gender identity and expression, age, sexual orientation, marital status, veteran status, or any other characteristic protected by federal, state, or local laws.\nIf you are interested in this position, please apply to this requisition.",
+   "first_seen": "2026-11-11"
   },
   {
    "key": "Texas Instruments|25017549",
