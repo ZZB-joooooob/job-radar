@@ -1,37 +1,4 @@
 {
- "run_date": "2026-11-11",
- "jobs": [
-  {
-   "key": "Apple|200668994",
-   "company": "Apple",
-   "title": "Hardware Design Engineer",
-   "url": "https://jobs.apple.com/en-us/details/200668994-3956/hardware-design-engineer",
-   "first_seen": "2026-11-01",
-   "last_seen": "2026-11-10"
-  },
-  {
-   "key": "Apple|200662891",
-   "company": "Apple",
-   "title": "Mixed-Signal Verification Engineer",
-   "url": "https://jobs.apple.com/en-us/details/200662891-3401/mixed-signal-verification-engineer",
-   "first_seen": "2026-11-01",
-   "last_seen": "2026-11-10"
-  },
-  {
-   "key": "Apple|200662760",
-   "company": "Apple",
-   "title": "AirPods Analog Systems Engineer, Power",
-   "url": "https://jobs.apple.com/en-us/details/200662760-0836/airpods-analog-systems-engineer-power",
-   "first_seen": "2026-11-01",
-   "last_seen": "2026-11-10"
-  },
-  {
-   "key": "Apple|200693686",
-   "company": "Apple",
-   "title": "Analog Mixed Signal SerDes Design Engineer",
-   "url": "https://jobs.apple.com/en-us/details/200693686-0836/analog-mixed-signal-serdes-design-engineer",
-   "first_seen": "2026-11-05",
-   "last_seen": "2026-11-10"
-  }
- ]
+ "run_date": "2026-11-12",
+ "jobs": []
 }

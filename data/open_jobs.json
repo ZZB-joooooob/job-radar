@@ -1,5 +1,5 @@
 {
- "run_date": "2026-11-11",
+ "run_date": "2026-11-12",
  "jobs": [
   {
    "key": "Analog Devices|R267037",
@@ -1203,7 +1203,7 @@
    "title": "Mixed Signal Verification Engineer",
    "location": "Austin, Texas; Sunnyvale, California",
    "req_id": "200686375",
-   "url": "https://jobs.apple.com/en-us/details/200686375-0157/mixed-signal-verification-engineer",
+   "url": "https://jobs.apple.com/en-us/details/200686375-3956/mixed-signal-verification-engineer",
    "posted": "2026-09-29",
    "ncg_signal": "",
    "years_mentioned": [
@@ -2215,7 +2215,7 @@
    "title": "iPhone Analog Design Engineer",
    "location": "Austin, Texas; Cupertino, California",
    "req_id": "200676489",
-   "url": "https://jobs.apple.com/en-us/details/200676489-0157/iphone-analog-design-engineer",
+   "url": "https://jobs.apple.com/en-us/details/200676489-0836/iphone-analog-design-engineer",
    "posted": "2026-08-06",
    "ncg_signal": "",
    "years_mentioned": [
@@ -3171,6 +3171,26 @@
    ],
    "description": "Change the world. Love your job.\nTexas Instruments (TI) is out front and ready for the next big challenge. Our innovations are at the core of nearly every electronics product in use today. And it doesn't stop there. We're developing breakthrough technology to power the world's future innovations as well. TI is committed to building a better future — from the responsible manufacturing of our semiconductors, to caring for our employees, to giving back inside our communities. Put your talent to work with us.\nThis is a great opportunity to be part of an established team that's continuing to look for growth opportunities, working with worldwide leading customers and developing cutting edge solutions in the areas of consumer electronics, mobile computing and communications.\nIn this role, responsibilities include:\n- Design of LDOs for Industrial, Automotive, Datacenter, Communications, and Personal Electronics markets\n- Lead a full chip design with product ownership and responsibility from definition to release to manufacturing\n- Direct, guide and participate in activities of a research or technical design function responsible for designing, developing, modifying and evaluating electronic parts, components, integrated circuits for a variety of applications\n- Evaluate intermediate and final results of projects during the design phase and during silicon evaluation, to ensure accomplishment of technical objectives\n- Work with and provide guidance to physical designers and monitors the progress of IC layout\n- Collaborate with Design Verification teams during the pre-PG phase of a project to ensure completion of all technical tasks before PG\n- Work with systems engineers, application engineers and marketing to prepare product briefs, datasheets, application notes and assisting in the definition of the product to meet customer needs as well as contributing to roadmap formulation and new concept creation\n- Collaborate with validation, product engineering and test engineering teams to enable successful transfer to production\n- Interface and lead discussions with the customer and/or TI field sales/field applications teams to understand customer designs, problems and support as required\nMinimum requirements:\n- Bachelor's degree in Electrical Engineering\n- 5 years of Analog and/or Mixed-signal circuit design experience.\nPreferred qualifications:\n- Ability to engage in early product definition to optimize cost, performance, efficiency, and power density.\n- Proven design expertise of analog circuits like Bandgaps, Bias networks, Amplifiers, Comparators, and Charge Pumps.\n- Experience in implementing robust Memory and ESD protection circuits to ensure silicon reliability.\n- Strong verbal, written communication skills and ability to collaborate with people in different functions.\n- Demonstrated strong interpersonal, analytical and problem-solving skills.\n- Strong time management skills that enable on-time project delivery.\nWhy TI?\n- The future starts here. As a TIer, you'll play a critical role in defining the next era of semiconductor technology and help create the innovations that shape the world around us.\n- Surround yourself with a team of innovators who value your unique perspective and will challenge you to bring your best self to work every day. We believe that fostering a culture of collaboration fuels both personal growth and technological breakthroughs. Explore our company culture .\n- At TI, your success goes beyond your work. Take advantage of comprehensive benefits designed to support your total well-being at work and in life, from competitive compensation to extensive health coverage and wellness programs. Learn more about our benefits offerings .\nAbout Texas Instruments\nTexas Instruments Incorporated (Nasdaq: TXN) is a global semiconductor company that designs, manufactures and sells analog and embedded processing chips for markets such as industrial, automotive, data center, personal electronics and communications equipment. At our core, we have a passion to create a better world by making electronics more affordable through semiconductors. This passion is alive today as each generation of innovation builds upon the last to make our technology more reliable, more affordable and lower power, making it possible for semiconductors to go into electronics everywhere. Learn more at TI.com .\nTexas Instruments is an equal opportunity employer and supports a diverse, inclusive work environment. All qualified applicants will receive consideration for employment without regard to race, color, religion, creed, disability, genetic information, national origin, gender, gender identity and expression, age, sexual orientation, marital status, veteran status, or any other characteristic protected by federal, state, or local laws.\nIf you are interested in this position, please apply to this requisition.",
    "first_seen": "2026-10-31"
+  },
+  {
+   "key": "Texas Instruments|25019858",
+   "company": "Texas Instruments",
+   "title": "Analog IC Design Engineer | LP SP",
+   "location": "Dallas, TX, United States",
+   "req_id": "25019858",
+   "url": "https://careers.ti.com/job/25019858",
+   "posted": "2026-11-12",
+   "ncg_signal": "",
+   "years_mentioned": [
+    5
+   ],
+   "flags": {},
+   "analog_hits": [
+    "analog",
+    "charge pump"
+   ],
+   "description": "Join the forefront of space technology!\nSpace Power is pioneering radiation-hardened devices to power the next generation of satellite systems and space-based data centers.\nWe are seeking an experienced Analog Design Engineer to join our design team to develop the next generation of radiation-hardened devices. You will play a critical role in developing and implementing robust architectures resilient to the challenges of the space radiation environment. This is an exciting opportunity to be at the forefront of designing power delivery solutions to the space data center market.\nWhy Space Power?\nSpace Power is a rapidly growing, high-margin business within TI, dedicated to developing industry-leading ICs that reliably power satellites in the harsh radiation environment of space. As a key member of our team, you’ll have the opportunity to innovate and lead in a market with significant growth potential. Our diverse product portfolio includes point-of-load switching converters, linear regulators, PWM and multi-phase controllers, GaN power stages, supervisors & sequencers, and charge pumps - all enabling the future of technological advances in space.\nMinimum requirements:\n- Bachelor's degree in Electrical Engineering\n- 5 years of relevant analog integrated circuit design experience\nPreferred qualifications:\n- Ability to establish strong relationships with key stakeholders critical to success, both internally and externally\n- Strong verbal and written communication skills\n- Ability to quickly ramp on new systems and processes\n- Demonstrated strong interpersonal, analytical and problem-solving skills\n- Ability to work in teams and collaborate effectively with people in different functions\n- Ability to take the initiative and drive for results\n- Strong time management skills that enable on-time project delivery\nWhy TI?\n- The future starts here. As a TIer, you'll play a critical role in defining the next era of semiconductor technology and help create the innovations that shape the world around us.\n- Surround yourself with a team of innovators who value your unique perspective and will challenge you to bring your best self to work every day. We believe that fostering a culture of collaboration fuels both personal growth and technological breakthroughs. Explore our company culture .\n- At TI, your success goes beyond your work. Take advantage of comprehensive benefits designed to support your total well-being at work and in life, from competitive compensation to extensive health coverage and wellness programs. Learn more about our benefits offerings .\nAbout Texas Instruments\nTexas Instruments Incorporated (Nasdaq: TXN) is a global semiconductor company that designs, manufactures and sells analog and embedded processing chips for markets such as industrial, automotive, data center, personal electronics and communications equipment. At our core, we have a passion to create a better world by making electronics more affordable through semiconductors. This passion is alive today as each generation of innovation builds upon the last to make our technology more reliable, more affordable and lower power, making it possible for semiconductors to go into electronics everywhere. Learn more at TI.com .\nTexas Instruments is an equal opportunity employer and supports a diverse, inclusive work environment. All qualified applicants will receive consideration for employment without regard to race, color, religion, creed, disability, genetic information, national origin, gender, gender identity and expression, age, sexual orientation, marital status, veteran status, or any other characteristic protected by federal, state, or local laws.\nIf you are interested in this position, please apply to this requisition.",
+   "first_seen": "2026-11-12"
   },
   {
    "key": "Texas Instruments|25019538",
