@@ -1,61 +1,60 @@
 {
- "run_date": "2026-11-12",
+ "run_date": "2026-11-13",
  "companies": {
   "Apple": {
    "status": "ok",
    "ats": "apple",
-   "raw_results": 902,
+   "raw_results": 909,
    "matched": 79,
-   "seconds": 342.6
+   "seconds": 1399.7
   },
   "Texas Instruments": {
    "status": "ok",
    "ats": "oracle",
-   "raw_results": 1110,
+   "raw_results": 1109,
    "matched": 15,
-   "seconds": 48.0
+   "seconds": 45.2
   },
   "Analog Devices": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 671,
+   "raw_results": 678,
    "matched": 11,
-   "seconds": 37.4
+   "seconds": 37.6
   },
   "NVIDIA": {
-   "status": "ok",
+   "status": "blocked_by_robots",
    "ats": "workday",
-   "raw_results": 726,
-   "matched": 0,
-   "seconds": 47.9
+   "detail": "robots.txt disallows https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+   "seconds": 0.1
   },
   "Marvell": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 173,
+   "raw_results": 171,
    "matched": 0,
-   "seconds": 13.7
+   "seconds": 13.8
   },
   "Broadcom": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 317,
    "matched": 5,
-   "seconds": 52.5
+   "seconds": 52.8
   },
   "Micron": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 675,
+   "raw_results": 676,
    "matched": 11,
-   "seconds": 44.4
+   "seconds": 43.7
   },
   "Intel": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 664,
    "matched": 3,
-   "seconds": 42.4
+   "seconds": 43.6
   },
   "NXP": {
    "status": "error",
@@ -68,42 +67,41 @@
    "ats": "workday",
    "raw_results": 130,
    "matched": 1,
-   "seconds": 11.4
+   "seconds": 11.3
   },
   "Silicon Labs": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 87,
    "matched": 3,
-   "seconds": 11.8
+   "seconds": 11.7
   },
   "Microchip": {
-   "status": "ok",
+   "status": "blocked_by_robots",
    "ats": "workday",
-   "raw_results": 277,
-   "matched": 1,
-   "seconds": 16.4
+   "detail": "robots.txt disallows https://microchiphr.wd5.myworkdayjobs.com/wday/cxs/microchiphr/External/jobs",
+   "seconds": 0.1
   },
   "Cadence": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 147,
+   "raw_results": 146,
    "matched": 0,
-   "seconds": 11.9
+   "seconds": 11.8
   },
   "Teledyne FLIR": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 283,
    "matched": 3,
-   "seconds": 21.9
+   "seconds": 22.2
   },
   "Cirrus Logic": {
    "status": "ok",
    "ats": "lever",
-   "raw_results": 132,
+   "raw_results": 126,
    "matched": 3,
-   "seconds": 1.6
+   "seconds": 1.9
   },
   "Astera Labs": {
    "status": "ok",
@@ -115,7 +113,7 @@
   "Astera Labs (Early Career)": {
    "status": "ok",
    "ats": "greenhouse",
-   "raw_results": 90,
+   "raw_results": 89,
    "matched": 1,
    "seconds": 0.7
   }

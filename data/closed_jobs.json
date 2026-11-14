@@ -1,4 +1,21 @@
 {
- "run_date": "2026-11-12",
- "jobs": []
+ "run_date": "2026-11-13",
+ "jobs": [
+  {
+   "key": "Apple|200679988",
+   "company": "Apple",
+   "title": "Display Panel Design Engineer",
+   "url": "https://jobs.apple.com/en-us/details/200679988-0836/display-panel-design-engineer",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-12"
+  },
+  {
+   "key": "Apple|200678848",
+   "company": "Apple",
+   "title": "Display Panel Design Engineer",
+   "url": "https://jobs.apple.com/en-us/details/200678848-0836/display-panel-design-engineer",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-12"
+  }
+ ]
 }

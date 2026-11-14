@@ -1,5 +1,5 @@
 {
- "run_date": "2026-11-12",
+ "run_date": "2026-11-13",
  "jobs": [
   {
    "key": "Analog Devices|R267037",
@@ -1001,13 +1001,13 @@
    "first_seen": "2026-11-01"
   },
   {
-   "key": "Apple|200679988",
+   "key": "Apple|200694994",
    "company": "Apple",
    "title": "Display Panel Design Engineer",
    "location": "Cupertino, California",
-   "req_id": "200679988",
-   "url": "https://jobs.apple.com/en-us/details/200679988-0836/display-panel-design-engineer",
-   "posted": "2026-08-26",
+   "req_id": "200694994",
+   "url": "https://jobs.apple.com/en-us/details/200694994-0836/display-panel-design-engineer",
+   "posted": "2026-11-13",
    "ncg_signal": "",
    "years_mentioned": [],
    "flags": {},
@@ -1017,16 +1017,16 @@
     "HSPICE"
    ],
    "description": "Apple is where individual imaginations gather together, committing to the values that lead to great work. Every new product we build, service we create, or Apple Store experience we deliver is the result of us making each other’s ideas stronger. That happens because every one of us shares a belief that we can make something wonderful and share it with the world, changing lives for the better. It’s the diversity of our people and their thinking that inspires the innovation that runs through everything we do. When we bring everybody in, we can do the best work of our lives. Here, you’ll do more than join something — you’ll add something.\nApple is looking for a world-class Thin Film Transistor (TFT) panel design engineer to design, develop and launch the next display technologies for the displays in Apple products. The TFT panel design team is responsible for delivering the advanced TFT panel designs and technologies to enable the world’s best display performance in Apple Products. This individual will serve as a focal point for architecting and developing complete TFT pixel and panel designs, including display panel modeling, simulation, integrated circuit-on-panel design, panel architecture, and whole-panel functional simulation.\nThis role is also expected to strengthen how the team simulates — advancing model fidelity, building automation around simulation and measurement data analysis, and applying AI-assisted workflows to shorten design iteration.\nTFT panel architecture scoping and definition\nTFT device design, modeling, simulation and characteristics measurement\nPixel and panel design, layout and parasitic parameter extraction\nTFT Pixel and panel modeling, characterization, and validation\nOn-panel integrated circuit design, simulation and validation, on both rigid and flexible substrates\nDevelop and maintain design automation for panel simulation, characterization, and measurement data analysis\nEstablish simulation methodology and best practices for the panel design team\nFailure mode analysis, root cause investigation, and problem solving\nNew TFT technologies exploration, investigation, and validation\nInternational business travel to support project implementation\nEngage and collaborate with cross-functional teams, including TFT process, Display Optics, Touch EE, Display EE, and Mechanical Engineering, Display touch\nCollaborate with external vendors for display manufacturing\nMinimum Qualifications\nBachelor's Degree\nHands-on experience creating 2D physical layout in a CAD environment such as Cadence Virtuoso, Synopsys Laker, or equivalent, including design rule verification and parasitic RC extraction\nHands-on experience performing circuit simulation with a SPICE-class simulator such as Spectre, HSPICE, or equivalent, including device model setup and interpretation of simulation results\nUnderstanding the basics of TFT, OLED and panel processes\nPreferred Qualifications\nAdvanced degree in Electrical Engineering with a focus on thin-film devices, display circuits, or semiconductor device physics\nDirect design ownership of an OLED or LCD display product that reached high-volume production\nExperience in display touch\nExperience in measuring and characterizing IV and CV of TFT or OLED devices\nExperience in characterizing panel optical and electrical performance\nExperience in gate, column driver IC and other display electronics designs\nExperience building repeatable automation for simulation, measurement, and data-analysis flows such as Python-driven SPICE sweeps, layout scripting, parametric extraction, log and dataset triage\nEffective use of AI-assisted development tools to accelerate the above, with sound judgment on where results must be verified deterministically rather than accepted as generated\nExcellent written and verbal communication skills",
-   "first_seen": "2026-11-01"
+   "first_seen": "2026-11-13"
   },
   {
-   "key": "Apple|200678848",
+   "key": "Apple|200694996",
    "company": "Apple",
    "title": "Display Panel Design Engineer",
    "location": "Cupertino, California",
-   "req_id": "200678848",
-   "url": "https://jobs.apple.com/en-us/details/200678848-0836/display-panel-design-engineer",
-   "posted": "2026-08-19",
+   "req_id": "200694996",
+   "url": "https://jobs.apple.com/en-us/details/200694996-0836/display-panel-design-engineer",
+   "posted": "2026-11-13",
    "ncg_signal": "",
    "years_mentioned": [
     10
@@ -1038,7 +1038,7 @@
     "HSPICE"
    ],
    "description": "Apple is where individual imaginations gather together, committing to the values that lead to great work. Every new product we build, service we create, or Apple Store experience we deliver is the result of us making each other’s ideas stronger. That happens because every one of us shares a belief that we can make something wonderful and share it with the world, changing lives for the better. It’s the diversity of our people and their thinking that inspires the innovation that runs through everything we do. When we bring everybody in, we can do the best work of our lives. Here, you’ll do more than join something — you’ll add something.\nApple is looking for a world-class Thin Film Transistor (TFT) panel design engineer to design, develop and launch the next display technologies for the displays in Apple products. The TFT panel design team is responsible for delivering the advanced TFT panel designs and technologies to enable the world’s best display performance in Apple Products. This individual will serve as a focal point for architecting and developing complete TFT pixel and panel designs, including display panel modeling, simulation, integrated circuit-on-panel design, panel architecture, and whole-panel functional simulation.\nThis role is also expected to strengthen how the team simulates — advancing model fidelity, building automation around simulation and measurement data analysis, and applying AI-assisted workflows to shorten design iteration.\nTFT panel architecture scoping and definition\nTFT device design, modeling, simulation and characteristics measurement\nPixel and panel design, layout and parasitic parameter extraction\nTFT Pixel and panel modeling, characterization, and validation\nOn-panel integrated circuit design, simulation and validation, on both rigid and flexible substrates\nDevelop and maintain design automation for panel simulation, characterization, and measurement data analysis\nEstablish simulation methodology and best practices for the panel design team\nFailure mode analysis, root cause investigation, and problem solving\nNew TFT technologies exploration, investigation, and validation\nInternational business travel to support project implementation\nEngage and collaborate with cross-functional teams, including TFT process, Display Optics, Touch EE, Display EE, and Mechanical Engineering, Display touch\nCollaborate with external vendors for display manufacturing\nMinimum Qualifications\nBS and a minimum of 10 years relevant industry experience\nHands-on experience creating 2D physical layout in a CAD environment such as Cadence Virtuoso, Synopsys Laker, or equivalent, including design rule verification and parasitic RC extraction\nHands-on experience performing circuit simulation with a SPICE-class simulator such as Spectre, HSPICE, or equivalent, including device model setup and interpretation of simulation results\nUnderstanding the basics of TFT, OLED and panel processes\nPreferred Qualifications\nAdvanced degree in Electrical Engineering with a focus on thin-film devices, display circuits, or semiconductor device physics\nDirect design ownership of an OLED or LCD display product that reached high-volume production\nExperience in display touch\nExperience in measuring and characterizing IV and CV of TFT or OLED devices\nExperience in characterizing panel optical and electrical performance\nExperience in gate, column driver IC and other display electronics designs\nExperience building repeatable automation for simulation, measurement, and data-analysis flows such as Python-driven SPICE sweeps, layout scripting, parametric extraction, log and dataset triage\nEffective use of AI-assisted development tools to accelerate the above, with sound judgment on where results must be verified deterministically rather than accepted as generated\nExcellent written and verbal communication skills",
-   "first_seen": "2026-11-01"
+   "first_seen": "2026-11-13"
   },
   {
    "key": "Apple|200683875",
@@ -2561,37 +2561,6 @@
    "first_seen": "2026-11-05"
   },
   {
-   "key": "Microchip|R2101-26",
-   "company": "Microchip",
-   "title": "Technical Staff Engineer – Analog Design (Networking)",
-   "location": "AZ - Chandler",
-   "req_id": "R2101-26",
-   "url": "https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/AZ---Chandler/Technical-Staff-Engineer---Analog-Design--Networking-_R2101-26",
-   "posted": "2026-05-21",
-   "ncg_signal": "",
-   "years_mentioned": [
-    15
-   ],
-   "flags": {},
-   "analog_hits": [
-    "analog",
-    "mixed-signal",
-    "transistor-level",
-    "LDO",
-    "bandgap",
-    "ADC",
-    "DAC",
-    "PLL",
-    "Virtuoso",
-    "DC-DC",
-    "SerDes",
-    "bring-up",
-    "charge pump"
-   ],
-   "description": "Are you looking for a unique opportunity to be a part of something great? Want to join a 17,000-member team that works on the technology that powers the world around us? Looking for an atmosphere of trust, empowerment, respect, diversity, and communication? How about an opportunity to own a piece of a multi-billion dollar (with a B!) global organization? We offer all that and more at Microchip Technology Inc.\nPeople come to work at Microchip because we help design the technology that runs the world. They stay because our culture supports their growth and stability. They are challenged and driven by an incredible array of products and solutions with unlimited career potential. Microchip’s nationally-recognized Leadership Passage Programs support career growth where we proudly enroll over a thousand people annually. We take pride in our commitment to employee development, values-based decision making, and strong sense of community, driven by our Vision, Mission, and 11 Guiding Values ; we affectionately refer to it as the Aggregate System and it’s won us countless awards for diversity and workplace excellence.\nOur company is built by dedicated team players who love to challenge the status quo; we did not achieve record revenue and over 30 years of quarterly profitability without a great team dedicated to empowering innovation. People like you.\nVisit our careers page to see what exciting opportunities and company perks await!\nJob Description:\nSeeking a highly skilled Staff Analog IC Design Engineer to join our team and contribute to the specification, architecture, design, and development of integrated circuits - from initial concept through production quality – for Next-Gen Ethernet and USB products. This role involves designing and architecting in-silicon macros for High-Speed Datacom SERDES. This position is part of Microchip Technology Inc.’s NCS (Networking and Connectivity Solutions) group, which develops Ethernet and USB solutions.\nRequirements/Qualifications:\nTo perform this role successfully, an individual must be able to execute each essential duty satisfactorily. The requirements below represent the knowledge, skills, and abilities required.\nThe candidate must possess strong verbal and written communication skills, actively participate in group discussions, provide project updates, and generate both functional and technical documentation. A proactive mindset and the ability to learn and adapt quickly in a dynamic, cross-functional environment are essential. Reasonable accommodation may be made to enable individuals with disabilities to perform the essential functions.\nESSENTIAL DUTIES & RESPONSIBILITIES\n- Define and drive architecture definition for High-Speed Datacom Ethernet and USB SERDES.\n- Translate system requirements into block-level specification and microarchitectures, enabling efficient partitioning and design ownership.\n- Design and Verify Analog/Mixed-Signal macros for High-Speed Datacom Ethernet and USB SERDES, including: ADCs, DACs, PLLs, Transmitters/TX, Receivers/RX, LDOs, Regulators, High Speed I/Os, Bandgap, POR, Oscillator, Charge Pump, Under/Over Voltage Protection, DC-DC Switching Converters, Analog Switches etc.\n- Perform system and transistor-level design and verification using mixed-mode simulation across multiple scenarios, process corners, and mismatch conditions.\n- Develop schematics and run simulations using modern CAD tools (Cadence-Virtuoso).\n- Collaborate closely with layout engineers to review, mitigate, and optimize parasitic and proximity effects.\n- Generate block-level and top-level analog/mixed-signal design specifications.\n- Develop behavioral models for analog and mixed-signal blocks.\n- Document designs and lead formal design reviews.\n- Collaborate with cross-functional designers on interface specifications and implementation details.\n- Define validation plans for post-silicon product-level ATE and lab validation.\n- Interface with and support applications, product and test engineering, marketing, systems development, technology development, CAD, layout, and other design organizations.\nKNOWLEDGE AND SKILLS\n- Strong analytical skills for complex system evaluation using both hand analysis and simulation tools.\n- Ability to collaborate effectively with cross functional teams.\n- Capability to manage multiple complex IC design tasks in a dynamic environment.\n- Ability to meet aggressive timelines with minimal supervision.\n- Excellent technical, communication, and interpersonal skills.\n- Knowledge of Verilog, Liberty timing models, and IBIS-AMI models is a plus.\n- Strong understanding of device physics and operation.\n- Strong expertise in low power and high-speed design techniques.\nEDUCATION AND/OR WORK EXPERIENCE\n- BSEE and minimum of 15 years of industry experience in Electronics/Electrical Engineering.\n- Experience architecting high-speed interfaces such as PCIe, Ethernet, and USB is highly desired.\n- Demonstrated design experience in multiple Analog SERDES sub-blocks, including ADCs, DACs, PLLs, Transmitters/TX, Receivers/RX, LDOs, Regulators, High Speed I/Os, Bandgap, POR, Oscillator, Charge Pump, Under/Over Voltage Protection, DC-DC Switching Converters, Analog Switches etc.\n- Extensive experience with Cadence and other Analog/Mixed-Signal IC design tools.\n- Hands-on lab validation experience using Power Supplies, Source meters, oscilloscopes, signal generators, and other related equipment.\n- Experience working in globally distributed design teams.\n- Familiarity with DRC/LVS/ERC/PEX/EM analysis tools.\n- Experience verifying designs for SOA as well as Aging and SHE effects.\n- Proficiency in Cadence Virtuoso IC Design environment.\n- Experience in Unix/Linux operating systems.\n- Experience developing and executing scripts (Scheme, SKILL, Perl/Tcl, etc.).\n- Strong team player with a positive attitude and a commitment to continuous learning.\nTravel Time:\n0% - 25%\nPhysical Attributes:\nHearing, Seeing, Talking, Works Alone, Works Around Others\nPhysical Requirements:\n80% sitting, 10% standing, 10% walking, 100% inside\nMicrochip Technology Inc is an equal opportunity/affirmative action employer. All qualified applicants will receive consideration for employment without regard to sex, gender identity, sexual orientation, race, color, religion, national origin, disability, protected Veteran status, age, or any other characteristic protected by law.\nFor more information on applicable equal employment regulations, please refer to the Know Your Rights: Workplace Discrimination is Illegal Poster .\nTo all recruitment agencies : Microchip Technology Inc. does not accept unsolicited agency resumes. Please do not forward resumes to our recruiting team or other Microchip employees. Microchip is not responsible for any fees related to unsolicited resumes.",
-   "first_seen": "2026-11-01"
-  },
-  {
    "key": "Micron|JR116686",
    "company": "Micron",
    "title": "ASIC Analog Design Engineer",
@@ -2786,7 +2755,7 @@
    "location": "Boise, ID - Main Site",
    "req_id": "JR104792",
    "url": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Staff-Design-Engineer--DRAM_JR104792",
-   "posted": "2026-09-23",
+   "posted": "2026-11-13",
    "ncg_signal": "",
    "years_mentioned": [
     5
