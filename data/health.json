@@ -1,12 +1,12 @@
 {
- "run_date": "2026-11-13",
+ "run_date": "2026-11-14",
  "companies": {
   "Apple": {
    "status": "ok",
    "ats": "apple",
    "raw_results": 909,
    "matched": 79,
-   "seconds": 1399.7
+   "seconds": 687.6
   },
   "Texas Instruments": {
    "status": "ok",
@@ -23,24 +23,25 @@
    "seconds": 37.6
   },
   "NVIDIA": {
-   "status": "blocked_by_robots",
+   "status": "ok",
    "ats": "workday",
-   "detail": "robots.txt disallows https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
-   "seconds": 0.1
+   "raw_results": 727,
+   "matched": 0,
+   "seconds": 43.4
   },
   "Marvell": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 171,
    "matched": 0,
-   "seconds": 13.8
+   "seconds": 13.7
   },
   "Broadcom": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 317,
+   "raw_results": 316,
    "matched": 5,
-   "seconds": 52.8
+   "seconds": 51.5
   },
   "Micron": {
    "status": "ok",
@@ -54,7 +55,7 @@
    "ats": "workday",
    "raw_results": 664,
    "matched": 3,
-   "seconds": 43.6
+   "seconds": 41.8
   },
   "NXP": {
    "status": "error",
@@ -67,55 +68,56 @@
    "ats": "workday",
    "raw_results": 130,
    "matched": 1,
-   "seconds": 11.3
+   "seconds": 11.4
   },
   "Silicon Labs": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 87,
    "matched": 3,
-   "seconds": 11.7
+   "seconds": 11.6
   },
   "Microchip": {
-   "status": "blocked_by_robots",
+   "status": "ok",
    "ats": "workday",
-   "detail": "robots.txt disallows https://microchiphr.wd5.myworkdayjobs.com/wday/cxs/microchiphr/External/jobs",
-   "seconds": 0.1
+   "raw_results": 277,
+   "matched": 1,
+   "seconds": 16.4
   },
   "Cadence": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 146,
    "matched": 0,
-   "seconds": 11.8
+   "seconds": 11.7
   },
   "Teledyne FLIR": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 283,
    "matched": 3,
-   "seconds": 22.2
+   "seconds": 22.1
   },
   "Cirrus Logic": {
    "status": "ok",
    "ats": "lever",
    "raw_results": 126,
    "matched": 3,
-   "seconds": 1.9
+   "seconds": 1.5
   },
   "Astera Labs": {
    "status": "ok",
    "ats": "greenhouse",
-   "raw_results": 174,
+   "raw_results": 172,
    "matched": 0,
-   "seconds": 0.8
+   "seconds": 0.9
   },
   "Astera Labs (Early Career)": {
    "status": "ok",
    "ats": "greenhouse",
    "raw_results": 89,
    "matched": 1,
-   "seconds": 0.7
+   "seconds": 0.6
   }
  }
 }

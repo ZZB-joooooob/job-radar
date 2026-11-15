@@ -1,47 +1,6 @@
 {
- "run_date": "2026-11-13",
+ "run_date": "2026-11-14",
  "baseline": false,
- "jobs": [
-  {
-   "key": "Apple|200694994",
-   "company": "Apple",
-   "title": "Display Panel Design Engineer",
-   "location": "Cupertino, California",
-   "req_id": "200694994",
-   "url": "https://jobs.apple.com/en-us/details/200694994-0836/display-panel-design-engineer",
-   "posted": "2026-11-13",
-   "ncg_signal": "",
-   "years_mentioned": [],
-   "flags": {},
-   "analog_hits": [
-    "Spectre",
-    "Virtuoso",
-    "HSPICE"
-   ],
-   "description": "Apple is where individual imaginations gather together, committing to the values that lead to great work. Every new product we build, service we create, or Apple Store experience we deliver is the result of us making each other’s ideas stronger. That happens because every one of us shares a belief that we can make something wonderful and share it with the world, changing lives for the better. It’s the diversity of our people and their thinking that inspires the innovation that runs through everything we do. When we bring everybody in, we can do the best work of our lives. Here, you’ll do more than join something — you’ll add something.\nApple is looking for a world-class Thin Film Transistor (TFT) panel design engineer to design, develop and launch the next display technologies for the displays in Apple products. The TFT panel design team is responsible for delivering the advanced TFT panel designs and technologies to enable the world’s best display performance in Apple Products. This individual will serve as a focal point for architecting and developing complete TFT pixel and panel designs, including display panel modeling, simulation, integrated circuit-on-panel design, panel architecture, and whole-panel functional simulation.\nThis role is also expected to strengthen how the team simulates — advancing model fidelity, building automation around simulation and measurement data analysis, and applying AI-assisted workflows to shorten design iteration.\nTFT panel architecture scoping and definition\nTFT device design, modeling, simulation and characteristics measurement\nPixel and panel design, layout and parasitic parameter extraction\nTFT Pixel and panel modeling, characterization, and validation\nOn-panel integrated circuit design, simulation and validation, on both rigid and flexible substrates\nDevelop and maintain design automation for panel simulation, characterization, and measurement data analysis\nEstablish simulation methodology and best practices for the panel design team\nFailure mode analysis, root cause investigation, and problem solving\nNew TFT technologies exploration, investigation, and validation\nInternational business travel to support project implementation\nEngage and collaborate with cross-functional teams, including TFT process, Display Optics, Touch EE, Display EE, and Mechanical Engineering, Display touch\nCollaborate with external vendors for display manufacturing\nMinimum Qualifications\nBachelor's Degree\nHands-on experience creating 2D physical layout in a CAD environment such as Cadence Virtuoso, Synopsys Laker, or equivalent, including design rule verification and parasitic RC extraction\nHands-on experience performing circuit simulation with a SPICE-class simulator such as Spectre, HSPICE, or equivalent, including device model setup and interpretation of simulation results\nUnderstanding the basics of TFT, OLED and panel processes\nPreferred Qualifications\nAdvanced degree in Electrical Engineering with a focus on thin-film devices, display circuits, or semiconductor device physics\nDirect design ownership of an OLED or LCD display product that reached high-volume production\nExperience in display touch\nExperience in measuring and characterizing IV and CV of TFT or OLED devices\nExperience in characterizing panel optical and electrical performance\nExperience in gate, column driver IC and other display electronics designs\nExperience building repeatable automation for simulation, measurement, and data-analysis flows such as Python-driven SPICE sweeps, layout scripting, parametric extraction, log and dataset triage\nEffective use of AI-assisted development tools to accelerate the above, with sound judgment on where results must be verified deterministically rather than accepted as generated\nExcellent written and verbal communication skills",
-   "first_seen": "2026-11-13"
-  },
-  {
-   "key": "Apple|200694996",
-   "company": "Apple",
-   "title": "Display Panel Design Engineer",
-   "location": "Cupertino, California",
-   "req_id": "200694996",
-   "url": "https://jobs.apple.com/en-us/details/200694996-0836/display-panel-design-engineer",
-   "posted": "2026-11-13",
-   "ncg_signal": "",
-   "years_mentioned": [
-    10
-   ],
-   "flags": {},
-   "analog_hits": [
-    "Spectre",
-    "Virtuoso",
-    "HSPICE"
-   ],
-   "description": "Apple is where individual imaginations gather together, committing to the values that lead to great work. Every new product we build, service we create, or Apple Store experience we deliver is the result of us making each other’s ideas stronger. That happens because every one of us shares a belief that we can make something wonderful and share it with the world, changing lives for the better. It’s the diversity of our people and their thinking that inspires the innovation that runs through everything we do. When we bring everybody in, we can do the best work of our lives. Here, you’ll do more than join something — you’ll add something.\nApple is looking for a world-class Thin Film Transistor (TFT) panel design engineer to design, develop and launch the next display technologies for the displays in Apple products. The TFT panel design team is responsible for delivering the advanced TFT panel designs and technologies to enable the world’s best display performance in Apple Products. This individual will serve as a focal point for architecting and developing complete TFT pixel and panel designs, including display panel modeling, simulation, integrated circuit-on-panel design, panel architecture, and whole-panel functional simulation.\nThis role is also expected to strengthen how the team simulates — advancing model fidelity, building automation around simulation and measurement data analysis, and applying AI-assisted workflows to shorten design iteration.\nTFT panel architecture scoping and definition\nTFT device design, modeling, simulation and characteristics measurement\nPixel and panel design, layout and parasitic parameter extraction\nTFT Pixel and panel modeling, characterization, and validation\nOn-panel integrated circuit design, simulation and validation, on both rigid and flexible substrates\nDevelop and maintain design automation for panel simulation, characterization, and measurement data analysis\nEstablish simulation methodology and best practices for the panel design team\nFailure mode analysis, root cause investigation, and problem solving\nNew TFT technologies exploration, investigation, and validation\nInternational business travel to support project implementation\nEngage and collaborate with cross-functional teams, including TFT process, Display Optics, Touch EE, Display EE, and Mechanical Engineering, Display touch\nCollaborate with external vendors for display manufacturing\nMinimum Qualifications\nBS and a minimum of 10 years relevant industry experience\nHands-on experience creating 2D physical layout in a CAD environment such as Cadence Virtuoso, Synopsys Laker, or equivalent, including design rule verification and parasitic RC extraction\nHands-on experience performing circuit simulation with a SPICE-class simulator such as Spectre, HSPICE, or equivalent, including device model setup and interpretation of simulation results\nUnderstanding the basics of TFT, OLED and panel processes\nPreferred Qualifications\nAdvanced degree in Electrical Engineering with a focus on thin-film devices, display circuits, or semiconductor device physics\nDirect design ownership of an OLED or LCD display product that reached high-volume production\nExperience in display touch\nExperience in measuring and characterizing IV and CV of TFT or OLED devices\nExperience in characterizing panel optical and electrical performance\nExperience in gate, column driver IC and other display electronics designs\nExperience building repeatable automation for simulation, measurement, and data-analysis flows such as Python-driven SPICE sweeps, layout scripting, parametric extraction, log and dataset triage\nEffective use of AI-assisted development tools to accelerate the above, with sound judgment on where results must be verified deterministically rather than accepted as generated\nExcellent written and verbal communication skills",
-   "first_seen": "2026-11-13"
-  }
- ],
+ "jobs": [],
  "baseline_jobs": []
 }
