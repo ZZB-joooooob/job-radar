@@ -1,61 +1,61 @@
 {
- "run_date": "2026-11-14",
+ "run_date": "2026-11-15",
  "companies": {
   "Apple": {
    "status": "ok",
    "ats": "apple",
    "raw_results": 909,
    "matched": 79,
-   "seconds": 687.6
+   "seconds": 666.9
   },
   "Texas Instruments": {
    "status": "ok",
    "ats": "oracle",
-   "raw_results": 1109,
+   "raw_results": 1108,
    "matched": 15,
-   "seconds": 45.2
+   "seconds": 50.5
   },
   "Analog Devices": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 678,
    "matched": 11,
-   "seconds": 37.6
+   "seconds": 37.5
   },
   "NVIDIA": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 727,
    "matched": 0,
-   "seconds": 43.4
+   "seconds": 42.3
   },
   "Marvell": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 171,
    "matched": 0,
-   "seconds": 13.7
+   "seconds": 13.6
   },
   "Broadcom": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 316,
+   "raw_results": 321,
    "matched": 5,
-   "seconds": 51.5
+   "seconds": 50.0
   },
   "Micron": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 676,
+   "raw_results": 677,
    "matched": 11,
-   "seconds": 43.7
+   "seconds": 43.8
   },
   "Intel": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 664,
+   "raw_results": 665,
    "matched": 3,
-   "seconds": 41.8
+   "seconds": 43.2
   },
   "NXP": {
    "status": "error",
@@ -64,53 +64,52 @@
    "seconds": 0.9
   },
   "Monolithic Power Systems": {
-   "status": "ok",
+   "status": "error",
    "ats": "workday",
-   "raw_results": 130,
-   "matched": 1,
-   "seconds": 11.4
+   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://monolithicpower.wd12.myworkdayjobs.com/wday/cxs/monolithicpower/MPS_Careers/jobs",
+   "seconds": 30.8
   },
   "Silicon Labs": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 87,
    "matched": 3,
-   "seconds": 11.6
+   "seconds": 11.5
   },
   "Microchip": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 277,
+   "raw_results": 276,
    "matched": 1,
    "seconds": 16.4
   },
   "Cadence": {
    "status": "ok",
    "ats": "workday",
-   "raw_results": 146,
+   "raw_results": 145,
    "matched": 0,
-   "seconds": 11.7
+   "seconds": 11.8
   },
   "Teledyne FLIR": {
    "status": "ok",
    "ats": "workday",
    "raw_results": 283,
    "matched": 3,
-   "seconds": 22.1
+   "seconds": 22.8
   },
   "Cirrus Logic": {
    "status": "ok",
    "ats": "lever",
    "raw_results": 126,
    "matched": 3,
-   "seconds": 1.5
+   "seconds": 1.8
   },
   "Astera Labs": {
    "status": "ok",
    "ats": "greenhouse",
    "raw_results": 172,
    "matched": 0,
-   "seconds": 0.9
+   "seconds": 0.8
   },
   "Astera Labs (Early Career)": {
    "status": "ok",
