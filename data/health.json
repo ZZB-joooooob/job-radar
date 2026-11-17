@@ -1,106 +1,95 @@
 {
- "run_date": "2026-11-15",
+ "run_date": "2026-11-16",
  "companies": {
   "Apple": {
-   "status": "ok",
+   "status": "error",
    "ats": "apple",
-   "raw_results": 909,
-   "matched": 79,
-   "seconds": 666.9
+   "detail": "ReadTimeout: HTTPSConnectionPool(host='jobs.apple.com', port=443): Read timed out. (read timeout=30)",
+   "seconds": 466.3
   },
   "Texas Instruments": {
    "status": "ok",
    "ats": "oracle",
-   "raw_results": 1108,
-   "matched": 15,
-   "seconds": 50.5
+   "raw_results": 1111,
+   "matched": 14,
+   "seconds": 45.4
   },
   "Analog Devices": {
-   "status": "ok",
+   "status": "error",
    "ats": "workday",
-   "raw_results": 678,
-   "matched": 11,
-   "seconds": 37.5
+   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://analogdevices.wd1.myworkdayjobs.com/wday/cxs/analogdevices/External/jobs",
+   "seconds": 30.8
   },
   "NVIDIA": {
-   "status": "ok",
+   "status": "error",
    "ats": "workday",
-   "raw_results": 727,
-   "matched": 0,
-   "seconds": 42.3
+   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+   "seconds": 30.9
   },
   "Marvell": {
-   "status": "ok",
+   "status": "error",
    "ats": "workday",
-   "raw_results": 171,
-   "matched": 0,
-   "seconds": 13.6
+   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://marvell.wd1.myworkdayjobs.com/wday/cxs/marvell/MarvellCareers/jobs",
+   "seconds": 30.9
   },
   "Broadcom": {
-   "status": "ok",
+   "status": "error",
    "ats": "workday",
-   "raw_results": 321,
-   "matched": 5,
-   "seconds": 50.0
+   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://broadcom.wd1.myworkdayjobs.com/wday/cxs/broadcom/External_Career/jobs",
+   "seconds": 30.9
   },
   "Micron": {
-   "status": "ok",
+   "status": "error",
    "ats": "workday",
-   "raw_results": 677,
-   "matched": 11,
-   "seconds": 43.8
+   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://micron.wd1.myworkdayjobs.com/wday/cxs/micron/External/jobs",
+   "seconds": 30.9
   },
   "Intel": {
-   "status": "ok",
+   "status": "error",
    "ats": "workday",
-   "raw_results": 665,
-   "matched": 3,
-   "seconds": 43.2
+   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
+   "seconds": 30.8
   },
   "NXP": {
    "status": "error",
    "ats": "workday",
-   "detail": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/jobs",
-   "seconds": 0.9
+   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/jobs",
+   "seconds": 31.6
   },
   "Monolithic Power Systems": {
    "status": "error",
    "ats": "workday",
    "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://monolithicpower.wd12.myworkdayjobs.com/wday/cxs/monolithicpower/MPS_Careers/jobs",
-   "seconds": 30.8
+   "seconds": 30.9
   },
   "Silicon Labs": {
-   "status": "ok",
+   "status": "error",
    "ats": "workday",
-   "raw_results": 87,
-   "matched": 3,
-   "seconds": 11.5
+   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://silabs.wd1.myworkdayjobs.com/wday/cxs/silabs/SiliconlabsCareers/jobs",
+   "seconds": 30.9
   },
   "Microchip": {
-   "status": "ok",
+   "status": "error",
    "ats": "workday",
-   "raw_results": 276,
-   "matched": 1,
-   "seconds": 16.4
+   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://microchiphr.wd5.myworkdayjobs.com/wday/cxs/microchiphr/External/jobs",
+   "seconds": 30.8
   },
   "Cadence": {
-   "status": "ok",
+   "status": "error",
    "ats": "workday",
-   "raw_results": 145,
-   "matched": 0,
-   "seconds": 11.8
+   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://cadence.wd1.myworkdayjobs.com/wday/cxs/cadence/External_Careers/jobs",
+   "seconds": 30.9
   },
   "Teledyne FLIR": {
-   "status": "ok",
+   "status": "error",
    "ats": "workday",
-   "raw_results": 283,
-   "matched": 3,
-   "seconds": 22.8
+   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://flir.wd1.myworkdayjobs.com/wday/cxs/flir/flircareers/jobs",
+   "seconds": 30.8
   },
   "Cirrus Logic": {
    "status": "ok",
    "ats": "lever",
-   "raw_results": 126,
+   "raw_results": 127,
    "matched": 3,
    "seconds": 1.8
   },
@@ -109,14 +98,14 @@
    "ats": "greenhouse",
    "raw_results": 172,
    "matched": 0,
-   "seconds": 0.8
+   "seconds": 1.0
   },
   "Astera Labs (Early Career)": {
    "status": "ok",
    "ats": "greenhouse",
    "raw_results": 89,
    "matched": 1,
-   "seconds": 0.6
+   "seconds": 0.5
   }
  }
 }

@@ -1,4 +1,13 @@
 {
- "run_date": "2026-11-15",
- "jobs": []
+ "run_date": "2026-11-16",
+ "jobs": [
+  {
+   "key": "Texas Instruments|25018672",
+   "company": "Texas Instruments",
+   "title": "RF Design Engineer | Kilby Labs",
+   "url": "https://careers.ti.com/job/25018672",
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-11-15"
+  }
+ ]
 }
