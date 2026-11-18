@@ -41,6 +41,9 @@ DATA = ROOT / "data"
 UA = "job-radar/1.0 (personal job search; runs once a day)"
 UA_TOKEN = "job-radar"
 PAUSE = 0.7          # seconds between requests to the same host
+WORKDAY_PAUSE = 2.5  # seconds between any two Workday requests (all tenants share Workday's limit)
+WORKDAY_GAP = 20     # seconds of rest before each Workday company
+RETRY_ROUND_WAIT = 300  # seconds to wait before retrying the companies that failed
 TIMEOUT = 30
 PAGE = 20            # Workday's maximum page size
 DESC_LIMIT = 8000    # characters of job description kept per posting
@@ -244,7 +247,10 @@ class Blocked(Exception):
 
 def _throttle(url: str) -> None:
     host = urllib.parse.urlsplit(url).netloc
-    wait = PAUSE - (time.monotonic() - _last_hit.get(host, 0.0))
+    pause = PAUSE
+    if host.endswith(".myworkdayjobs.com"):
+        host, pause = "myworkdayjobs.com", WORKDAY_PAUSE   # one shared clock for every tenant
+    wait = pause - (time.monotonic() - _last_hit.get(host, 0.0))
     if wait > 0:
         time.sleep(wait)
     _last_hit[host] = time.monotonic()
@@ -279,17 +285,23 @@ def allowed(url: str) -> bool:
 def request(method: str, url: str, **kw) -> requests.Response:
     if not allowed(url):
         raise Blocked(f"robots.txt disallows {url}")
-    for attempt in range(3):
+    attempts = 5
+    for attempt in range(attempts):
         _throttle(url)
         try:
             r = SESSION.request(method, url, timeout=TIMEOUT, **kw)
         except requests.RequestException:
-            if attempt == 2:
+            if attempt == attempts - 1:
                 raise
             time.sleep(5 * (attempt + 1))
             continue
-        if r.status_code in (429, 500, 502, 503, 504) and attempt < 2:
-            time.sleep(min(int(r.headers.get("Retry-After", 10 * (attempt + 1))), 60))
+        if r.status_code in (429, 500, 502, 503, 504) and attempt < attempts - 1:
+            # back off longer each time: 30, 60, 120, 240 s, or what Retry-After asks (max 300)
+            wait = 30 * 2 ** attempt
+            ra = r.headers.get("Retry-After", "")
+            if ra.isdigit():
+                wait = max(wait, int(ra))
+            time.sleep(min(wait, 300))
             continue
         r.raise_for_status()
         return r
@@ -622,7 +634,21 @@ def main() -> int:
     today = dt.datetime.now(ZoneInfo("America/Los_Angeles")).date().isoformat()
     open_jobs: dict[str, dict] = {}
     health: dict[str, dict] = {}
-    for c in companies:
+
+    wd_429_streak = 0   # Workday companies in a row that ended on 429
+
+    def run_one(c: dict, retry: bool = False) -> None:
+        nonlocal wd_429_streak
+        if c["ats"] == "workday":
+            if wd_429_streak >= 2:
+                # Workday keeps refusing: don't spend the run waiting, try again in the retry round
+                health[c["name"]] = {"status": "error", "ats": c["ats"], "seconds": 0.0,
+                                     "detail": "skipped: Workday kept answering 429"}
+                if retry:
+                    health[c["name"]]["retried"] = True
+                print(c["name"], json.dumps(health[c["name"]], ensure_ascii=False), flush=True)
+                return
+            time.sleep(WORKDAY_GAP)      # let Workday's limit recover between companies
         t0 = time.monotonic()
         try:
             raw, jobs = FETCHERS[c["ats"]](c)
@@ -637,7 +663,26 @@ def main() -> int:
             health[c["name"]] = {"status": "error", "ats": c["ats"],
                                  "detail": f"{type(e).__name__}: {e}"[:300]}
         health[c["name"]]["seconds"] = round(time.monotonic() - t0, 1)
+        if c["ats"] == "workday":
+            wd_429_streak = wd_429_streak + 1 if "429" in health[c["name"]].get("detail", "") else 0
+        if retry:
+            health[c["name"]]["retried"] = True
         print(c["name"], json.dumps(health[c["name"]], ensure_ascii=False), flush=True)
+
+    # Workday first, while its limit is fresh; Apple (slowest) last
+    order = {"workday": 0, "apple": 2}
+    companies = sorted(companies, key=lambda c: order.get(c["ats"], 1))
+    for c in companies:
+        run_one(c)
+
+    # one more round, after a rest, for companies that failed (not for robots.txt blocks)
+    failed = [c for c in companies if health[c["name"]]["status"] == "error"]
+    if failed and not args.only:
+        print(f"retrying {len(failed)} companies in {RETRY_ROUND_WAIT}s", flush=True)
+        time.sleep(RETRY_ROUND_WAIT)
+        wd_429_streak = 0
+        for c in failed:
+            run_one(c, retry=True)
 
     if args.only:
         for j in open_jobs.values():
