@@ -1,97 +1,103 @@
 {
  "run_date": "2026-11-17",
  "companies": {
-  "Apple": {
-   "status": "error",
-   "ats": "apple",
-   "detail": "ReadTimeout: HTTPSConnectionPool(host='jobs.apple.com', port=443): Read timed out. (read timeout=30)",
-   "seconds": 1079.7
-  },
-  "Texas Instruments": {
-   "status": "ok",
-   "ats": "oracle",
-   "raw_results": 1113,
-   "matched": 16,
-   "seconds": 47.5
-  },
   "Analog Devices": {
    "status": "error",
    "ats": "workday",
    "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://analogdevices.wd1.myworkdayjobs.com/wday/cxs/analogdevices/External/jobs",
-   "seconds": 30.8
+   "seconds": 663.2,
+   "retried": true
   },
   "NVIDIA": {
    "status": "error",
    "ats": "workday",
    "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
-   "seconds": 30.8
+   "seconds": 450.6,
+   "retried": true
   },
   "Marvell": {
    "status": "error",
    "ats": "workday",
-   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://marvell.wd1.myworkdayjobs.com/wday/cxs/marvell/MarvellCareers/jobs",
-   "seconds": 30.8
+   "seconds": 0.0,
+   "detail": "skipped: Workday kept answering 429",
+   "retried": true
   },
   "Broadcom": {
    "status": "error",
    "ats": "workday",
-   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://broadcom.wd1.myworkdayjobs.com/wday/cxs/broadcom/External_Career/jobs",
-   "seconds": 30.8
+   "seconds": 0.0,
+   "detail": "skipped: Workday kept answering 429",
+   "retried": true
   },
   "Micron": {
    "status": "error",
    "ats": "workday",
-   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://micron.wd1.myworkdayjobs.com/wday/cxs/micron/External/jobs",
-   "seconds": 30.8
+   "seconds": 0.0,
+   "detail": "skipped: Workday kept answering 429",
+   "retried": true
   },
   "Intel": {
    "status": "error",
    "ats": "workday",
-   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
-   "seconds": 30.8
+   "seconds": 0.0,
+   "detail": "skipped: Workday kept answering 429",
+   "retried": true
   },
   "NXP": {
    "status": "error",
    "ats": "workday",
-   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/jobs",
-   "seconds": 31.6
+   "seconds": 0.0,
+   "detail": "skipped: Workday kept answering 429",
+   "retried": true
   },
   "Monolithic Power Systems": {
    "status": "error",
    "ats": "workday",
-   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://monolithicpower.wd12.myworkdayjobs.com/wday/cxs/monolithicpower/MPS_Careers/jobs",
-   "seconds": 30.8
+   "seconds": 0.0,
+   "detail": "skipped: Workday kept answering 429",
+   "retried": true
   },
   "Silicon Labs": {
    "status": "error",
    "ats": "workday",
-   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://silabs.wd1.myworkdayjobs.com/wday/cxs/silabs/SiliconlabsCareers/jobs",
-   "seconds": 30.8
+   "seconds": 0.0,
+   "detail": "skipped: Workday kept answering 429",
+   "retried": true
   },
   "Microchip": {
    "status": "error",
    "ats": "workday",
-   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://microchiphr.wd5.myworkdayjobs.com/wday/cxs/microchiphr/External/jobs",
-   "seconds": 30.8
+   "seconds": 0.0,
+   "detail": "skipped: Workday kept answering 429",
+   "retried": true
   },
   "Cadence": {
    "status": "error",
    "ats": "workday",
-   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://cadence.wd1.myworkdayjobs.com/wday/cxs/cadence/External_Careers/jobs",
-   "seconds": 30.8
+   "seconds": 0.0,
+   "detail": "skipped: Workday kept answering 429",
+   "retried": true
   },
   "Teledyne FLIR": {
    "status": "error",
    "ats": "workday",
-   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://flir.wd1.myworkdayjobs.com/wday/cxs/flir/flircareers/jobs",
-   "seconds": 30.8
+   "seconds": 0.0,
+   "detail": "skipped: Workday kept answering 429",
+   "retried": true
+  },
+  "Texas Instruments": {
+   "status": "ok",
+   "ats": "oracle",
+   "raw_results": 1111,
+   "matched": 16,
+   "seconds": 45.4
   },
   "Cirrus Logic": {
    "status": "ok",
    "ats": "lever",
-   "raw_results": 126,
+   "raw_results": 125,
    "matched": 3,
-   "seconds": 1.4
+   "seconds": 2.1
   },
   "Astera Labs": {
    "status": "ok",
@@ -106,6 +112,13 @@
    "raw_results": 89,
    "matched": 1,
    "seconds": 0.6
+  },
+  "Apple": {
+   "status": "ok",
+   "ats": "apple",
+   "raw_results": 907,
+   "matched": 81,
+   "seconds": 2901.1
   }
  }
 }

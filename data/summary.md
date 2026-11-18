@@ -1,30 +1,30 @@
 # Job radar — 2026-11-17
 
-- Open matches: 20
+- Open matches: 101
 - New today: 2
 - Closed since last run: 0
 
 | Company | Status | Matched | Seconds |
 |---|---|---|---|
-| Apple | error |  | 1079.7 |
-| Texas Instruments | ok | 16 | 47.5 |
-| Analog Devices | error |  | 30.8 |
-| NVIDIA | error |  | 30.8 |
-| Marvell | error |  | 30.8 |
-| Broadcom | error |  | 30.8 |
-| Micron | error |  | 30.8 |
-| Intel | error |  | 30.8 |
-| NXP | error |  | 31.6 |
-| Monolithic Power Systems | error |  | 30.8 |
-| Silicon Labs | error |  | 30.8 |
-| Microchip | error |  | 30.8 |
-| Cadence | error |  | 30.8 |
-| Teledyne FLIR | error |  | 30.8 |
-| Cirrus Logic | ok | 3 | 1.4 |
+| Analog Devices | error |  | 663.2 |
+| NVIDIA | error |  | 450.6 |
+| Marvell | error |  | 0.0 |
+| Broadcom | error |  | 0.0 |
+| Micron | error |  | 0.0 |
+| Intel | error |  | 0.0 |
+| NXP | error |  | 0.0 |
+| Monolithic Power Systems | error |  | 0.0 |
+| Silicon Labs | error |  | 0.0 |
+| Microchip | error |  | 0.0 |
+| Cadence | error |  | 0.0 |
+| Teledyne FLIR | error |  | 0.0 |
+| Texas Instruments | ok | 16 | 45.4 |
+| Cirrus Logic | ok | 3 | 2.1 |
 | Astera Labs | ok | 0 | 0.8 |
 | Astera Labs (Early Career) | ok | 1 | 0.6 |
+| Apple | ok | 81 | 2901.1 |
 
 ## New today
 
-- Texas Instruments — [Analog IC Design Engineer](https://careers.ti.com/job/25020321) — Dallas, TX, United States
-- Texas Instruments — [Analog IC Design Engineer | BCP](https://careers.ti.com/job/25017718) — Santa Clara, CA, United States
+- Apple — [RFIC Design Engineer](https://jobs.apple.com/en-us/details/200694220-3956/rfic-design-engineer) — Sunnyvale, California
+- Apple — [RFIC Design Engineer](https://jobs.apple.com/en-us/details/200694216-3956/rfic-design-engineer) — Sunnyvale, California
