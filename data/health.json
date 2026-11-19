@@ -1,18 +1,18 @@
 {
- "run_date": "2026-11-17",
+ "run_date": "2026-11-18",
  "companies": {
   "Analog Devices": {
    "status": "error",
    "ats": "workday",
    "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://analogdevices.wd1.myworkdayjobs.com/wday/cxs/analogdevices/External/jobs",
-   "seconds": 663.2,
+   "seconds": 450.3,
    "retried": true
   },
   "NVIDIA": {
    "status": "error",
    "ats": "workday",
    "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
-   "seconds": 450.6,
+   "seconds": 450.3,
    "retried": true
   },
   "Marvell": {
@@ -90,19 +90,19 @@
    "ats": "oracle",
    "raw_results": 1111,
    "matched": 16,
-   "seconds": 45.4
+   "seconds": 46.4
   },
   "Cirrus Logic": {
    "status": "ok",
    "ats": "lever",
-   "raw_results": 125,
+   "raw_results": 126,
    "matched": 3,
-   "seconds": 2.1
+   "seconds": 3.5
   },
   "Astera Labs": {
    "status": "ok",
    "ats": "greenhouse",
-   "raw_results": 171,
+   "raw_results": 173,
    "matched": 0,
    "seconds": 0.8
   },
@@ -111,14 +111,14 @@
    "ats": "greenhouse",
    "raw_results": 89,
    "matched": 1,
-   "seconds": 0.6
+   "seconds": 0.7
   },
   "Apple": {
    "status": "ok",
    "ats": "apple",
-   "raw_results": 907,
-   "matched": 81,
-   "seconds": 2901.1
+   "raw_results": 889,
+   "matched": 78,
+   "seconds": 2525.8
   }
  }
 }

@@ -1,5 +1,5 @@
 {
- "run_date": "2026-11-17",
+ "run_date": "2026-11-18",
  "jobs": [
   {
    "key": "Apple|200693797",
@@ -1144,30 +1144,6 @@
    "first_seen": "2026-11-01"
   },
   {
-   "key": "Apple|200658825",
-   "company": "Apple",
-   "title": "Mixed-Signal IC Design Engineer",
-   "location": "Cupertino, California",
-   "req_id": "200658825",
-   "url": "https://jobs.apple.com/en-us/details/200658825-0836/mixed-signal-ic-design-engineer",
-   "posted": "2026-04-20",
-   "ncg_signal": "",
-   "years_mentioned": [],
-   "flags": {},
-   "analog_hits": [
-    "analog",
-    "mixed-signal",
-    "transistor-level",
-    "LDO",
-    "ADC",
-    "DAC",
-    "op-amp",
-    "switched-capacitor"
-   ],
-   "description": "At Apple, we work every single day to craft products that enrich peopleʼs lives. Do you love working on challenges that no one has solved yet? Do you like changing the game? We have an opportunity for a visionary and uncommonly talented IC Designer. As a member of our dynamic group, you will have the rare and rewarding opportunity to help craft upcoming products that will delight and inspire millions of Appleʼs customers every single day.\nParticipate in defining, designing, developing, and taking to production analog and mixed-signal circuits and sub- systems within Apple integrated circuit devices. Specify, design, implement, and verify analog and mixed-signal circuits and sub-systems, including transistor-level analog circuits, mixed-signal interfaces, and digital control and signal processing blocks. Develop and run high-level simulations to validate top-level integration. Engage with cross-functional analog, digital, DV, firmware, software, SoC architecture, technology, packaging, silicon validation, production test, manufacturing, and other teams to implement the new circuits and sub-systems and drive them into production. Define production and bench-top test-plans, analyze results, and drive DOEs. Create integration guides and user documents, and generally assist with challenges in successfully implementing the new circuits and sub-systems into complex SoCs.\nMinimum Qualifications\nBS degree in technical discipline required.\nPreferred Qualifications\nExperience conceptualizing, evaluating, designing, and taking to production analog and mixed-signal circuits and sub-systems for sensing and measurement. Such experience within digital-intensive SOCs is especially preferred\nExpertise in techniques for high-precision circuit design in the presence of large device mismatch and high supply noise\nDeep knowledge of device physics as it applies to semiconductor devices and manufacturing technology\nSolid understanding of ADC/DAC architectures, performance metrics, design trade-offs, and criteria for deciding which ADC/DAC designs are suitable for different applications\nSolid understanding of and experience with building block circuits for measurement sub-systems such as band- gaps, CMOS bias generators, TIAs, op-amps, filters, switched-cap circuits, LDOs, ADCs, etc.\nSolid understanding of and experience with precision analog design techniques including feedback and compensation, chopping, dynamic element matching, frequency planning, trimming/calibration, and real-time adaptive algorithms. Experience applying AI/ML to optimizing such techniques is highly valued\nStrong verbal and written communications skills and the ability to distill key issues from complex technical situations\nExperience in working with product and production test engineers to develop and validate test plans, optimize production testing, and debug sources of low-DPPM parametric yield loss is highly valued\nExperience in C / MATLAB / Verilog modeling Proficiency in Python programming\nExperience with AI/ML, especially in applying tools and technique to any/all aspects of analog/mixed-signal circuit design and productization is highly valued",
-   "first_seen": "2026-11-01"
-  },
-  {
    "key": "Apple|200644551",
    "company": "Apple",
    "title": "Mixed-Signal IC Design Engineer",
@@ -1291,7 +1267,7 @@
     "SerDes",
     "VCO"
    ],
-   "description": "At Apple, our products are revolutionizing the way people live across the globe. Within our Analog-Mixed/Signal group, your role will be crucial in pushing the boundaries of what our technology can achieve. We are dedicated to crafting high-quality, innovative hard IPs that surpass the ordinary, adjusting to the escalating complexity of SOC/PHY designs and multiplying projects within tight production schedules. Our environment thrives on these challenges, fueled by a team of exceptional individuals passionate about continual learning and making a substantial impact. If you excel in dynamic settings, relish collaborative problem-solving, and seek to make a societal impact through your work, you might be the ideal candidate for our team. At Apple, you'll join a culture that encourages you to take ownership of your career, supported by colleagues committed to making a difference.\nIn this role, you will leverage your expertise to develop cutting-edge frequency synthesizers for a variety of applications, including Compute, SoC, SerDes, and Cellular technologies. Your work will directly contribute to maintaining Apple’s leadership in innovation and market presence, setting new standards in the tech industry.\nMinimum Qualifications\nBSEE with 0 years of relevant experience\nPreferred Qualifications\nTechnical Expertise: Demonstrated proficiency in PLL/FLL and frequency synthesis architecture and circuit design. This includes digital and analog approaches, DCO/VCO design both RO and LC, Fractional-N, SSC, Spur and Jitter cancellation techniques ..etc\nGood understanding of band gaps, bias circuits, op-amps, LDOs, feedback and compensation techniques.\nClocking Mastery: Deep understanding of clocking fundamentals, with a solid grasp of phase noise, jitter analysis, budgeting, and feedback loop dynamics.\nSimulation and Modeling: Skilled in developing System Verilog models, and performing behavioral simulations to explore new architectural performance and impact on loop dynamics. Ability to design/debug RTL is a plus.\nAttention to Detail: Exceptional focus on understanding the problems at hand and their systemic impacts, ensuring thoroughness in problem-solving.\nInnovation and Learning: A history of innovation and self-directed learning, with demonstrated leadership skills and a growth mindset.\nTeam Collaboration: Outstanding teamwork capabilities paired with strong productivity and scripting skills, ideally with experience in using industry-standard design tools.",
+   "description": "At Apple, our products are revolutionizing the way people live across the globe. Within our Analog-Mixed/Signal group, your role will be crucial in pushing the boundaries of what our technology can achieve. We are dedicated to crafting high-quality, innovative hard IPs that surpass the ordinary, adjusting to the escalating complexity of SOC/PHY designs and multiplying projects within tight production schedules. Our environment thrives on these challenges, fueled by a team of exceptional individuals passionate about continual learning and making a substantial impact. If you excel in dynamic settings, relish collaborative problem-solving, and seek to make a societal impact through your work, you might be the ideal candidate for our team. At Apple, you'll join a culture that encourages you to take ownership of your career, supported by colleagues committed to making a difference.\nIn this role, you will leverage your expertise to develop cutting-edge frequency synthesizers for a variety of applications, including Compute, SoC, SerDes, and Cellular technologies. Your work will directly contribute to maintaining Apple’s leadership in innovation and market presence, setting new standards in the tech industry.\nMinimum Qualifications\nMinimum requirement of a bachelors degree\nPreferred Qualifications\nTechnical Expertise: Demonstrated proficiency in PLL/FLL and frequency synthesis architecture and circuit design. This includes digital and analog approaches, DCO/VCO design both RO and LC, Fractional-N, SSC, Spur and Jitter cancellation techniques ..etc\nGood understanding of band gaps, bias circuits, op-amps, LDOs, feedback and compensation techniques.\nClocking Mastery: Deep understanding of clocking fundamentals, with a solid grasp of phase noise, jitter analysis, budgeting, and feedback loop dynamics.\nSimulation and Modeling: Skilled in developing System Verilog models, and performing behavioral simulations to explore new architectural performance and impact on loop dynamics. Ability to design/debug RTL is a plus.\nAttention to Detail: Exceptional focus on understanding the problems at hand and their systemic impacts, ensuring thoroughness in problem-solving.\nInnovation and Learning: A history of innovation and self-directed learning, with demonstrated leadership skills and a growth mindset.\nTeam Collaboration: Outstanding teamwork capabilities paired with strong productivity and scripting skills, ideally with experience in using industry-standard design tools.\nScripting ability (Python or similar) for automation and data analysis.\nPractical experience using LLMs/AI tools for engineering work, plus enthusiasm to push them further.\nBuilding agents, prompt engineering, tool integration (APIs, MCP), or ML basics.",
    "first_seen": "2026-11-01"
   },
   {
@@ -1443,59 +1419,6 @@
    ],
    "description": "Imagine what you could do here at Apple? Together we could help craft the next generation of the world’s finest devices. New ideas have a way of becoming extraordinary products, services, and customer experiences very quickly. Bring passion and dedication to your career, and there's no telling what you could accomplish. The team is searching for a self-motivating, passionate electrical engineer for the role of AMS Design Engineer. As a team, we will be working on the leading-edge technology nodes to build elite custom analog designs used to connect our world-class products to the physical world as well as enable optimizing their performance. You will become part of a hands-on development team that fosters engineering excellence, creativity and innovation. Collaboration across teams is a key component of success at Apple. Dynamic, smart people and inspiring, innovative technologies are the norm here. Will you help us design the next generation of revolutionary Apple products?\nRF/Analog Mixed Signal Design Engineer will work on transistor level IC design implementation for Apple Silicon in different technology nodes.\nMinimum Qualifications\nMinimum requirement of a bachelors degree.\nStrong device physics knowledge as it applies to analog IC design.\nStrong track record of delivering silicon IPs with complete architecture, design, verification and validation experience.\nPreferred Qualifications\nSolid understanding/experience in bandgaps, bias, opamps, switched-cap circuits, LDOs, low power oscillators, PLLs, VGAs, feedback and compensation techniques.\nIn-depth knowledge and analytical understanding of mixed-signal design techniques.\nExperience in understanding top level verification methods incorporating block level schematics and behavioral models.\nExperience in C/Matlab/VerilogA/Python modeling.\nHands-on experience in using spectrum analyzers, oscilloscopes, and signal generators to validate analog designs.\nGood knowledge of high precision techniques in presence of device mismatch.\nUnderstanding of data converter architectures and design trade-offs.\nExperience in working with production test engineers to produce test plans and design for testability details.",
    "first_seen": "2026-11-01"
-  },
-  {
-   "key": "Apple|200691721",
-   "company": "Apple",
-   "title": "RF/Analog/Mixed Signal Engineer",
-   "location": "Austin, Texas",
-   "req_id": "200691721",
-   "url": "https://jobs.apple.com/en-us/details/200691721-0157/rf-analog-mixed-signal-engineer",
-   "posted": "2026-11-05",
-   "ncg_signal": "",
-   "years_mentioned": [],
-   "flags": {},
-   "analog_hits": [
-    "analog",
-    "mixed-signal",
-    "transistor-level",
-    "LDO",
-    "ADC",
-    "DAC",
-    "PLL",
-    "comparator",
-    "Virtuoso",
-    "SerDes",
-    "bring-up"
-   ],
-   "description": "Imagine what you can do here. Apple is a place where extraordinary people gather to do their lives best work. Together we create products and experiences people once couldn't have imagined, and now, can't imagine living without. It's the diversity of those people and their ideas that inspires the innovation that runs through everything we do.\nAPPLE INC has the following available in Austin, Texas. Generation of Block and Chip-Level Specifications: Defining and documenting functional and performance requirements for blocks and chips, ensuring they align with system-level goals for high-speed, low-power communication. Transistor-Level Circuit Design: Designing complex analog and mixed-signal circuits at the transistor level, ensuring precision in meeting power, performance, and area constraints; Being familiar with ‘Virtuoso’ to test the design with various options & environment. Block-Level Verification: Conducting block-level simulations and analyses to ensure that circuits meet performance, power, and area requirements, verifying each design's functionality. Clock Distribution and CDR Circuit Design: Designing clock distribution circuits to ensure high-speed clocks are effectively delivered to various chip components; Focusing on designing CDR circuits that recover data with minimal error; Using SERDES system to determine circuits required in the task. Investigation of Power-Efficient Clocking Architectures: Investigating new clocking architectures to reduce power consumption in the semiconductor. This includes examining novel approaches to clocking that minimize the power draw of the chip's clocking circuits, which typically account for a significant portion of total power consumption. Duty Cycle Corrector and Phase Interpolator Design: Designing and optimizing Duty Cycle Correctors (DCC) and Phase Interpolators (PI) to improve clock quality. Designing precise comparators and samplers for the DCC, focusing on layout optimization. Focusing on improving the linearity and step size of the Phase Interpolator within the CDR block to enhance its performance and reduce power consumption. 100MHz Reference Clock Receiver: Designing the clock receiver to deliver a 100 MHz clock from the pad to the PLL with minimal jitter contribution Designing a 50-ohm termination to avoid reflections from the chip Redesigning the clock receiver to prevent degradation due to headroom issues caused by the reduction in power supply voltage from 1.2V to 1.06V Environment Testing and Reliability Analysis: Testing the chips under various process, temperature, and voltage conditions to ensure their robustness and functionality in diverse environments. 40 hours/week.\nMinimum Qualifications\nMaster's Degree or foreign equivalent in Electrical Engineering, Computer Engineering, Electronics Engineering, or related field.\nEducation and/or experience must include:\nDesigning and analyzing high-speed analog and mixed-signal building blocks including PLL, LDO, ADC, DAC and Phase-Interpolator.\nLeveraging end-to-end SERDES systems including TX/RX design and channel characteristics and equalization techniques.\nUtilizing RTL/Verilog modeling to develop models for mixed-signal blocks to help with system level design verification.\nModeling MATLAB for performance analysis of SERDES (jitter tolerance, equalization analysis).\nLeveraging testing equipment including spectrum analyzers, oscilloscope, and signal generators for post-silicon validation and testing.\nUtilizing layout techniques for analog and high-speed circuits including matching, noise to ensure the post-layout performance.\nLeveraging signal processing for design and analysis including filtering, equalization, and spectral analysis.\nUsing Python and Shell scripting to automate design simulations and for data analysis.\nUtilizing design validation tools including EMIR, static timing analysis, and DFT to ensure design robustness and manufacturability.\nPreferred Qualifications\nN/A",
-   "first_seen": "2026-11-05"
-  },
-  {
-   "key": "Apple|200691301",
-   "company": "Apple",
-   "title": "RF/Analog/Mixed Signal Engineer",
-   "location": "Cupertino, California",
-   "req_id": "200691301",
-   "url": "https://jobs.apple.com/en-us/details/200691301-0836/rf-analog-mixed-signal-engineer",
-   "posted": "2026-11-05",
-   "ncg_signal": "",
-   "years_mentioned": [
-    2
-   ],
-   "flags": {},
-   "analog_hits": [
-    "analog",
-    "mixed-signal",
-    "LDO",
-    "ADC",
-    "op-amp",
-    "Spectre",
-    "Virtuoso",
-    "sigma-delta"
-   ],
-   "description": "Imagine what you can do here. Apple is a place where extraordinary people gather to do their lives best work. Together we create products and experiences people once couldn't have imagined, and now, can't imagine living without. It's the diversity of those people and their ideas that inspires the innovation that runs through everything we do.\nAPPLE INC has the following available in Cupertino, California and various unanticipated locations throughout the USA. Involve in specifications of analog portions of IC and ensure optimized whole system solutions, instead of just an IP level optimization, and interact closely with system engineer. Perform behavioral modeling to validate architectures, using MATLAB/Cadence/Spectre/Simulink/System Verilog tools to perform such tasks. Craft blocks and document design towards formal design reviews. Use Cadence tools and analog fundamental knowledges to enter the block schematic and run simulations to verify the performances and do the right tradeoffs. Drive mask design to implement layout view of designs. Work with layout engineer and supervise the layout and apply knowledge of deep submicron technology. Apply Top-level simulations to validate top-level integration. Run layout based extractions using tools QRC and start-RC, and verify the performances. Understand the Electro-Magnetic (EM) flow, reliability/aging flows. Define production/bench-level test-plans. Work with test engineers and production engineers to drive PCB design and choose the right off chip component for the test. Use automation tool such as Tableau to review results. Take lab measurements to validate analog designs operate oscilloscope, logic analyzer, etc. Drive and review yield/lab test results to drive bug fixes. Work with test engineers to understand the production fabrication defects, patterns, antenna rules, etc to enhance the chip yield. 40 hours/week. At Apple, base pay is one part of our total compensation package and is determined within a range. This provides the opportunity to progress as you grow and develop within a role. The base pay range for this role is between $184,700 - $277,600/yr and your base pay will depend on your skills, qualifications, experience, and location.\nPAY & BENEFITS: Apple employees also have the opportunity to become an Apple shareholder through participation in Apple’s discretionary employee stock programs. Apple employees are eligible for discretionary restricted stock unit awards, and can purchase Apple stock at a discount if voluntarily participating in Apple’s Employee Stock Purchase Plan. You’ll also receive benefits including: Comprehensive medical and dental coverage, retirement benefits, a range of discounted products and free services, and for formal education related to advancing your career at Apple, reimbursement for certain educational expenses — including tuition. Additionally, this role might be eligible for discretionary bonuses or commission payments as well as relocation. Learn more about Apple Benefits: https://www.apple.com/careers/us/benefits.html.\nNote: Apple benefit, compensation and employee stock programs are subject to eligibility requirements and other terms of the applicable plan or program.\nMinimum Qualifications\nMaster’s degree or foreign equivalent in Electrical Engineering or related field and 2 years of experience in the job offered or related occupation.\nExperience and/or education must include:\nDesign experiences in Analog-to-digital (ADC), including delta-sigma modulator ADC design.\nDesign experiences in Low Dropout Regulator (LDO) Design, including experience in regulated supply for the analog design.\nCellular RF lineup modeling and analysis, and experience in line up simulations (such as IP2) and defining specs for each blocks in the lineup.\nExperience in Operational Amplifier (OPA) design with high Unity Gain Bandwidth (UGB >1GHz).\nUsing Matlab, Simulink, and Virtuoso, including experience in the behavior of each block (block arrangement, sytstem simulation and performance prediction)\nUsing Cadence tools such as Spectre, Virtuoso, QRC, star-RC, and Calibre DRC and LVS\nPreferred Qualifications\nN/A",
-   "first_seen": "2026-11-05"
   },
   {
    "key": "Apple|200690459",

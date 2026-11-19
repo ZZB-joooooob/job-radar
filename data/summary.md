@@ -1,13 +1,13 @@
-# Job radar — 2026-11-17
+# Job radar — 2026-11-18
 
-- Open matches: 101
-- New today: 2
-- Closed since last run: 0
+- Open matches: 98
+- New today: 0
+- Closed since last run: 3
 
 | Company | Status | Matched | Seconds |
 |---|---|---|---|
-| Analog Devices | error |  | 663.2 |
-| NVIDIA | error |  | 450.6 |
+| Analog Devices | error |  | 450.3 |
+| NVIDIA | error |  | 450.3 |
 | Marvell | error |  | 0.0 |
 | Broadcom | error |  | 0.0 |
 | Micron | error |  | 0.0 |
@@ -18,13 +18,8 @@
 | Microchip | error |  | 0.0 |
 | Cadence | error |  | 0.0 |
 | Teledyne FLIR | error |  | 0.0 |
-| Texas Instruments | ok | 16 | 45.4 |
-| Cirrus Logic | ok | 3 | 2.1 |
+| Texas Instruments | ok | 16 | 46.4 |
+| Cirrus Logic | ok | 3 | 3.5 |
 | Astera Labs | ok | 0 | 0.8 |
-| Astera Labs (Early Career) | ok | 1 | 0.6 |
-| Apple | ok | 81 | 2901.1 |
-
-## New today
-
-- Apple — [RFIC Design Engineer](https://jobs.apple.com/en-us/details/200694220-3956/rfic-design-engineer) — Sunnyvale, California
-- Apple — [RFIC Design Engineer](https://jobs.apple.com/en-us/details/200694216-3956/rfic-design-engineer) — Sunnyvale, California
+| Astera Labs (Early Career) | ok | 1 | 0.7 |
+| Apple | ok | 78 | 2525.8 |

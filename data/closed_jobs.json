@@ -1,4 +1,29 @@
 {
- "run_date": "2026-11-17",
- "jobs": []
+ "run_date": "2026-11-18",
+ "jobs": [
+  {
+   "key": "Apple|200658825",
+   "company": "Apple",
+   "title": "Mixed-Signal IC Design Engineer",
+   "url": "https://jobs.apple.com/en-us/details/200658825-0836/mixed-signal-ic-design-engineer",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-17"
+  },
+  {
+   "key": "Apple|200691721",
+   "company": "Apple",
+   "title": "RF/Analog/Mixed Signal Engineer",
+   "url": "https://jobs.apple.com/en-us/details/200691721-0157/rf-analog-mixed-signal-engineer",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-17"
+  },
+  {
+   "key": "Apple|200691301",
+   "company": "Apple",
+   "title": "RF/Analog/Mixed Signal Engineer",
+   "url": "https://jobs.apple.com/en-us/details/200691301-0836/rf-analog-mixed-signal-engineer",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-17"
+  }
+ ]
 }
