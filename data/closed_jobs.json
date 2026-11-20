@@ -1,29 +1,45 @@
 {
- "run_date": "2026-11-18",
+ "run_date": "2026-11-19",
  "jobs": [
   {
-   "key": "Apple|200658825",
+   "key": "Apple|200667643",
+   "company": "Apple",
+   "title": "Analog Circuit Design Engineer",
+   "url": "https://jobs.apple.com/en-us/details/200667643-0836/analog-circuit-design-engineer",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-18"
+  },
+  {
+   "key": "Apple|200665764",
    "company": "Apple",
    "title": "Mixed-Signal IC Design Engineer",
-   "url": "https://jobs.apple.com/en-us/details/200658825-0836/mixed-signal-ic-design-engineer",
+   "url": "https://jobs.apple.com/en-us/details/200665764-2076/mixed-signal-ic-design-engineer",
    "first_seen": "2026-11-01",
-   "last_seen": "2026-11-17"
+   "last_seen": "2026-11-18"
   },
   {
-   "key": "Apple|200691721",
+   "key": "Apple|200678297",
    "company": "Apple",
-   "title": "RF/Analog/Mixed Signal Engineer",
-   "url": "https://jobs.apple.com/en-us/details/200691721-0157/rf-analog-mixed-signal-engineer",
-   "first_seen": "2026-11-05",
-   "last_seen": "2026-11-17"
+   "title": "Analog/Mixed-Signal Circuit Design Engineer",
+   "url": "https://jobs.apple.com/en-us/details/200678297-6205/analog-mixed-signal-circuit-design-engineer",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-18"
   },
   {
-   "key": "Apple|200691301",
+   "key": "Apple|200658829",
    "company": "Apple",
-   "title": "RF/Analog/Mixed Signal Engineer",
-   "url": "https://jobs.apple.com/en-us/details/200691301-0836/rf-analog-mixed-signal-engineer",
-   "first_seen": "2026-11-05",
-   "last_seen": "2026-11-17"
+   "title": "Analog/Mixed-Signal Circuit Design Engineer",
+   "url": "https://jobs.apple.com/en-us/details/200658829-6205/analog-mixed-signal-circuit-design-engineer",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-18"
+  },
+  {
+   "key": "Texas Instruments|25019858",
+   "company": "Texas Instruments",
+   "title": "Analog IC Design Engineer | LP SP",
+   "url": "https://careers.ti.com/job/25019858",
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-18"
   }
  ]
 }

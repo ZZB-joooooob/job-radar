@@ -1,13 +1,13 @@
-# Job radar — 2026-11-18
+# Job radar — 2026-11-19
 
-- Open matches: 98
+- Open matches: 93
 - New today: 0
-- Closed since last run: 3
+- Closed since last run: 5
 
 | Company | Status | Matched | Seconds |
 |---|---|---|---|
-| Analog Devices | error |  | 450.3 |
-| NVIDIA | error |  | 450.3 |
+| Analog Devices | error |  | 920.6 |
+| NVIDIA | error |  | 450.4 |
 | Marvell | error |  | 0.0 |
 | Broadcom | error |  | 0.0 |
 | Micron | error |  | 0.0 |
@@ -18,8 +18,8 @@
 | Microchip | error |  | 0.0 |
 | Cadence | error |  | 0.0 |
 | Teledyne FLIR | error |  | 0.0 |
-| Texas Instruments | ok | 16 | 46.4 |
-| Cirrus Logic | ok | 3 | 3.5 |
-| Astera Labs | ok | 0 | 0.8 |
-| Astera Labs (Early Career) | ok | 1 | 0.7 |
-| Apple | ok | 78 | 2525.8 |
+| Texas Instruments | ok | 15 | 46.0 |
+| Cirrus Logic | ok | 3 | 1.6 |
+| Astera Labs | ok | 0 | 0.9 |
+| Astera Labs (Early Career) | ok | 1 | 0.6 |
+| Apple | ok | 74 | 642.1 |
