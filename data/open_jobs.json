@@ -1,5 +1,5 @@
 {
- "run_date": "2026-11-20",
+ "run_date": "2026-11-21",
  "jobs": [
   {
    "key": "Apple|200693797",
@@ -1806,6 +1806,30 @@
    ],
    "description": "The iPhone Division is seeking a talented Analog & Power Systems Engineer to join a creative and collaborative engineering team developing next-generation iPhone products. This individual contributor role spans a broad set of analog disciplines — including power management subsystems, wired and wireless charging, and mixed-signal function blocks such as audio, sensors, and signal interfaces. You will be at the focal point of many cross-functional interactions with Apple's internal hardware/software teams, contract manufacturer teams, and IC vendor teams across all stages of development. We expect familiarity with portable, low-power consumer electronics and a passion for building high-quality, high-volume products. Depending on your background, your focus may span power architecture and PMICs, charging systems and battery management, or analog/mixed-signal circuit integration — or all three.\nAs an analog and power systems engineer, you are expected to bridge analog circuit design and system-level architecture. This requires a solid understanding of mixed-signal building blocks (op-amps, filters, ADCs/DACs, output drivers), power conversion topologies (switching regulators, linear regulators, switched capacitors), charging systems (wired and wireless), and low-power sensor interfaces. You should be comfortable addressing system-level challenges including power sequencing, interference mitigation, PCB layout, thermal management, and digital interface design.\nMinimum Qualifications\nBS/MS in Electrical Engineering or equivalent\n3+ years of industry experience\nStrong EE fundamentals: power conversion, analog circuits (op-amps, filters, ADCs/DACs), noise, linearity, and signal integrity in mixed-signal systems\nHands-on experience with lab equipment (oscilloscope, power analyzer, digital meter, etc.) and circuit prototyping, characterization, and debugging\nStrong verbal and written communication skills\nPreferred Qualifications\nExperience in one or more of the following areas:\nPower management: SMPS, linear regulators, PMIC, system power architecture, camera flash/laser drivers\nCharging systems: wired/wireless charging, high-efficiency DC-DC converters, battery management (gas gauge, BMU, charger ICs)\nAnalog/mixed-signal: low-power sensors and sensor interfaces, audio analog circuits, mixed-signal subsystem integration\nExperience collaborating across hardware, software, mechanical, and thermal engineering disciplines\nStrong organizational skills with the ability to manage multiple priorities and drive complex tasks to completion\nEffective presentation skills and comfort working with IC vendors and contract manufacturers\nMS or PhD in Electrical Engineering or equivalent",
    "first_seen": "2026-11-01"
+  },
+  {
+   "key": "Apple|200696388",
+   "company": "Apple",
+   "title": "iPhone Analog Design Engineer",
+   "location": "Cupertino, California",
+   "req_id": "200696388",
+   "url": "https://jobs.apple.com/en-us/details/200696388-0836/iphone-analog-design-engineer",
+   "posted": "2026-11-21",
+   "ncg_signal": "",
+   "years_mentioned": [
+    2
+   ],
+   "flags": {},
+   "analog_hits": [
+    "analog",
+    "mixed-signal",
+    "ADC",
+    "DAC",
+    "op-amp",
+    "power management"
+   ],
+   "description": "The iPhone Division is seeking an enthusiastic Analog Design Engineer to join a creative and energetic engineering team developing future iPhone products. You will be responsible for the design, implementation, and integration of a variety of analog function blocks and subsystems — including power, audio, battery management, and sensors. This is a great opportunity to be at the focal point of many cross-functional interactions with Apple's internal hardware/software teams, contract manufacturer teams, and IC vendor teams throughout different development stages. We expect familiarity with portable, low-power consumer electronics, preferably in a high-volume, high-quality product environment.\nThis role requires strong analog and mixed-signal fundamentals, including a deep understanding of noise, linearity, and signal integrity in mixed-signal systems. You should be well-versed in mixed-signal building blocks such as op-amps, filters, ADCs, DACs, and output drivers, as well as low-power sensor and sensor-interface circuits. Hands-on experience in prototyping, characterization, and debugging of mixed-signal hardware is essential.\nMinimum Qualifications\nBS/MS in Electrical Engineering or equivalent\n2+ years of industry experience\nStrong analog/mixed-signal fundamentals: noise, linearity, signal integrity in mixed-signal systems\nDeep understanding of mixed-signal building blocks: op-amps, filters, ADCs/DACs, output drivers\nFamiliarity with low-power electronics, sensors, and sensor-interface circuits\nHands-on experience with prototyping, characterization, and debugging of mixed-signal hardware\nExcellent interpersonal skills with strong verbal and written communication\nPreferred Qualifications\nExperience across multiple analog domains: power management, audio analog circuits, sensor interfaces, or battery management\nExposure to IC definition, IP development, and cross-functional collaboration with software, mechanical, and thermal teams\nMS or PhD in Electrical Engineering or equivalent",
+   "first_seen": "2026-11-21"
   },
   {
    "key": "Apple|200676489",
