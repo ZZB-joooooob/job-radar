@@ -1,4 +1,37 @@
 {
- "run_date": "2026-11-21",
- "jobs": []
+ "run_date": "2026-11-22",
+ "jobs": [
+  {
+   "key": "Analog Devices|R267037",
+   "company": "Analog Devices",
+   "title": "Analog Design Engineer",
+   "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Analog-Design-Engineer_R267037-1",
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-11-15"
+  },
+  {
+   "key": "Analog Devices|R266120",
+   "company": "Analog Devices",
+   "title": "Associate Analog Design Engineer",
+   "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-AZ-Chandler-East-Elliot/Associate-Analog-Design-Engineer_R266120",
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-11-15"
+  },
+  {
+   "key": "Analog Devices|R266119",
+   "company": "Analog Devices",
+   "title": "Associate Analog Design Engineer",
+   "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-CA-San-Jose-Rio-Robles/Associate-Analog-Design-Engineer_R266119",
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-11-15"
+  },
+  {
+   "key": "Analog Devices|R265312",
+   "company": "Analog Devices",
+   "title": "Associate Mixed Signal Design Engineer",
+   "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Associate-Mixed-Signal-Design-Engineer_R265312",
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-11-15"
+  }
+ ]
 }
