@@ -1,6 +1,55 @@
 {
- "run_date": "2026-11-23",
+ "run_date": "2026-11-24",
  "baseline": false,
- "jobs": [],
+ "jobs": [
+  {
+   "key": "Cirrus Logic|b5f04ed0-633d-40fc-bcef-8bb15f20f363",
+   "company": "Cirrus Logic",
+   "title": "Analog Design Engineer",
+   "location": "Pavia",
+   "req_id": "b5f04ed0-633d-40fc-bcef-8bb15f20f363",
+   "url": "https://jobs.eu.lever.co/cirrus/b5f04ed0-633d-40fc-bcef-8bb15f20f363",
+   "posted": "2026-11-05",
+   "ncg_signal": "",
+   "years_mentioned": [],
+   "flags": {
+    "no_sponsorship": "must be able to access technical data without a requirement for an export license. We are unable to sponsor or obtain export licenses for this role. We believe that diversity drives innovation, a",
+    "export_control": "or willing to relocate prior to beginning employment with us. #LI-CA1 #LI-Hybrid Export control restrictions based upon applicable laws and regulations would prohibit candidates who are"
+   },
+   "analog_hits": [
+    "analog",
+    "mixed-signal",
+    "transistor-level",
+    "LDO",
+    "ADC",
+    "DAC",
+    "PLL",
+    "op-amp",
+    "Spectre",
+    "power management",
+    "DC-DC",
+    "bring-up"
+   ],
+   "description": "The Cirrus Logic Group has recently expanded with the acquisition in Italy of INVENTVM Semiconductor, based in Pavia. Together, we are driven by innovation, engineering excellence and a passion for solving complex challenges.\nAs part of a Global leader with over forty years of experience in mixed-signal processing, we combine INVENTVM's agility and specialist expertise with Cirrus Logic's strength, resources and opportunities. Our talented team is constantly committed to pushing the boundaries of technology, developing innovative solutions for some of the world's leading consumer brands. People are at the heart of everything we do. Cirrus Logic and INVENTVM are committed to fostering an inclusive, collaborative and supportive work environment where people are empowered to grow, make a meaningful impact and love what they do.\nJoin our team and help us continue to make Cirrus Logic and INVENTVM an exceptional place to grow your career.\n\n\nWe are recruiting for a talented Senior Analog IC Design Engineer to help drive the next generation of technologies and products to serve new and exciting opportunities in mixed- signal IC design for consumer, automotive, health, and power management applications. We have a role for someone with experience in detailed transistor-level design and looking to develop into project and sub-system leadership. As part of a highly collaborative team, you will be responsible for the development of low-power, high-performance ICs in advanced CMOS processes, specified to drive transformational change in new applications and markets.\n\nResponsibilities: \n- Ownership and development of advanced solutions for complex mixed-signal products and respective circuitry from concept, architecture, design, design integration through to production with an awareness of competing solutions and commercial pressures.\n- Modelling of solutions using tools such as Matlab, Simulink, Spectre, AMS Designer etc.\n- Transistor level implementation of the design.\n- Design and verification of key analog/mixed-signal building blocks such as A/D and D/A converters, LDOs, DC/DC converters, PLLs, oscillators, op-amps, analog front ends (AFEs) and other precision analog circuits.\n- Overseeing layout implementation and performing post-layout simulations and optimization.\n- Hands-on lab checkout, silicon learning, and debug.\n- Supporting post-silicon activities including product validation, characterization, and production test\nRequired Skills and Qualifications: \n- BSc, MSc, MEng or PhD in Electrical Engineering (or related fields) with proven and relevant professional experience in mixed-signal CMOS circuit design.\n- Deep understanding of analog design flows including architecture, design, and design integration.\n- Strong skills in CMOS analog design and layout of high precision, low power circuits.\n- Hands-on lab test/debug experience with a range of lab equipment.\n- Organised and detailed with strong communication skills.\n- Possess outstanding analytical and problem-solving skills.\n- Results-oriented and thrive in a dynamic environment.\n- Able to operate effectively in a high-functioning interdependent team.\nPreferred Skills and Qualifications: \n- Knowledge of discrete-time and continuous-time signal processing (ADC and DAC design).\n- Experience of designing low-power/high-performance analog circuits (voltage/current references, oscillators, PLLs, LDOs, DC/DC converters, op-amps, AFEs, etc.).\n- Experience in system and behavioral modelling.\n- Experience designing for different CMOS processes and aggressive geometry nodes.\n- Understanding of reliability concerns.\n- Understanding of scripting languages such as Tcl, Perl, Python etc.\nThis role is based in our Pavia office, Italy.\n \nThis is a hybrid position, with in-office days based on business needs and team preference. You must be based within commutable distance of the work location listed on the job posting, or willing to relocate prior to beginning employment with us.\n \n \n \n#LI-CA1\n#LI-Hybrid\n\n\nExport control restrictions based upon applicable laws and regulations would prohibit candidates who are nationals of certain embargoed countries from working in this position without INVENTVM/Cirrus Logic first obtaining an export license.  Candidates for this role must be able to access technical data without a requirement for an export license. We are unable to sponsor or obtain export licenses for this role.\n \nWe believe that diversity drives innovation, and we are committed to promoting an open and collaborative culture in which different approaches, ideas and perspectives are respected and valued. Our goal is to create a workplace where everyone can contribute, regardless of race, colour, national origin, religion or belief, gender or gender identity, sexual orientation, age, marital status, pregnancy or disability.\n",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "key": "Texas Instruments|25020487",
+   "company": "Texas Instruments",
+   "title": "Analog Design Engineer",
+   "location": "Dallas, TX, United States",
+   "req_id": "25020487",
+   "url": "https://careers.ti.com/job/25020487",
+   "posted": "2026-11-24",
+   "ncg_signal": "",
+   "years_mentioned": [],
+   "flags": {},
+   "analog_hits": [
+    "analog"
+   ],
+   "description": "Change the world. Love your job.\nAs an Analog IC Design Engineer, you'll architect new TI products and make our customers' visions a reality. You'll define, design, model and verify integrated circuits, with the opportunity to work in a lot of exciting areas and with industry experts.\nAs an Analog IC Design Engineer, some of your responsibilities include:\n- Partner with business teams and system engineering to develop mutually agreeable design specifications\n- Provide high-level analysis on chip architecture trade-offs to ensure spec compliance and superior performance at a competitive cost\n- Participate in design reviews and creating the necessary design and product documentation\n- Supervise IC layouts to ensure a high-performance standard\n- Characterize prototypes, developing test specifications and coordinating with test/product engineering to drive product releases\n- Drive behavioral models\nPut your talent to work with us as a Analog IC Design Engineer !\nMinimum requirements:\n- Masters degree in Electrical Engineering, Electronics Technology, Electrical Engineering Technology, Electrical and Computer Engineering or related field\n- Cumulative 3.0/4.0 GPA or higher\nPreferred qualifications:\n- Ability to establish strong relationships with key stakeholders critical to success, both internally and externally\n- Strong verbal and written communication skills\n- Ability to quickly ramp on new systems and processes\n- Demonstrated strong interpersonal, analytical and problem-solving skills\n- Ability to work in teams and collaborate effectively with people in different functions\n- Ability to take the initiative and drive for results\n- Strong time management skills that enable on-time project delivery\nWhy TI?\n- The future starts here. As a TIer, you'll play a critical role in defining the next era of semiconductor technology and help create the innovations that shape the world around us.\n- Surround yourself with a team of innovators who value your unique perspective and will challenge you to bring your best self to work every day. We believe that fostering a culture of collaboration fuels both personal growth and technological breakthroughs. Explore our company culture .\n- At TI, your success goes beyond your work. Take advantage of comprehensive benefits designed to support your total well-being at work and in life, from competitive compensation to extensive health coverage and wellness programs. Learn more about our benefits offerings .\nAbout Texas Instruments\nTexas Instruments Incorporated (Nasdaq: TXN) is a global semiconductor company that designs, manufactures and sells analog and embedded processing chips for markets such as industrial, automotive, data center, personal electronics and communications equipment. At our core, we have a passion to create a better world by making electronics more affordable through semiconductors. This passion is alive today as each generation of innovation builds upon the last to make our technology more reliable, more affordable and lower power, making it possible for semiconductors to go into electronics everywhere. Learn more at TI.com .\nTexas Instruments is an equal opportunity employer and supports a diverse, inclusive work environment. All qualified applicants will receive consideration for employment without regard to race, color, religion, creed, disability, genetic information, national origin, gender, gender identity and expression, age, sexual orientation, marital status, veteran status, or any other characteristic protected by federal, state, or local laws.\nIf you are interested in this position, please apply to this requisition.",
+   "first_seen": "2026-11-24"
+  }
+ ],
  "baseline_jobs": []
 }
