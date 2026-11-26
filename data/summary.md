@@ -1,13 +1,13 @@
-# Job radar — 2026-11-24
+# Job radar — 2026-11-25
 
 - Open matches: 96
-- New today: 2
-- Closed since last run: 1
+- New today: 0
+- Closed since last run: 0
 
 | Company | Status | Matched | Seconds |
 |---|---|---|---|
-| Analog Devices | error |  | 450.3 |
-| NVIDIA | error |  | 450.3 |
+| Analog Devices | error |  | 672.8 |
+| NVIDIA | error |  | 482.7 |
 | Marvell | error |  | 0.0 |
 | Broadcom | error |  | 0.0 |
 | Micron | error |  | 0.0 |
@@ -18,13 +18,8 @@
 | Microchip | error |  | 0.0 |
 | Cadence | error |  | 0.0 |
 | Teledyne FLIR | error |  | 0.0 |
-| Texas Instruments | ok | 16 | 51.4 |
-| Cirrus Logic | ok | 4 | 1.3 |
+| Texas Instruments | ok | 16 | 46.0 |
+| Cirrus Logic | ok | 4 | 2.4 |
 | Astera Labs | ok | 0 | 0.8 |
 | Astera Labs (Early Career) | ok | 1 | 0.7 |
-| Apple | ok | 75 | 225.8 |
-
-## New today
-
-- Cirrus Logic — [Analog Design Engineer](https://jobs.eu.lever.co/cirrus/b5f04ed0-633d-40fc-bcef-8bb15f20f363) — Pavia
-- Texas Instruments — [Analog Design Engineer](https://careers.ti.com/job/25020487) — Dallas, TX, United States
+| Apple | ok | 75 | 259.8 |
