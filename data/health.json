@@ -1,39 +1,41 @@
 {
- "run_date": "2026-11-25",
+ "run_date": "2026-11-26",
  "companies": {
   "Analog Devices": {
    "status": "error",
    "ats": "workday",
    "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://analogdevices.wd1.myworkdayjobs.com/wday/cxs/analogdevices/External/jobs",
-   "seconds": 672.8,
+   "seconds": 705.6,
    "retried": true
   },
   "NVIDIA": {
-   "status": "error",
+   "status": "ok",
    "ats": "workday",
-   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
-   "seconds": 482.7,
+   "raw_results": 721,
+   "matched": 0,
+   "seconds": 1056.7,
    "retried": true
   },
   "Marvell": {
-   "status": "error",
+   "status": "ok",
    "ats": "workday",
-   "seconds": 0.0,
-   "detail": "skipped: Workday kept answering 429",
+   "raw_results": 245,
+   "matched": 2,
+   "seconds": 423.3,
    "retried": true
   },
   "Broadcom": {
    "status": "error",
    "ats": "workday",
-   "seconds": 0.0,
-   "detail": "skipped: Workday kept answering 429",
+   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://broadcom.wd1.myworkdayjobs.com/wday/cxs/broadcom/External_Career/job/Ottawa-March-Road/Staff-Hardware-Engineer_R027454",
+   "seconds": 2074.1,
    "retried": true
   },
   "Micron": {
    "status": "error",
    "ats": "workday",
-   "seconds": 0.0,
-   "detail": "skipped: Workday kept answering 429",
+   "detail": "HTTPError: 429 Client Error: Too Many Requests for url: https://micron.wd1.myworkdayjobs.com/wday/cxs/micron/External/jobs",
+   "seconds": 453.0,
    "retried": true
   },
   "Intel": {
@@ -90,21 +92,21 @@
    "ats": "oracle",
    "raw_results": 1119,
    "matched": 16,
-   "seconds": 46.0
+   "seconds": 48.7
   },
   "Cirrus Logic": {
    "status": "ok",
    "ats": "lever",
    "raw_results": 131,
    "matched": 4,
-   "seconds": 2.4
+   "seconds": 1.2
   },
   "Astera Labs": {
    "status": "ok",
    "ats": "greenhouse",
-   "raw_results": 178,
+   "raw_results": 181,
    "matched": 0,
-   "seconds": 0.8
+   "seconds": 0.9
   },
   "Astera Labs (Early Career)": {
    "status": "ok",
@@ -118,7 +120,7 @@
    "ats": "apple",
    "raw_results": 868,
    "matched": 75,
-   "seconds": 259.8
+   "seconds": 330.4
   }
  }
 }
